@@ -18,11 +18,12 @@ public:
       float acc=1.0f;
 	  //tbb::parallel_for(0u,unsigned(D),[&](unsigned i){
       for(unsigned i=0; i<D; i++){
-        float xt=C[i];
-		//tbb::parallel_for(0u,unsigned(D),[&](unsigned j){
-        for(unsigned j=0; j<D; j++){
-          xt += M[i*D+j] * x[j];
-        }//);
+		tbb::atomic<float> xt=C[i];
+        //float xt=C[i];
+		tbb::parallel_for(0u,unsigned(D),[&](unsigned j){
+        //for(unsigned j=0; j<D; j++){
+          xt =xt + M[i*D+j] * x[j];
+        });
         acc *= updf(xt) * dx;
       }//);
 
