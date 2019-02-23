@@ -1,6 +1,6 @@
 SHELL=/bin/bash
 
-CPPFLAGS += -std=c++11 -W -Wall  -g
+CPPFLAGS += -std=c++11 -W -Wall  -g -pg
 CPPFLAGS += -O3
 CPPFLAGS += -I include
 
@@ -14,6 +14,7 @@ endif
 # into programs used in assessment. If you don't need them, feel free to
 # comment them out.
 LDLIBS += -ltbb -lOpenCL
+
 
 ifeq ($(findstring MINGW,$(shell uname)),MINGW)
 LDLIBS := $(subst -lOpenCL,$(shell which OpenCL.dll),$(LDLIBS))

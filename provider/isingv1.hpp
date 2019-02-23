@@ -2,6 +2,8 @@
 #define user_ising_hppv1
 
 #include "puzzler/puzzles/ising.hpp"
+#include "tbb/parallel_for.h"
+
 namespace puzzler{
 class IsingProviderv1
   : public puzzler::IsingPuzzle
