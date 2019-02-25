@@ -12,6 +12,8 @@
 #include "isingv1.hpp"
 #include "integralv1.hpp"
 
+#include "integralv2.hpp"
+
 void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
 {
   Register("decompose.ref", std::make_shared<puzzler::DecomposePuzzle>());
@@ -20,10 +22,13 @@ void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
   Register("rank.ref", std::make_shared<puzzler::RankPuzzle>());
 
   // TODO: Register more engines!
+  //tbb
   Register("rank.tbb", std::make_shared<puzzler::RankProviderv1>());
   Register("decompose.tbb", std::make_shared<puzzler::DecomposeProviderv1>());
   Register("integral.tbb", std::make_shared<puzzler::IntegralProviderv1>());
   Register("ising.tbb", std::make_shared<puzzler::IsingProviderv1>());
+  //opencl
+  Register("integral.opencl", std::make_shared<puzzler::IntegralProviderv2>());
   // Note that you can register the same engine twice under different names, for
   // example you could register the same engine for "ising.tbb" and "ising.opt"
 }

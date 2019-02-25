@@ -93,18 +93,3 @@ public:
 };
 #endif
 
-/*
-    void dump(ILog *log, int level, unsigned rr, unsigned cc, uint32_t *matrix) const
-    {
-      if(level <= log->Level() ){
-        for(unsigned r=0; r<rr; r++){
-          std::stringstream acc;
-          for(unsigned c=0; c<cc; c++){
-            acc<<matrix[rr*c+r];
-          }
-          log->Log(level, acc.str().c_str());
-        }
-      }
-    }
-	
-	*/

@@ -1,43 +1,15 @@
-#ifndef user_integral_hppv1
-#define user_integral_hppv1
+#ifndef user_integral_hppv2
+#define user_integral_hppv2
 
 #include "puzzler/puzzles/integral.hpp"
-#include "tbb/parallel_for.h"
 
 namespace puzzler{
-class IntegralProviderv1
+class IntegralProviderv2
   : public puzzler::IntegralPuzzle
 {
 public:
-  IntegralProviderv1()
+  IntegralProviderv2()
   {}
-    float mpdf(int r, float range, float x[D], const float M[D*D], const float C[D], const float bounds[D]) const
-    {
-      float dx=range/r;
-
-      float acc=1.0f;
-      for(unsigned i=0; i<D; i++){
-        float xt[3];
-		float xt_sum = C[i];
-        tbb::parallel_for(0u, unsigned (D), [&](unsigned j){
-		//for(unsigned j=0; j<D; j++){
-          xt[j] = M[i*D+j] * x[j];
-        });
-		for(unsigned j=0; j<D; j++){
-		  xt_sum += xt[j];
-		}
-        acc *= updf(xt_sum) * dx;
-      }
-
-      for(unsigned i=0; i<D;i++){
-        if(x[i] > bounds[i]){
-          acc=0;
-        }
-      }
-
-      return acc;
-    }
-
 
     void Execute(
 			  ILog *log,
