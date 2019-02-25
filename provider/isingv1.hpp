@@ -16,8 +16,10 @@ public:
     void create_bonds(ILog *log, unsigned n, uint32_t seed, unsigned step,  uint32_t prob, const int *spins, int *up_down, int *left_right) const
     {
       log->LogVerbose("  create_bonds %u", step);
-      for(unsigned y=0; y<n; y++){
-        for(unsigned x=0; x<n; x++){
+	  tbb::parallel_for(0u,unsigned(n),[&](unsigned y){
+      //for(unsigned y=0; y<n; y++){
+        //for(unsigned x=0; x<n; x++){
+		tbb::parallel_for(0u,unsigned(n),[&](unsigned x){
           bool sC=spins[y*n+x];
           
           bool sU=spins[ ((y+1)%n)*n + x ];
@@ -33,8 +35,8 @@ public:
           }else{
             left_right[y*n+x]=hrng(seed, rng_group_bond_lr, step, y*n+x) < prob;
           }
-        }
-      }
+        });
+      });
     }
 
     void create_clusters(ILog *log, unsigned n, uint32_t /*seed*/, unsigned step, const int *up_down, const int *left_right, unsigned *cluster) const
@@ -50,8 +52,10 @@ public:
       while(!finished){
         diameter++;
         finished=true;
-        for(unsigned y=0; y<n; y++){
-          for(unsigned x=0; x<n; x++){
+		tbb::parallel_for(0u,unsigned(n),[&](unsigned y){
+        //for(unsigned y=0; y<n; y++){
+		  tbb::parallel_for(0u,unsigned(n),[&](unsigned x){
+          //for(unsigned x=0; x<n; x++){
             unsigned prev=cluster[y*n+x];
             unsigned curr=prev;
             if(left_right[y*n+x]){
@@ -70,8 +74,8 @@ public:
               cluster[y*n+x]=curr;
               finished=false;
             }
-          }
-        }
+          });
+        });
       }
       log->LogVerbose("    diameter %u", diameter);
     }
@@ -102,6 +106,7 @@ public:
         counts[clusters[i]]++;
       });
       
+	  //tbb::atomic<uint64_t> hash=0;
       nClusters=0;
 	  //tbb::parallel_for(0u,unsigned(n*n),[&](unsigned i){
       for(unsigned i=0; i<n*n; i++){
@@ -134,10 +139,12 @@ public:
       });
 
       log->LogInfo("Doing iterations");
+	  //std::vector<tbb::atomic<uint32_t> > acc(m_nOut, 0);
+	  //std::vector<tbb::atomic<uint32_t> > stats(n, 0);
       std::vector<uint32_t> stats(n);
 
-	  //tbb::parallel_for(0u,unsigned(n),[&](unsigned i){
-      for(unsigned i=0; i<n; i++){
+	  tbb::parallel_for(0u,unsigned(n),[&](unsigned i){
+      //for(unsigned i=0; i<n; i++){
         log->LogVerbose("  Iteration %u", i);
         create_bonds(   log, n, seed, i, prob, &spins[0], &up_down[0], &left_right[0]);
         create_clusters(log,  n, seed, i,                  &up_down[0], &left_right[0], &clusters[0]);
@@ -147,16 +154,16 @@ public:
 
         log->Log( Log_Debug, [&](std::ostream &dst){
           dst<<"\n";
-		  tbb::parallel_for(0u,unsigned(n),[&](unsigned y){
-          //for(unsigned y=0; y<n; y++){
-			tbb::parallel_for(0u,unsigned(n),[&](unsigned x){
-            //for(unsigned x=0; x<n; x++){
+		  //tbb::parallel_for(0u,unsigned(n),[&](unsigned y){
+          for(unsigned y=0; y<n; y++){
+			//tbb::parallel_for(0u,unsigned(n),[&](unsigned x){
+            for(unsigned x=0; x<n; x++){
               dst<<(spins[y*n+x]?"+":" ");
-            });
+            }//);
             dst<<"\n";
-          });
+          }//);
         });
-      }//);
+      });
       
       pOutput->history=stats;
       log->LogInfo("Finished");
