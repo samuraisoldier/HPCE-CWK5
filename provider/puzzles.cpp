@@ -20,10 +20,10 @@ void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
   Register("rank.ref", std::make_shared<puzzler::RankPuzzle>());
 
   // TODO: Register more engines!
-  Register("rankv1.ref", std::make_shared<puzzler::RankProviderv1>());
-  Register("decomposev1.ref", std::make_shared<puzzler::DecomposeProviderv1>());
-  Register("integralv1.ref", std::make_shared<puzzler::IntegralProviderv1>());
-  Register("isingv1.ref", std::make_shared<puzzler::IsingProviderv1>());
+  Register("rank.tbb", std::make_shared<puzzler::RankProviderv1>());
+  Register("decompose.tbb", std::make_shared<puzzler::DecomposeProviderv1>());
+  Register("integral.tbb", std::make_shared<puzzler::IntegralProviderv1>());
+  Register("ising.tbb", std::make_shared<puzzler::IsingProviderv1>());
   // Note that you can register the same engine twice under different names, for
   // example you could register the same engine for "ising.tbb" and "ising.opt"
 }

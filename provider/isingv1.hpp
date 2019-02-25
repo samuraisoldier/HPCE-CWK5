@@ -133,7 +133,7 @@ public:
       std::vector<unsigned> clusters(n*n);
       std::vector<unsigned> counts(n*n);
 	  
-	  tbb::parallel_for(0u,unsigned(n*n),[&](unsigned i){
+	  tbb::parallel_for(0u,unsigned(n*n),[&](unsigned i){ //parallel
       //for(unsigned i=0; i<n*n; i++){
         spins[i]=hrng(seed, rng_group_init, 0, i) & 1;
       });
@@ -143,8 +143,8 @@ public:
 	  //std::vector<tbb::atomic<uint32_t> > stats(n, 0);
       std::vector<uint32_t> stats(n);
 
-	  tbb::parallel_for(0u,unsigned(n),[&](unsigned i){
-      //for(unsigned i=0; i<n; i++){
+	  //tbb::parallel_for(0u,unsigned(n),[&](unsigned i){
+      for(unsigned i=0; i<n; i++){ //parallel breaks the output - potentially a taskgroup process
         log->LogVerbose("  Iteration %u", i);
         create_bonds(   log, n, seed, i, prob, &spins[0], &up_down[0], &left_right[0]);
         create_clusters(log,  n, seed, i,                  &up_down[0], &left_right[0], &clusters[0]);
@@ -152,7 +152,7 @@ public:
         count_clusters( log,  n, seed, i,                                               &clusters[0], &counts[0], stats[i]);
         log->LogVerbose("  clusters count is %u", stats[i]);
 
-        log->Log( Log_Debug, [&](std::ostream &dst){
+        log->Log( Log_Debug, [&](std::ostream &dst){ //cant parallel as logging order changes, doesnt break output
           dst<<"\n";
 		  //tbb::parallel_for(0u,unsigned(n),[&](unsigned y){
           for(unsigned y=0; y<n; y++){
@@ -163,7 +163,7 @@ public:
             dst<<"\n";
           }//);
         });
-      });
+      }//);
       
       pOutput->history=stats;
       log->LogInfo("Finished");
