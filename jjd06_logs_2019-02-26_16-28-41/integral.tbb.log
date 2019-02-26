@@ -1,0 +1,9 @@
+LogLevel = 2 -> 2
+[run_puzzle], 1551198861.89, 2, Created log.
+[run_puzzle], 1551198861.89, 2, Creating random input
+[run_puzzle], 1551198861.89, 2, Executing puzzle
+[run_puzzle], 1551198862.42, 2, Integral = 0.362657
+[run_puzzle], 1551198862.42, 2, Executing reference
+[run_puzzle], 1551198862.55, 2, Integral = 0.362657
+[run_puzzle], 1551198862.55, 2, Checking output
+[run_puzzle], 1551198862.55, 2, Output is correct

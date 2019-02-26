@@ -1,0 +1,13 @@
+LogLevel = 2 -> 2
+[run_puzzle], 1551198801.14, 2, Created log.
+[run_puzzle], 1551198801.14, 2, Creating random input
+[run_puzzle], 1551198801.14, 2, Executing puzzle
+[run_puzzle], 1551198801.14, 2, Building world
+[run_puzzle], 1551198801.14, 2, Doing iterations
+[run_puzzle], 1551198801.49, 2, Finished
+[run_puzzle], 1551198801.49, 2, Executing reference
+[run_puzzle], 1551198801.49, 2, Building world
+[run_puzzle], 1551198801.49, 2, Doing iterations
+[run_puzzle], 1551198801.86, 2, Finished
+[run_puzzle], 1551198801.86, 2, Checking output
+[run_puzzle], 1551198801.86, 2, Output is correct

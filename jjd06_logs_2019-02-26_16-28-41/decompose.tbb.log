@@ -1,0 +1,15 @@
+LogLevel = 2 -> 2
+[run_puzzle], 1551198861.87, 2, Created log.
+[run_puzzle], 1551198861.87, 2, Creating random input
+[run_puzzle], 1551198861.87, 2, Executing puzzle
+[run_puzzle], 1551198861.87, 2, Building random matrix
+[run_puzzle], 1551198861.87, 2, Doing the decomposition
+[run_puzzle], 1551198861.88, 2, Collecting decomposed hash.
+[run_puzzle], 1551198861.88, 2, Finished
+[run_puzzle], 1551198861.88, 2, Executing reference
+[run_puzzle], 1551198861.88, 2, Building random matrix
+[run_puzzle], 1551198861.88, 2, Doing the decomposition
+[run_puzzle], 1551198861.89, 2, Collecting decomposed hash.
+[run_puzzle], 1551198861.89, 2, Finished
+[run_puzzle], 1551198861.89, 2, Checking output
+[run_puzzle], 1551198861.89, 2, Output is correct
