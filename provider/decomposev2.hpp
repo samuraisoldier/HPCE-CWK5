@@ -143,7 +143,7 @@ public:
 		cl::Buffer buffSum(context, CL_MEM_READ_WRITE, writeBuffer);
 				
 				
-		cl::Kernel kernel(program, "integral_kernel");
+		cl::Kernel kernel(program, "decomposel_kernel");
 				
 		
       unsigned n=pInput->n;

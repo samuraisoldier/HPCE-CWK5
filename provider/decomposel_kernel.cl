@@ -38,3 +38,35 @@ __kernel  void decompose(ILog *log,
         dump(log, Log_Debug, rr, cc, matrix);
       }
     }
+	
+	
+    uint32_t make_bit(uint32_t seed, uint32_t input) const
+    {
+      const uint32_t PRIME32_1  = 2654435761U;
+      const uint32_t PRIME32_2 = 2246822519U;
+      seed += input * PRIME32_2;
+      seed  = (seed<<13) | (seed>>(32-13));
+      seed *= PRIME32_1;
+      return seed % P;
+    }
+
+    unsigned mul(unsigned a, unsigned b) const
+    { return (a*b)%P; }
+
+    unsigned sub(unsigned a, unsigned b) const
+    { return (P+a-b)%P; }
+
+    unsigned mul_inv(unsigned x) const
+    {
+      assert(x!=0);
+      for(unsigned i=1; i<P; i++){
+        if( ((i*x)%P) == 1 ){
+          return i;
+        }
+      }
+      assert(0);
+      return 0;
+    }
+
+    unsigned div(unsigned a, unsigned b) const
+    { return mul(a, mul_inv(b) ); }
