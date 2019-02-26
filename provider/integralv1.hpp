@@ -17,26 +17,22 @@ public:
     float mpdf(int r, float range, float x[D], const float M[D*D], const float C[D], const float bounds[D]) const
     {
       float dx=range/r;
-
 	  float acc[3];
-	  float acc_sum = 1.0f;
+	  
 	  tbb::parallel_for(0u,unsigned(D),[&](unsigned i){
 
         float xt[3];
 		float xt_sum = C[i];
         tbb::parallel_for(0u, unsigned (D), [&](unsigned j){
-
           xt[j] = M[i*D+j] * x[j];
         });
-		for(unsigned j=0; j<D; j++){ //we introduced an extra loop as we had a floating point error leading to a slight difference in the answer	
-		  xt_sum += xt[j];
-        }//);
-        acc[i] = updf(xt_sum) * dx;
-      });
-	  for(unsigned i = 0; i < D; i++){
-		  acc_sum *= acc[i];
-	  }
 
+		xt_sum =xt_sum+ xt[0] + xt[1]+xt[2];
+        acc[i] = (exp(-xt_sum*xt_sum/2) / sqrt(2*3.1415926535897932384626433832795)) * dx;
+		
+      });
+
+	  float acc_sum = 1.0f * acc[0]*acc[1]*acc[2];
 	  tbb::parallel_for(0u,unsigned(D),[&](unsigned i){
         if(x[i] > bounds[i]){
           acc_sum=0;
