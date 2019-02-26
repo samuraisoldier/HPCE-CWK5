@@ -9,11 +9,12 @@ __kernel void integral_kernel(
 	  const int D=3;
 	  
 	  uint i1=get_global_id(0);
-	  /*uint i2=get_global_id(1); 
+	  /*
+	  uint i2=get_global_id(1); 
 	  uint i3=get_global_id(2);
 	  */		  
 			  
-		//for(int i1=0; i1<r; i1++){
+		/*for(int i1=0; i1<r; i1++){ */
 			for(int i2=0; i2<r; i2++){
 				for(int i3=0; i3<r; i3++){
 				  float x1= -range/2 + range * (i1/(float)r);
@@ -37,8 +38,8 @@ __kernel void integral_kernel(
 					  acc=0;
 					}
 				  }
-				  sum_total[0] += acc;
+				  sum_total[i1] += acc;
 				}
 			}
-		//}
+		/*}*/
 	}

@@ -1,56 +1,52 @@
-#ifndef user_integral_hpp_v3
-#define user_integral_hpp_v3
+#ifndef user_decompose_hppv2
+#define user_decompose_hppv2
 
-#define CL_USE_DEPRECATED_OPENCL_1_2_APIS
-#define __CL_ENABLE_EXCEPTIONS 
-#include "CL/cl.hpp"
-
-#include <fstream>
-#include <streambuf>
-
-#include "puzzler/puzzles/integral.hpp"
+#include "puzzler/puzzles/decompose.hpp"
 
 namespace puzzler{
-class IntegralProviderv3
-  : public puzzler::IntegralPuzzle
+class DecomposeProviderv2
+  : public puzzler::DecomposePuzzle
 {
 public:
-  IntegralProviderv3()
+  DecomposeProviderv2()
   {}
-	void integral_kernel(int r, float range, const float M[D*D], const float C[D], const float bounds[D], double *sum_total) const
-	{
-	  static const int D=3;
-		for(int i1=0; i1<r; i1++){
-			for(int i2=0; i2<r; i2++){
-				for(int i3=0; i3<r; i3++){
-				  float x1= -range/2 + range * (i1/(float)r);
-				  float x2= -range/2 + range * (i2/(float)r);
-				  float x3= -range/2 + range * (i3/(float)r);
+  /*
+    void decompose(ILog *log, unsigned rr, unsigned cc, unsigned p, uint32_t *matrix) const
+    {
+      auto at = [=](unsigned r, unsigned c) -> uint32_t &{
+        assert(r<rr && c<cc);
+        return matrix[rr*c+r];
+      };
 
-				  float x[3]={x1,x2,x3};
-				  float dx=range/r;
+      dump(log, Log_Debug, rr, cc, matrix);
 
-				  float acc=1.0f;
-				  for(unsigned i=0; i<D; i++){
-					float xt=C[i];
-					for(unsigned j=0; j<D; j++){
-					  xt += M[i*D+j] * x[j];
-					}
-					acc *= (exp(-xt*xt/2) / sqrt(2*3.1415926535897932384626433832795)) * dx;
-				  }
+      unsigned rank=0;
+      for(unsigned c1=0; c1<cc; c1++){
+        unsigned r1=rank;
+        while(r1<rr && at(r1,c1)==0){
+          ++r1;
+        }
 
-				  for(unsigned i=0; i<D;i++){
-					if(x[i] > bounds[i]){
-					  acc=0;
-					}
-				  }
-				  sum_total[0] += acc;
-				}
-			}
-		}
-	}
-	
-	
+        if(r1!=rr){
+          unsigned pivot=at(r1,c1);
+          for(unsigned c2=0; c2<cc; c2++){
+            std::swap( at(r1,c2), at(rank,c2) );
+            at(rank,c2)=div( at(rank,c2) , pivot );
+          }
+
+          for(unsigned r2=rank+1; r2<rr; r2++){
+            unsigned count=at(r2, c1);
+            for(unsigned c2=0; c2<cc; c2++){
+              at(r2,c2) = sub( at(r2,c2) , mul( count, at(rank,c2)) );
+            }
+          }
+
+          ++rank;
+        }
+
+        dump(log, Log_Debug, rr, cc, matrix);
+      }
+    }*/
 	std::string LoadSource(const char *fileName)const
 	{
 		// TODO : Don't forget to change your_login here
@@ -72,16 +68,15 @@ public:
 			std::istreambuf_iterator<char>()
 		);
 	}
-	
-	
-	
+
+
     void Execute(
 			  ILog *log,
-			  const IntegralInput *pInput,
-			  IntegralOutput *pOutput
+			  const DecomposeInput *pInput,
+			  DecomposeOutput *pOutput
 			  ) const
     {
-		std::vector<cl::Platform> platforms;
+			std::vector<cl::Platform> platforms;
 	
 		cl::Platform::get(&platforms);
 		if(platforms.size()==0){
@@ -150,10 +145,23 @@ public:
 				
 		cl::Kernel kernel(program, "integral_kernel");
 				
-		unsigned r=pInput->resolution;
-		double acc=0;
 		
-		kernel.setArg(0, r);
+      unsigned n=pInput->n;
+      unsigned rr=n;
+      unsigned cc=n;
+      unsigned p=7;
+      
+      log->LogInfo("Building random matrix");
+      std::vector<uint32_t> matrix(rr*cc);
+      for(unsigned i=0; i<matrix.size(); i++){
+        matrix[i]=make_bit(pInput->seed, i);
+      }
+      dump(log, Log_Verbose, rr, cc, &matrix[0]);
+	   
+      log->LogInfo("Doing the decomposition");
+	  
+	  
+	  		kernel.setArg(0, r);
 		kernel.setArg(1, buffM);
 		kernel.setArg(2, buffC);
 		kernel.setArg(3, buffD);
@@ -179,11 +187,22 @@ public:
 		
 		std::vector<cl::Event> copyBackDependencies(1, evExecutedKernel);
 		queue.enqueueReadBuffer(buffSum, CL_TRUE, 0, writeBuffer, &acc, &copyBackDependencies);
-
-      log->LogInfo("Integral = %g", acc);
-      pOutput->value=acc;
+	  
+	  
+      //decompose(log, rr, cc, p, &matrix[0]); //make it gpuified
+      
+      log->LogInfo("Collecting decomposed hash.");
+      dump(log, Log_Verbose, rr, cc, &matrix[0]);
+      uint64_t hash=0;
+      for(unsigned i=0; i<matrix.size(); i++){
+        hash += uint64_t(matrix[i])*i;
+      }
+      pOutput->hash=hash;
+      
+      log->LogInfo("Finished");
     }
 
 };
 };
+
 #endif
