@@ -1,8 +1,8 @@
-__kernel void iteration(ILog *log, //0
+__kernel void iteration(//ILog *log, 0
  						unsigned n, //1
-						const std::vector<std::vector<uint32_t> > &edges, //2
-						const float *current, //3
-						float *next) //4
+						__global const uint *edges, //2
+						__global const float *current, //3
+						__global float *next) //4
 {
 
   for(unsigned i=0; i<n; i++){
@@ -22,10 +22,10 @@ __kernel void iteration(ILog *log, //0
 	total += next[i];
   }
   
-  log->LogVerbose("  total=%g", total);
+//  log->LogVerbose("  total=%g", total);
   
   for(unsigned i=0; i<n; i++){
 	next[i] /= total;
-	log->LogVerbose("    c[%u] = %g", i, next[i]);
+	//log->LogVerbose("    c[%u] = %g", i, next[i]);
   }
 }
