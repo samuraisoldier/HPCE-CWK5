@@ -1,6 +1,11 @@
 #ifndef user_decompose_hppv2
 #define user_decompose_hppv2
+#define CL_USE_DEPRECATED_OPENCL_1_2_APIS
+#define __CL_ENABLE_EXCEPTIONS 
+#include "CL/cl.hpp"
 
+#include <fstream>
+#include <streambuf>
 #include "puzzler/puzzles/decompose.hpp"
 
 namespace puzzler{
@@ -10,44 +15,8 @@ class DecomposeProviderv2
 public:
   DecomposeProviderv2()
   {}
-  /*
-    void decompose(ILog *log, unsigned rr, unsigned cc, unsigned p, uint32_t *matrix) const
-    {
-      auto at = [=](unsigned r, unsigned c) -> uint32_t &{
-        assert(r<rr && c<cc);
-        return matrix[rr*c+r];
-      };
-
-      dump(log, Log_Debug, rr, cc, matrix);
-
-      unsigned rank=0;
-      for(unsigned c1=0; c1<cc; c1++){
-        unsigned r1=rank;
-        while(r1<rr && at(r1,c1)==0){
-          ++r1;
-        }
-
-        if(r1!=rr){
-          unsigned pivot=at(r1,c1);
-          for(unsigned c2=0; c2<cc; c2++){
-            std::swap( at(r1,c2), at(rank,c2) );
-            at(rank,c2)=div( at(rank,c2) , pivot );
-          }
-
-          for(unsigned r2=rank+1; r2<rr; r2++){
-            unsigned count=at(r2, c1);
-            for(unsigned c2=0; c2<cc; c2++){
-              at(r2,c2) = sub( at(r2,c2) , mul( count, at(rank,c2)) );
-            }
-          }
-
-          ++rank;
-        }
-
-        dump(log, Log_Debug, rr, cc, matrix);
-      }
-    }*/
-	std::string LoadSource(const char *fileName)const
+  
+  	std::string LoadSource(const char *fileName)const
 	{
 		// TODO : Don't forget to change your_login here
 		std::string baseDir="provider";
@@ -68,15 +37,18 @@ public:
 			std::istreambuf_iterator<char>()
 		);
 	}
+  
+  
 
-
-    void Execute(
-			  ILog *log,
-			  const DecomposeInput *pInput,
-			  DecomposeOutput *pOutput
-			  ) const
+    void decompose(ILog *log, unsigned rr, unsigned cc, uint32_t *matrix) const
     {
-			std::vector<cl::Platform> platforms;
+      auto at = [=](unsigned r, unsigned c) -> uint32_t &{
+        assert(r<rr && c<cc);
+        return matrix[rr*c+r];
+      };
+	unsigned p=7;
+
+	  			std::vector<cl::Platform> platforms;
 	
 		cl::Platform::get(&platforms);
 		if(platforms.size()==0){
@@ -117,7 +89,7 @@ public:
 		
 		cl::Context context(devices);
 		
-		std::string kernelSource=LoadSource("integral_kernel.cl");
+		std::string kernelSource=LoadSource("decomposel_kernel.cl");
 
 		cl::Program::Sources sources;	// A vector of (data,length) pairs
 		sources.push_back(std::make_pair(kernelSource.c_str(), kernelSource.size()+1));	// push on our single string
@@ -133,52 +105,47 @@ public:
 			throw;
 		}
 		std::cerr<<"Chosen device and platform"<<"\n\n";
+		size_t mBuffer=rr*cc*4;
+		cl::Buffer buffM(context, CL_MEM_READ_WRITE, mBuffer);
+
+		cl::Kernel kernel(program, "decompose_kernel");
+
 		
-		size_t ddBuffer=8*D*D;
-		size_t dBuffer=8*D;
-		size_t writeBuffer=16;
-		cl::Buffer buffM(context, CL_MEM_READ_ONLY, ddBuffer);
-		cl::Buffer buffC(context, CL_MEM_READ_ONLY, dBuffer);
-		cl::Buffer buffD(context, CL_MEM_READ_ONLY, dBuffer);
-		cl::Buffer buffSum(context, CL_MEM_READ_WRITE, writeBuffer);
-				
-				
-		cl::Kernel kernel(program, "decomposel_kernel");
-				
+
 		
-      unsigned n=pInput->n;
-      unsigned rr=n;
-      unsigned cc=n;
-      unsigned p=7;
-      
-      log->LogInfo("Building random matrix");
-      std::vector<uint32_t> matrix(rr*cc);
-      for(unsigned i=0; i<matrix.size(); i++){
-        matrix[i]=make_bit(pInput->seed, i);
-      }
-      dump(log, Log_Verbose, rr, cc, &matrix[0]);
-	   
-      log->LogInfo("Doing the decomposition");
-	  
-	  
-	  		kernel.setArg(0, r);
-		kernel.setArg(1, buffM);
-		kernel.setArg(2, buffC);
-		kernel.setArg(3, buffD);
-		kernel.setArg(4, buffSum);
+
+	      dump(log, Log_Debug, rr, cc, matrix);
+      unsigned rank=0;
+      for(unsigned c1=0; c1<cc; c1++){
+        unsigned r1=rank;
+        while(r1<rr && at(r1,c1)==0){
+          ++r1;
+        }
+
+        if(r1!=rr){
+          unsigned pivot=at(r1,c1);
+          for(unsigned c2=0; c2<cc; c2++){
+            std::swap( at(r1,c2), at(rank,c2) );
+            at(rank,c2)=div( at(rank,c2) , pivot );
+          }
+
+	  	kernel.setArg(0, rr);
+		kernel.setArg(1, cc);
+		kernel.setArg(2, p);
+		kernel.setArg(3, buffM);
+		kernel.setArg(4, rank);
+		kernel.setArg(5, c1);
 		
 		cl::CommandQueue queue(context, device);
+				
 		
-		queue.enqueueWriteBuffer(buffM, CL_TRUE, 0, ddBuffer, &pInput->M[0]);
-		queue.enqueueWriteBuffer(buffC, CL_TRUE, 0, dBuffer, &pInput->C[0]);
-		queue.enqueueWriteBuffer(buffD, CL_TRUE, 0, dBuffer, &pInput->bounds[0]);
 		
 		cl::Event evCopiedState;
-		queue.enqueueWriteBuffer(buffSum, CL_FALSE, 0, writeBuffer, &acc, NULL, &evCopiedState);
+		queue.enqueueWriteBuffer(buffM, CL_FALSE, 0, mBuffer, &matrix[0], NULL, &evCopiedState);
+
 		
-		
-		cl::NDRange offset(0);				// Always start iterations at x=0, y=0
-		cl::NDRange globalSize(1);	// Global size must match the original loops
+		cl::NDRange offset(rank + 1);				// Always start iterations at x=0, y=0
+		cl::NDRange globalSize(rr-rank -1);	// Global size must match the original loops
 		cl::NDRange localSize=cl::NullRange;	// We don't care about local size
 		
 		std::vector<cl::Event> kernelDependencies(1, evCopiedState);
@@ -186,10 +153,41 @@ public:
 		queue.enqueueNDRangeKernel(kernel, offset, globalSize, localSize, &kernelDependencies, &evExecutedKernel);
 		
 		std::vector<cl::Event> copyBackDependencies(1, evExecutedKernel);
-		queue.enqueueReadBuffer(buffSum, CL_TRUE, 0, writeBuffer, &acc, &copyBackDependencies);
+		queue.enqueueReadBuffer(buffM, CL_TRUE, 0, mBuffer, &matrix[0], &copyBackDependencies);
+		  
+          ++rank;
+        }
+
+        dump(log, Log_Debug, rr, cc, matrix);
+      }
+    }
+
+
+
+    void Execute(
+			  ILog *log,
+			  const DecomposeInput *pInput,
+			  DecomposeOutput *pOutput
+			  ) const
+    {
+      unsigned n=pInput->n;
+      unsigned rr=n;
+      unsigned cc=n;
+      unsigned p=7;
 	  
 	  
-      //decompose(log, rr, cc, p, &matrix[0]); //make it gpuified
+      log->LogInfo("Building random matrix");
+      std::vector<uint32_t> matrix(rr*cc);
+      for(unsigned i=0; i<matrix.size(); i++){
+        matrix[i]=make_bit(pInput->seed, i);
+      }
+      dump(log, Log_Verbose, rr, cc, &matrix[0]);
+      
+      log->LogInfo("Doing the decomposition");		
+
+	  
+	  
+      decompose(log, rr, cc, &matrix[0]); //make it gpuified
       
       log->LogInfo("Collecting decomposed hash.");
       dump(log, Log_Verbose, rr, cc, &matrix[0]);
@@ -206,3 +204,6 @@ public:
 };
 
 #endif
+
+
+      

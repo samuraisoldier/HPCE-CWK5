@@ -79,7 +79,7 @@ public:
 
 	cl::Context context(devices);
 
-	std::string kernelSource=LoadSource("rank.cl");
+	std::string kernelSource=LoadSource("rank2.cl");
 
 	cl::Program::Sources sources;	// A vector of (data,length) pairs
 	sources.push_back(std::make_pair(kernelSource.c_str(), kernelSource.size()+1));	// push on our single string
@@ -96,7 +96,7 @@ public:
 	}
 		
 			
-	const std::vector<std::vector<uint32_t> > &edges=pInput->edges;
+	const std::vector<std::vector<uint32_t> > &edges=pInput->edges;	
 	float tol=pInput->tol;
 	unsigned n=edges.size();
 
@@ -105,46 +105,78 @@ public:
 	curr[0]=1.0;
 	std::vector<float> next(n, 0.0f);
 	float dist=norm(curr,next);
-	  
+	
+	/*int max_i = edges.size();
+	
+	int edgesSizes[max_i] = {0};
+	
+	/*for(unsigned i=0; i<edges.size(); i++){
+		edgesSizes[i] = edges[i].size();
+	}
+	*/
 	size_t eBuffer=4*n;
+	size_t sBuffer = 20 * n;
 
-	cl::Buffer buffedges(context, CL_MEM_READ_ONLY, eBuffer);
-	cl::Buffer buffnext(context, CL_MEM_READ_ONLY, eBuffer);
+	
+	cl::Buffer buffnext(context, CL_MEM_READ_WRITE, eBuffer);
 	cl::Buffer buffcurr(context, CL_MEM_READ_ONLY, eBuffer);
 
+	cl::Buffer buffedges(context, CL_MEM_READ_ONLY, sBuffer);
+	cl::Kernel kernel(program, "iteration");
 			
-	cl::Kernel kernel(program, "integral_kernel");
-			
-	
-	kernel.setArg(0,log);
-	kernel.setArg(1, n);
-	kernel.setArg(2, buffedges);
-	kernel.setArg(3, buffcurr);
-	kernel.setArg(4, buffnext);
-	
+
+	kernel.setArg(0, buffedges);
+	kernel.setArg(1, buffcurr);
+	kernel.setArg(2, buffnext);
+
+
 	cl::CommandQueue queue(context, device);
+ 
+
+	queue.enqueueWriteBuffer(buffedges, CL_TRUE, 0, sBuffer, &edges[0]);
+	//queue.enqueueWriteBuffer(buffcurr, CL_TRUE, 0, eBuffer, &curr[0]);	  
 	  
-	queue.enqueueWriteBuffer(buffedges, CL_TRUE, 0, eBuffer, &edges);
-	queue.enqueueWriteBuffer(buffcurr, CL_TRUE, 0, eBuffer, &curr[0]);	  
-	  
-	  
+
     while( tol < dist ){
+
         log->LogVerbose("dist=%g", dist);
 		
-		cl::Event evCopiedState;
-		queue.enqueueWriteBuffer(buffnext, CL_FALSE, 0, eBuffer, &next[0], NULL, &evCopiedState);
+		for(unsigned i=0; i<n; i++){
+			next[i]=0;
+		}
+
 		
+		cl::Event evCopiedState;
+		queue.enqueueWriteBuffer(buffcurr, CL_TRUE, 0, eBuffer, &curr[0],NULL, &evCopiedState);	
+		queue.enqueueWriteBuffer(buffnext, CL_FALSE, 0, eBuffer, &next[0], NULL, &evCopiedState);
+
 		
 		cl::NDRange offset(0);				// Always start iterations at x=0, y=0
-		cl::NDRange globalSize(1);	// Global size must match the original loops
+		cl::NDRange globalSize(n);	// Global size must match the original loops
 		cl::NDRange localSize=cl::NullRange;	// We don't care about local size
-		
+		std::cerr<<"log6."<<"\n";
 		std::vector<cl::Event> kernelDependencies(1, evCopiedState);
 		cl::Event evExecutedKernel;
 		queue.enqueueNDRangeKernel(kernel, offset, globalSize, localSize, &kernelDependencies, &evExecutedKernel);
-		
+		std::cerr<<"log7."<<"\n";
 		std::vector<cl::Event> copyBackDependencies(1, evExecutedKernel);
+		std::cerr<<"log9."<<"\n";
 		queue.enqueueReadBuffer(buffnext, CL_TRUE, 0, eBuffer, &next[0], &copyBackDependencies);		
+		std::cerr<<"log8."<<"\n";
+		
+		
+		double total=0;
+		for(unsigned i=0; i<n; i++){
+			next[i] = (curr[i] * 0.3  + next[i] * 0.7 );
+			total += next[i];
+		}
+
+		log->LogVerbose("  total=%g", total);
+
+		for(unsigned i=0; i<n; i++){
+			next[i] /= total;
+			log->LogVerbose("    c[%u] = %g", i, next[i]);
+		}
 		
         std::swap(curr, next);
         dist=norm(curr, next);
