@@ -13,7 +13,8 @@
 #include "integralv1.hpp"
 
 #include "integralv2.hpp"
-#include "decomposev2.hpp"
+//#include "decomposev2.hpp"
+#include "decomposev3.hpp"
 //#include "rankv2.hpp"
 
 void puzzler::PuzzleRegistrar::UserRegisterPuzzles()

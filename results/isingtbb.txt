@@ -1,0 +1,333 @@
+20
+
+[execute_puzzle], 1551312800.22, 2, Created log.
+[execute_puzzle], 1551312800.22, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312800.22, 2, Begin reference
+[execute_puzzle], 1551312800.22, 2, Building world
+[execute_puzzle], 1551312800.22, 2, Doing iterations
+[execute_puzzle], 1551312800.22, 2, Finished
+[execute_puzzle], 1551312800.22, 2, Finished reference
+
+real	0m0.085s
+user	0m0.030s
+sys	0m0.015s
+
+
+[execute_puzzle], 1551312800.30, 2, Created log.
+[execute_puzzle], 1551312800.30, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312800.30, 2, Begin execution
+[execute_puzzle], 1551312800.30, 2, Building world
+[execute_puzzle], 1551312800.30, 2, Doing iterations
+[execute_puzzle], 1551312800.31, 2, Finished
+[execute_puzzle], 1551312800.31, 2, Finished execution
+
+real	0m0.071s
+user	0m0.000s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551312800.36, 2, Created log.
+[execute_puzzle], 1551312800.36, 2, Loading input .tmp/ising.20.input
+[execute_puzzle], 1551312800.36, 2, Creating puzzle ising to match input
+[execute_puzzle], 1551312800.36, 2, Loading reference .tmp/ising.20.ref
+[execute_puzzle], 1551312800.36, 2, Loading got .tmp/ising.20.ising.tbb.got
+[execute_puzzle], 1551312800.36, 2, Outputs are equal.
+
+
+
+50
+
+[execute_puzzle], 1551312800.52, 2, Created log.
+[execute_puzzle], 1551312800.52, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312800.52, 2, Begin reference
+[execute_puzzle], 1551312800.52, 2, Building world
+[execute_puzzle], 1551312800.52, 2, Doing iterations
+[execute_puzzle], 1551312800.56, 2, Finished
+[execute_puzzle], 1551312800.56, 2, Finished reference
+
+real	0m0.113s
+user	0m0.015s
+sys	0m0.061s
+
+
+[execute_puzzle], 1551312800.65, 2, Created log.
+[execute_puzzle], 1551312800.65, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312800.65, 2, Begin execution
+[execute_puzzle], 1551312800.65, 2, Building world
+[execute_puzzle], 1551312800.65, 2, Doing iterations
+[execute_puzzle], 1551312800.76, 2, Finished
+[execute_puzzle], 1551312800.76, 2, Finished execution
+
+real	0m0.177s
+user	0m0.000s
+sys	0m0.061s
+
+
+[execute_puzzle], 1551312800.82, 2, Created log.
+[execute_puzzle], 1551312800.82, 2, Loading input .tmp/ising.50.input
+[execute_puzzle], 1551312800.82, 2, Creating puzzle ising to match input
+[execute_puzzle], 1551312800.82, 2, Loading reference .tmp/ising.50.ref
+[execute_puzzle], 1551312800.82, 2, Loading got .tmp/ising.50.ising.tbb.got
+[execute_puzzle], 1551312800.82, 2, Outputs are equal.
+
+
+
+100
+
+[execute_puzzle], 1551312800.99, 2, Created log.
+[execute_puzzle], 1551312800.99, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312800.99, 2, Begin reference
+[execute_puzzle], 1551312800.99, 2, Building world
+[execute_puzzle], 1551312800.99, 2, Doing iterations
+[execute_puzzle], 1551312801.54, 2, Finished
+[execute_puzzle], 1551312801.54, 2, Finished reference
+
+real	0m0.616s
+user	0m0.015s
+sys	0m0.045s
+
+
+[execute_puzzle], 1551312801.61, 2, Created log.
+[execute_puzzle], 1551312801.61, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312801.61, 2, Begin execution
+[execute_puzzle], 1551312801.61, 2, Building world
+[execute_puzzle], 1551312801.61, 2, Doing iterations
+[execute_puzzle], 1551312802.55, 2, Finished
+[execute_puzzle], 1551312802.55, 2, Finished execution
+
+real	0m1.004s
+user	0m0.015s
+sys	0m0.031s
+
+
+[execute_puzzle], 1551312802.61, 2, Created log.
+[execute_puzzle], 1551312802.61, 2, Loading input .tmp/ising.100.input
+[execute_puzzle], 1551312802.61, 2, Creating puzzle ising to match input
+[execute_puzzle], 1551312802.61, 2, Loading reference .tmp/ising.100.ref
+[execute_puzzle], 1551312802.61, 2, Loading got .tmp/ising.100.ising.tbb.got
+[execute_puzzle], 1551312802.61, 2, Outputs are equal.
+
+
+
+150
+
+[execute_puzzle], 1551312802.82, 2, Created log.
+[execute_puzzle], 1551312802.82, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312802.82, 2, Begin reference
+[execute_puzzle], 1551312802.82, 2, Building world
+[execute_puzzle], 1551312802.82, 2, Doing iterations
+[execute_puzzle], 1551312804.82, 2, Finished
+[execute_puzzle], 1551312804.82, 2, Finished reference
+
+real	0m2.119s
+user	0m0.030s
+sys	0m0.077s
+
+
+[execute_puzzle], 1551312804.90, 2, Created log.
+[execute_puzzle], 1551312804.90, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312804.90, 2, Begin execution
+[execute_puzzle], 1551312804.90, 2, Building world
+[execute_puzzle], 1551312804.91, 2, Doing iterations
+[execute_puzzle], 1551312807.93, 2, Finished
+[execute_puzzle], 1551312807.93, 2, Finished execution
+
+real	0m3.090s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551312808.00, 2, Created log.
+[execute_puzzle], 1551312808.00, 2, Loading input .tmp/ising.150.input
+[execute_puzzle], 1551312808.00, 2, Creating puzzle ising to match input
+[execute_puzzle], 1551312808.00, 2, Loading reference .tmp/ising.150.ref
+[execute_puzzle], 1551312808.00, 2, Loading got .tmp/ising.150.ising.tbb.got
+[execute_puzzle], 1551312808.00, 2, Outputs are equal.
+
+
+
+200
+
+[execute_puzzle], 1551312808.14, 2, Created log.
+[execute_puzzle], 1551312808.14, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312808.14, 2, Begin reference
+[execute_puzzle], 1551312808.14, 2, Building world
+[execute_puzzle], 1551312808.14, 2, Doing iterations
+[execute_puzzle], 1551312816.12, 2, Finished
+[execute_puzzle], 1551312816.12, 2, Finished reference
+
+real	0m8.049s
+user	0m0.015s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551312816.20, 2, Created log.
+[execute_puzzle], 1551312816.20, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312816.20, 2, Begin execution
+[execute_puzzle], 1551312816.20, 2, Building world
+[execute_puzzle], 1551312816.20, 2, Doing iterations
+[execute_puzzle], 1551312826.10, 2, Finished
+[execute_puzzle], 1551312826.10, 2, Finished execution
+
+real	0m9.969s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551312826.16, 2, Created log.
+[execute_puzzle], 1551312826.16, 2, Loading input .tmp/ising.200.input
+[execute_puzzle], 1551312826.16, 2, Creating puzzle ising to match input
+[execute_puzzle], 1551312826.16, 2, Loading reference .tmp/ising.200.ref
+[execute_puzzle], 1551312826.16, 2, Loading got .tmp/ising.200.ising.tbb.got
+[execute_puzzle], 1551312826.17, 2, Outputs are equal.
+
+
+
+250
+
+[execute_puzzle], 1551312826.32, 2, Created log.
+[execute_puzzle], 1551312826.32, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312826.32, 2, Begin reference
+[execute_puzzle], 1551312826.32, 2, Building world
+[execute_puzzle], 1551312826.32, 2, Doing iterations
+[execute_puzzle], 1551312840.54, 2, Finished
+[execute_puzzle], 1551312840.54, 2, Finished reference
+
+real	0m14.278s
+user	0m0.000s
+sys	0m0.045s
+
+
+[execute_puzzle], 1551312840.62, 2, Created log.
+[execute_puzzle], 1551312840.62, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312840.62, 2, Begin execution
+[execute_puzzle], 1551312840.62, 2, Building world
+[execute_puzzle], 1551312840.62, 2, Doing iterations
+[execute_puzzle], 1551312859.10, 2, Finished
+[execute_puzzle], 1551312859.10, 2, Finished execution
+
+real	0m18.543s
+user	0m0.030s
+sys	0m0.031s
+
+
+[execute_puzzle], 1551312859.15, 2, Created log.
+[execute_puzzle], 1551312859.15, 2, Loading input .tmp/ising.250.input
+[execute_puzzle], 1551312859.15, 2, Creating puzzle ising to match input
+[execute_puzzle], 1551312859.15, 2, Loading reference .tmp/ising.250.ref
+[execute_puzzle], 1551312859.15, 2, Loading got .tmp/ising.250.ising.tbb.got
+[execute_puzzle], 1551312859.15, 2, Outputs are equal.
+
+
+
+500
+
+[execute_puzzle], 1551312859.30, 2, Created log.
+[execute_puzzle], 1551312859.30, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312859.30, 2, Begin reference
+[execute_puzzle], 1551312859.30, 2, Building world
+[execute_puzzle], 1551312859.30, 2, Doing iterations
+[execute_puzzle], 1551312929.84, 2, Finished
+[execute_puzzle], 1551312929.84, 2, Finished reference
+
+real	1m10.610s
+user	0m0.015s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551312929.92, 2, Created log.
+[execute_puzzle], 1551312929.92, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312929.92, 2, Begin execution
+[execute_puzzle], 1551312929.92, 2, Building world
+[execute_puzzle], 1551312929.92, 2, Doing iterations
+[execute_puzzle], 1551312997.34, 2, Finished
+[execute_puzzle], 1551312997.34, 2, Finished execution
+
+real	1m7.491s
+user	0m0.000s
+sys	0m0.045s
+
+
+[execute_puzzle], 1551312997.41, 2, Created log.
+[execute_puzzle], 1551312997.41, 2, Loading input .tmp/ising.500.input
+[execute_puzzle], 1551312997.41, 2, Creating puzzle ising to match input
+[execute_puzzle], 1551312997.41, 2, Loading reference .tmp/ising.500.ref
+[execute_puzzle], 1551312997.41, 2, Loading got .tmp/ising.500.ising.tbb.got
+[execute_puzzle], 1551312997.41, 2, Outputs are equal.
+
+
+
+750
+
+[execute_puzzle], 1551312997.56, 2, Created log.
+[execute_puzzle], 1551312997.56, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551312997.56, 2, Begin reference
+[execute_puzzle], 1551312997.56, 2, Building world
+[execute_puzzle], 1551312997.57, 2, Doing iterations
+[execute_puzzle], 1551313124.74, 2, Finished
+[execute_puzzle], 1551313124.75, 2, Finished reference
+
+real	2m7.256s
+user	0m0.015s
+sys	0m0.015s
+
+
+[execute_puzzle], 1551313124.84, 2, Created log.
+[execute_puzzle], 1551313124.84, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551313124.84, 2, Begin execution
+[execute_puzzle], 1551313124.84, 2, Building world
+[execute_puzzle], 1551313124.84, 2, Doing iterations
+[execute_puzzle], 1551313253.56, 2, Finished
+[execute_puzzle], 1551313253.57, 2, Finished execution
+
+real	2m8.791s
+user	0m0.031s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551313253.63, 2, Created log.
+[execute_puzzle], 1551313253.63, 2, Loading input .tmp/ising.750.input
+[execute_puzzle], 1551313253.63, 2, Creating puzzle ising to match input
+[execute_puzzle], 1551313253.63, 2, Loading reference .tmp/ising.750.ref
+[execute_puzzle], 1551313253.64, 2, Loading got .tmp/ising.750.ising.tbb.got
+[execute_puzzle], 1551313253.64, 2, Outputs are equal.
+
+
+
+1000
+
+[execute_puzzle], 1551313253.82, 2, Created log.
+[execute_puzzle], 1551313253.82, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551313253.82, 2, Begin reference
+[execute_puzzle], 1551313253.82, 2, Building world
+[execute_puzzle], 1551313253.84, 2, Doing iterations
+[execute_puzzle], 1551314084.95, 2, Finished
+[execute_puzzle], 1551314084.95, 2, Finished reference
+
+real	13m51.212s
+user	0m0.000s
+sys	0m0.061s
+
+
+[execute_puzzle], 1551314085.05, 2, Created log.
+[execute_puzzle], 1551314085.05, 2, Loaded input, puzzle=ising
+[execute_puzzle], 1551314085.05, 2, Begin execution
+[execute_puzzle], 1551314085.05, 2, Building world
+[execute_puzzle], 1551314085.07, 2, Doing iterations
+[execute_puzzle], 1551314732.87, 2, Finished
+[execute_puzzle], 1551314732.88, 2, Finished execution
+
+real	10m47.899s
+user	0m0.015s
+sys	0m0.015s
+
+
+[execute_puzzle], 1551314732.97, 2, Created log.
+[execute_puzzle], 1551314732.97, 2, Loading input .tmp/ising.1000.input
+[execute_puzzle], 1551314732.97, 2, Creating puzzle ising to match input
+[execute_puzzle], 1551314732.97, 2, Loading reference .tmp/ising.1000.ref
+[execute_puzzle], 1551314732.97, 2, Loading got .tmp/ising.1000.ising.tbb.got
+[execute_puzzle], 1551314732.98, 2, Outputs are equal.
+
+
+
