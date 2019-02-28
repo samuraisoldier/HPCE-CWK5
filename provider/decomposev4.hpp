@@ -42,7 +42,7 @@ public:
 			throw std::runtime_error("No opencl devices found.\n");
 		}
 			
-		/std::cerr<<"Found "<<devices.size()<<" devices\n";
+		//std::cerr<<"Found "<<devices.size()<<" devices\n";
 		//for(unsigned i=0;i<devices.size();i++){
 		//	std::string name=devices[i].getInfo<CL_DEVICE_NAME>();
 		//	std::cerr<<"  Device "<<i<<" : "<<name<<"\n";
