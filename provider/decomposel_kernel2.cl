@@ -21,13 +21,6 @@ unsigned div(unsigned a, unsigned b)
 
 
 
-//unsigned at(unsigned r, unsigned c, unsigned rr ){
-	//assert(r<rr && c<cc);
-	//return matrix[rr*c+r];
-//}
-
-	
-
 
 __kernel  void decompose_kernel(
 						unsigned rr, 
@@ -40,14 +33,11 @@ __kernel  void decompose_kernel(
 
 	uint r2=get_global_id(0);
 
-	//  for(unsigned r2=rank+1; r2<rr; r2++){
-		//unsigned count=at(r2, c1,rr);
 		unsigned count = matrix[rr*c1 + r2];
 		for(unsigned c2=0; c2<cc; c2++){
 		  matrix[rr*c2 + r2] = sub( matrix[rr*c2 + r2] , mul( count, matrix[rr*c2 + rank]) );
-		  //at(r2,c2,rr) = sub( at(r2,c2,rr) , mul( count, at(rank,c2,rr)) );
+
 		}
-  //}
 
 }
 
@@ -64,7 +54,6 @@ __kernel void decompose_kernel_2(
 		matrix[rr*c2 + r1] = matrix[rr*c2 + rank];
 		matrix[rr*c2 + rank] = tmp;
 		
-		//std::swap( matrix[rr*c2 + r1], matrix[rr*c2 + rank]);
          matrix[rr*c2 + rank]=div(  matrix[rr*c2 + rank] , pivot );
 	}
 						

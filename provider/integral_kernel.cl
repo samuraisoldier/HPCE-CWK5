@@ -40,9 +40,9 @@ __kernel void integral_kernel(
 					  
 					  for(unsigned i=0; i<D; i++){
 						float xt=C[i];
-						for(unsigned j=0; j<D; j++){
-						  xt += M[i*D+j] * x[j];
-						}
+						xt += M[i*3+0] * x[0];
+						xt += M[i*3+1] * x[1];
+						xt += M[i*3+2] * x[2];
 						acc *= (exp(-xt*xt/2) / sqrt(2*3.1415926535897932384626433832795)) * dx;
 					  }
 

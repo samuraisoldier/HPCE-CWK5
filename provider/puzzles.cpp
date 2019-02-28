@@ -15,7 +15,6 @@
 #include "integralv2.hpp"
 #include "decomposev4.hpp"
 #include "decomposev3.hpp"
-//#include "rankv2.hpp"
 #include "integralv4.hpp"
 
 void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
