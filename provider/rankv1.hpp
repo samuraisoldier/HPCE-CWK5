@@ -30,16 +30,23 @@ public:
       while( tol < dist ){
         log->LogVerbose("dist=%g", dist);
         
-		  tbb::parallel_for(0u,n,[&](unsigned i){
-			next[i]=0;
-		  });
+		  //tbb::parallel_for(0u,n,[&](unsigned i){
+			//next[i]=0;
+		  //});
 		  
 		  tbb::parallel_for(0u,n,[&](unsigned i){
-			tbb::parallel_for(0u,unsigned(edges[i].size()),[&](unsigned j){
+			//tbb::parallel_for(0u,unsigned(edges[i].size()),[&](unsigned j){
+				
 			
-			  int dst=edges[i][j];
-			  next[dst] += curr[i] / edges[i].size();
-			});
+			  //int dst=edges[i][j];
+			  //next[dst] += curr[i] / edges[i].size();
+			//});
+			
+			
+		for(unsigned j=0; j<edges[i].size(); j++){
+          int dst=edges[i][j];
+          next[dst] += curr[i] / edges[i].size();
+        }
 		  });
 		  double total=0;
 		  tbb::parallel_for(0u,n,[&](unsigned i){
