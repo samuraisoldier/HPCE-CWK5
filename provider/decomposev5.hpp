@@ -34,10 +34,16 @@ public:
         if(r1!=rr){
           unsigned pivot=at(r1,c1);
 		  
-		  tbb::parallel_for(0u,cc,[&](unsigned c2){
+		            
+		  for(unsigned c2=0; c2<cc; c2++){
             std::swap( at(r1,c2), at(rank,c2) );
             at(rank,c2)=div( at(rank,c2) , pivot );
-          });
+          } 
+		  
+		  /*tbb::parallel_for(0u,cc,[&](unsigned c2){
+            std::swap( at(r1,c2), at(rank,c2) );
+            at(rank,c2)=div( at(rank,c2) , pivot );
+          });*/
 			
 		  tbb::parallel_for(unsigned(rank+1),rr,[&](unsigned r2){
             unsigned count=at(r2, c1);
