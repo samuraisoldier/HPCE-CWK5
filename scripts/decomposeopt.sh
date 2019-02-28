@@ -3,7 +3,7 @@
 prev=0.0
 tb=60.0
 puzzle=decompose
-engines="ref tbb opt"
+engines="ref opt"
 now=`date +%Y-%m-%d_%H-%M-%S`
 if [ ! -d results ]; then
 	mkdir results
