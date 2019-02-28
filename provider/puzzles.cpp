@@ -12,7 +12,7 @@
 #include "isingv1.hpp"
 #include "isingv3.hpp"
 #include "integralv1.hpp"
-
+#include "rankv3.hpp"
 #include "integralv2.hpp"
 #include "decomposev4.hpp"
 #include "decomposev3.hpp"
