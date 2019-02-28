@@ -1,0 +1,106 @@
+20
+
+[execute_puzzle], 1551349935.02, 2, Created log.
+[execute_puzzle], 1551349935.02, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551349935.02, 2, Begin reference
+[execute_puzzle], 1551349935.02, 2, Starting iterations.
+[execute_puzzle], 1551349935.02, 2, Finished
+[execute_puzzle], 1551349935.02, 2, Finished reference
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+
+
+[execute_puzzle], 1551349935.03, 2, Created log.
+[execute_puzzle], 1551349935.03, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551349935.03, 2, Begin execution
+[execute_puzzle], 1551349935.03, 2, Starting iterations.
+[execute_puzzle], 1551349935.03, 2, Finished
+[execute_puzzle], 1551349935.03, 2, Finished execution
+
+real	0m0.005s
+user	0m0.004s
+sys	0m0.000s
+
+
+[execute_puzzle], 1551349935.03, 2, Created log.
+[execute_puzzle], 1551349935.03, 2, Loading input .tmp/rank.20.input
+[execute_puzzle], 1551349935.03, 2, Creating puzzle rank to match input
+[execute_puzzle], 1551349935.03, 2, Loading reference .tmp/rank.20.ref
+[execute_puzzle], 1551349935.03, 2, Loading got .tmp/rank.20.rank.tbb.got
+[execute_puzzle], 1551349935.03, 2, Outputs are equal.
+
+
+
+50
+
+[execute_puzzle], 1551349935.04, 2, Created log.
+[execute_puzzle], 1551349935.04, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551349935.04, 2, Begin reference
+[execute_puzzle], 1551349935.04, 2, Starting iterations.
+[execute_puzzle], 1551349935.04, 2, Finished
+[execute_puzzle], 1551349935.04, 2, Finished reference
+
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+
+
+[execute_puzzle], 1551349935.04, 2, Created log.
+[execute_puzzle], 1551349935.04, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551349935.04, 2, Begin execution
+[execute_puzzle], 1551349935.04, 2, Starting iterations.
+20
+
+[execute_puzzle], 1551352166.28, 2, Created log.
+[execute_puzzle], 1551352166.28, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551352166.28, 2, Begin reference
+[execute_puzzle], 1551352166.28, 2, Starting iterations.
+[execute_puzzle], 1551352166.28, 2, Finished
+[execute_puzzle], 1551352166.28, 2, Finished reference
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+
+[execute_puzzle], 1551352166.28, 2, Created log.
+[execute_puzzle], 1551352166.28, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551352166.28, 2, Begin execution
+[execute_puzzle], 1551352166.28, 2, Starting iterations.
+[execute_puzzle], 1551352166.28, 2, Finished
+[execute_puzzle], 1551352166.28, 2, Finished execution
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.004s
+
+
+[execute_puzzle], 1551352166.28, 2, Created log.
+[execute_puzzle], 1551352166.28, 2, Loading input .tmp/rank.20.input
+[execute_puzzle], 1551352166.28, 2, Creating puzzle rank to match input
+[execute_puzzle], 1551352166.28, 2, Loading reference .tmp/rank.20.ref
+[execute_puzzle], 1551352166.28, 2, Loading got .tmp/rank.20.rank.tbb.got
+[execute_puzzle], 1551352166.28, 2, Outputs are equal.
+
+
+
+50
+
+[execute_puzzle], 1551352166.29, 2, Created log.
+[execute_puzzle], 1551352166.29, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551352166.29, 2, Begin reference
+[execute_puzzle], 1551352166.29, 2, Starting iterations.
+[execute_puzzle], 1551352166.29, 2, Finished
+[execute_puzzle], 1551352166.29, 2, Finished reference
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+
+
+[execute_puzzle], 1551352166.29, 2, Created log.
+[execute_puzzle], 1551352166.29, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551352166.29, 2, Begin execution
+[execute_puzzle], 1551352166.29, 2, Starting iterations.
