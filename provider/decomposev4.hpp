@@ -106,35 +106,39 @@ public:
 			throw;
 		}
 		
-		std::cerr<<"Chosen device and platform"<<"\n\n";
+		//std::cerr<<"Chosen device and platform"<<"\n\n";
 		size_t mBuffer=rr*cc*4;
 		cl::Buffer buffM(context, CL_MEM_READ_WRITE, mBuffer);
 
 		cl::Kernel kernel(program, "decompose_kernel");
 		cl::Kernel kernel_2(program, "decompose_kernel_2");
+		kernel_2.setArg(0, rr);
+		kernel_2.setArg(1, cc);
+		kernel_2.setArg(2, buffM);
+
+		cl::CommandQueue queue(context, device);
+
+		kernel.setArg(0, rr);
+		kernel.setArg(1, cc);
+		kernel.setArg(2, buffM);
 		
 
+	    dump(log, Log_Debug, rr, cc, matrix);
+        unsigned rank=0;
 		
-
-	      dump(log, Log_Debug, rr, cc, matrix);
-      unsigned rank=0;
-      for(unsigned c1=0; c1<cc; c1++){
-        unsigned r1=rank;
-        while(r1<rr && at(r1,c1)==0){
-          ++r1;
-        }
+		for(unsigned c1=0; c1<cc; c1++){
+			unsigned r1=rank;
+			while(r1<rr && at(r1,c1)==0){
+				++r1;
+			}
 		
         if(r1!=rr){
           unsigned pivot=at(r1,c1);
-			kernel_2.setArg(0, rr);
-			kernel_2.setArg(1, cc);
-			kernel_2.setArg(2, buffM);
 			kernel_2.setArg(3, rank);
 			kernel_2.setArg(4, pivot);
 			kernel_2.setArg(5, r1);
-			
-			cl::CommandQueue queue(context, device);
-					
+			kernel.setArg(4, c1);
+			kernel.setArg(3, rank);		
 			
 			
 			cl::Event ev2CopiedState;
@@ -156,14 +160,9 @@ public:
             at(rank,c2)=div( at(rank,c2) , pivot );
           } */
 
-	  	kernel.setArg(0, rr);
-		kernel.setArg(1, cc);
-		kernel.setArg(2, p);
-		kernel.setArg(3, buffM);
-		kernel.setArg(4, rank);
-		kernel.setArg(5, c1);
+
 		
-		//cl::CommandQueue queue(context, device);
+		cl::CommandQueue queue(context, device);
 				
 		
 		
@@ -184,6 +183,15 @@ public:
 		queue.enqueueNDRangeKernel(kernel, offset, globalSize, localSize, &kernelDependencies, &evExecutedKernel);
 		std::vector<cl::Event> copyBackDependencies(1, evExecutedKernel);
 		queue.enqueueReadBuffer(buffM, CL_TRUE, 0, mBuffer, &matrix[0], &copyBackDependencies);
+		
+		//tbb::parallel_for(unsigned(rank+1),rr,[&](unsigned r2){
+		/*for(unsigned r2=rank+1; r2<rr; r2++){
+            unsigned count=at(r2, c1);
+			//tbb::parallel_for(unsigned(0),cc,[&](unsigned c2){
+			for(unsigned c2=0; c2<cc; c2++){
+              at(r2,c2) = sub( at(r2,c2) , mul( count, at(rank,c2)) );
+            }//);
+          }//);*/
 		  
         ++rank;
         }

@@ -25,11 +25,11 @@ unsigned div(unsigned a, unsigned b)
 __kernel  void decompose_kernel(
 						unsigned rr, 
 						unsigned cc, 
-						unsigned p, 
 						__global uint *matrix,
 						unsigned rank,
 						unsigned c1) 
     {
+	unsigned p = 7;
 
 	uint r2=get_global_id(0);
 
