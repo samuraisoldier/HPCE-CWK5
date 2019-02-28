@@ -15,6 +15,7 @@
 #include "rankv3.hpp"
 #include "integralv2.hpp"
 #include "decomposev4.hpp"
+#include "decomposev5.hpp"
 #include "decomposev3.hpp"
 #include "integralv4.hpp"
 
