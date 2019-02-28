@@ -14,9 +14,55 @@ namespace puzzler{
 class IntegralProviderv3
   : public puzzler::IntegralPuzzle
 {
+private:
+
+	std::vector<cl::Platform> platforms;
+	std::vector<cl::Device> devices;
+cl::Device device;
+
 public:
   IntegralProviderv3()
-  {}
+  {
+	  		cl::Platform::get(&platforms);
+		if(platforms.size()==0){
+			throw std::runtime_error("No OpenCL platforms found.");
+		}
+		
+		std::cerr<<"Found "<<platforms.size()<<" platforms\n";
+		for(unsigned i=0;i<platforms.size();i++){
+			std::string vendor=platforms[i].getInfo<CL_PLATFORM_VENDOR>();
+			std::cerr<<"  Platform "<<i<<" : "<<vendor<<"\n";
+		}
+		
+		int selectedPlatform=1;
+		if(getenv("HPCE_SELECT_PLATFORM")){
+			selectedPlatform=atoi(getenv("HPCE_SELECT_PLATFORM"));
+		}
+		std::cerr<<"Choosing platform "<<selectedPlatform<<"\n";
+		cl::Platform platform=platforms.at(selectedPlatform);   
+		
+
+		platform.getDevices(CL_DEVICE_TYPE_ALL, &devices);	
+		if(devices.size()==0){
+			throw std::runtime_error("No opencl devices found.\n");
+		}
+			
+		std::cerr<<"Found "<<devices.size()<<" devices\n";
+		for(unsigned i=0;i<devices.size();i++){
+			std::string name=devices[i].getInfo<CL_DEVICE_NAME>();
+			std::cerr<<"  Device "<<i<<" : "<<name<<"\n";
+		}
+		
+		int selectedDevice=0;
+		if(getenv("HPCE_SELECT_DEVICE")){
+			selectedDevice=atoi(getenv("HPCE_SELECT_DEVICE"));
+		}
+		std::cerr<<"Choosing device "<<selectedDevice<<"\n";
+		device=devices.at(selectedDevice);
+
+	  
+	  
+  }
 	
 	
 	std::string LoadSource(const char *fileName)const
@@ -48,44 +94,7 @@ public:
 			  IntegralOutput *pOutput
 			  ) const
     {
-		std::vector<cl::Platform> platforms;
 	
-		cl::Platform::get(&platforms);
-		if(platforms.size()==0){
-			throw std::runtime_error("No OpenCL platforms found.");
-		}
-		
-		std::cerr<<"Found "<<platforms.size()<<" platforms\n";
-		for(unsigned i=0;i<platforms.size();i++){
-			std::string vendor=platforms[i].getInfo<CL_PLATFORM_VENDOR>();
-			std::cerr<<"  Platform "<<i<<" : "<<vendor<<"\n";
-		}
-		
-		int selectedPlatform=1;
-		if(getenv("HPCE_SELECT_PLATFORM")){
-			selectedPlatform=atoi(getenv("HPCE_SELECT_PLATFORM"));
-		}
-		std::cerr<<"Choosing platform "<<selectedPlatform<<"\n";
-		cl::Platform platform=platforms.at(selectedPlatform);   
-		
-		std::vector<cl::Device> devices;
-		platform.getDevices(CL_DEVICE_TYPE_ALL, &devices);	
-		if(devices.size()==0){
-			throw std::runtime_error("No opencl devices found.\n");
-		}
-			
-		std::cerr<<"Found "<<devices.size()<<" devices\n";
-		for(unsigned i=0;i<devices.size();i++){
-			std::string name=devices[i].getInfo<CL_DEVICE_NAME>();
-			std::cerr<<"  Device "<<i<<" : "<<name<<"\n";
-		}
-		
-		int selectedDevice=0;
-		if(getenv("HPCE_SELECT_DEVICE")){
-			selectedDevice=atoi(getenv("HPCE_SELECT_DEVICE"));
-		}
-		std::cerr<<"Choosing device "<<selectedDevice<<"\n";
-		cl::Device device=devices.at(selectedDevice);
 		
 		cl::Context context(devices);
 		
