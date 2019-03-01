@@ -1,0 +1,926 @@
+25
+
+[execute_puzzle], 1551481111.15, 2, Created log.
+[execute_puzzle], 1551481111.15, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481111.15, 2, Begin reference
+[execute_puzzle], 1551481111.16, 2, Integral = 0.012322
+[execute_puzzle], 1551481111.16, 2, Finished reference
+
+real	0m0.489s
+user	0m0.030s
+sys	0m0.031s
+
+
+[execute_puzzle], 1551481111.67, 2, Created log.
+[execute_puzzle], 1551481111.67, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481111.67, 2, Begin execution
+[execute_puzzle], 1551481111.83, 2, Integral = 0.012322
+[execute_puzzle], 1551481111.86, 2, Finished execution
+
+real	0m0.663s
+user	0m0.015s
+sys	0m0.061s
+
+
+[execute_puzzle], 1551481112.32, 2, Created log.
+[execute_puzzle], 1551481112.32, 2, Loading input .tmp/integral.25.input
+[execute_puzzle], 1551481112.33, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481112.33, 2, Loading reference .tmp/integral.25.ref
+[execute_puzzle], 1551481112.33, 2, Loading got .tmp/integral.25.integral.opt.got
+[execute_puzzle], 1551481112.33, 2, Outputs are equal.
+
+
+
+45
+
+[execute_puzzle], 1551481113.25, 2, Created log.
+[execute_puzzle], 1551481113.25, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481113.25, 2, Begin reference
+[execute_puzzle], 1551481113.29, 2, Integral = 0.434063
+[execute_puzzle], 1551481113.29, 2, Finished reference
+
+real	0m0.505s
+user	0m0.000s
+sys	0m0.045s
+
+
+[execute_puzzle], 1551481113.87, 2, Created log.
+[execute_puzzle], 1551481113.87, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481113.87, 2, Begin execution
+[execute_puzzle], 1551481114.17, 2, Integral = 0.434063
+[execute_puzzle], 1551481114.19, 2, Finished execution
+
+real	0m0.855s
+user	0m0.000s
+sys	0m0.061s
+
+
+[execute_puzzle], 1551481114.63, 2, Created log.
+[execute_puzzle], 1551481114.63, 2, Loading input .tmp/integral.45.input
+[execute_puzzle], 1551481114.63, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481114.63, 2, Loading reference .tmp/integral.45.ref
+[execute_puzzle], 1551481114.63, 2, Loading got .tmp/integral.45.integral.opt.got
+[execute_puzzle], 1551481114.64, 2, Outputs are equal.
+
+
+
+65
+
+[execute_puzzle], 1551481115.57, 2, Created log.
+[execute_puzzle], 1551481115.57, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481115.57, 2, Begin reference
+[execute_puzzle], 1551481115.67, 2, Integral = 0.168133
+[execute_puzzle], 1551481115.67, 2, Finished reference
+
+real	0m0.555s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481116.16, 2, Created log.
+[execute_puzzle], 1551481116.16, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481116.16, 2, Begin execution
+[execute_puzzle], 1551481116.33, 2, Integral = 0.168133
+[execute_puzzle], 1551481116.36, 2, Finished execution
+
+real	0m0.667s
+user	0m0.000s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481116.82, 2, Created log.
+[execute_puzzle], 1551481116.82, 2, Loading input .tmp/integral.65.input
+[execute_puzzle], 1551481116.82, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481116.82, 2, Loading reference .tmp/integral.65.ref
+[execute_puzzle], 1551481116.82, 2, Loading got .tmp/integral.65.integral.opt.got
+[execute_puzzle], 1551481116.82, 2, Outputs are equal.
+
+
+
+85
+
+[execute_puzzle], 1551481117.76, 2, Created log.
+[execute_puzzle], 1551481117.76, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481117.76, 2, Begin reference
+[execute_puzzle], 1551481117.96, 2, Integral = 0.0755662
+[execute_puzzle], 1551481117.96, 2, Finished reference
+
+real	0m0.654s
+user	0m0.000s
+sys	0m0.045s
+
+
+[execute_puzzle], 1551481118.49, 2, Created log.
+[execute_puzzle], 1551481118.49, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481118.49, 2, Begin execution
+[execute_puzzle], 1551481118.84, 2, Integral = 0.0755662
+[execute_puzzle], 1551481118.88, 2, Finished execution
+
+real	0m0.879s
+user	0m0.000s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481119.33, 2, Created log.
+[execute_puzzle], 1551481119.33, 2, Loading input .tmp/integral.85.input
+[execute_puzzle], 1551481119.33, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481119.33, 2, Loading reference .tmp/integral.85.ref
+[execute_puzzle], 1551481119.33, 2, Loading got .tmp/integral.85.integral.opt.got
+[execute_puzzle], 1551481119.33, 2, Outputs are equal.
+
+
+
+105
+
+[execute_puzzle], 1551481120.27, 2, Created log.
+[execute_puzzle], 1551481120.27, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481120.27, 2, Begin reference
+[execute_puzzle], 1551481120.59, 2, Integral = 0.00830886
+[execute_puzzle], 1551481120.59, 2, Finished reference
+
+real	0m0.775s
+user	0m0.031s
+sys	0m0.045s
+
+
+[execute_puzzle], 1551481121.11, 2, Created log.
+[execute_puzzle], 1551481121.11, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481121.11, 2, Begin execution
+[execute_puzzle], 1551481121.28, 2, Integral = 0.00830886
+[execute_puzzle], 1551481121.31, 2, Finished execution
+
+real	0m0.679s
+user	0m0.015s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481121.84, 2, Created log.
+[execute_puzzle], 1551481121.84, 2, Loading input .tmp/integral.105.input
+[execute_puzzle], 1551481121.84, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481121.84, 2, Loading reference .tmp/integral.105.ref
+[execute_puzzle], 1551481121.84, 2, Loading got .tmp/integral.105.integral.opt.got
+[execute_puzzle], 1551481121.84, 2, Outputs are equal.
+
+
+
+125
+
+[execute_puzzle], 1551481122.83, 2, Created log.
+[execute_puzzle], 1551481122.83, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481122.83, 2, Begin reference
+[execute_puzzle], 1551481123.38, 2, Integral = 0.333712
+[execute_puzzle], 1551481123.38, 2, Finished reference
+
+real	0m1.002s
+user	0m0.015s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481123.85, 2, Created log.
+[execute_puzzle], 1551481123.85, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481123.85, 2, Begin execution
+[execute_puzzle], 1551481124.26, 2, Integral = 0.333712
+[execute_puzzle], 1551481124.28, 2, Finished execution
+
+real	0m0.896s
+user	0m0.015s
+sys	0m0.031s
+
+
+[execute_puzzle], 1551481124.75, 2, Created log.
+[execute_puzzle], 1551481124.75, 2, Loading input .tmp/integral.125.input
+[execute_puzzle], 1551481124.75, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481124.75, 2, Loading reference .tmp/integral.125.ref
+[execute_puzzle], 1551481124.75, 2, Loading got .tmp/integral.125.integral.opt.got
+[execute_puzzle], 1551481124.75, 2, Outputs are equal.
+
+
+
+145
+
+[execute_puzzle], 1551481125.68, 2, Created log.
+[execute_puzzle], 1551481125.68, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481125.68, 2, Begin reference
+[execute_puzzle], 1551481126.51, 2, Integral = 0.0863969
+[execute_puzzle], 1551481126.51, 2, Finished reference
+
+real	0m1.296s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481127.02, 2, Created log.
+[execute_puzzle], 1551481127.02, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481127.02, 2, Begin execution
+[execute_puzzle], 1551481127.20, 2, Integral = 0.0863969
+[execute_puzzle], 1551481127.23, 2, Finished execution
+
+real	0m0.699s
+user	0m0.000s
+sys	0m0.061s
+
+
+[execute_puzzle], 1551481127.73, 2, Created log.
+[execute_puzzle], 1551481127.73, 2, Loading input .tmp/integral.145.input
+[execute_puzzle], 1551481127.73, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481127.73, 2, Loading reference .tmp/integral.145.ref
+[execute_puzzle], 1551481127.73, 2, Loading got .tmp/integral.145.integral.opt.got
+[execute_puzzle], 1551481127.73, 2, Outputs are equal.
+
+
+
+165
+
+[execute_puzzle], 1551481128.71, 2, Created log.
+[execute_puzzle], 1551481128.71, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481128.71, 2, Begin reference
+[execute_puzzle], 1551481130.07, 2, Integral = 0.0290907
+[execute_puzzle], 1551481130.07, 2, Finished reference
+
+real	0m1.806s
+user	0m0.015s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481130.57, 2, Created log.
+[execute_puzzle], 1551481130.57, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481130.57, 2, Begin execution
+[execute_puzzle], 1551481130.75, 2, Integral = 0.0290907
+[execute_puzzle], 1551481130.77, 2, Finished execution
+
+real	0m0.699s
+user	0m0.031s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481131.23, 2, Created log.
+[execute_puzzle], 1551481131.23, 2, Loading input .tmp/integral.165.input
+[execute_puzzle], 1551481131.24, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481131.24, 2, Loading reference .tmp/integral.165.ref
+[execute_puzzle], 1551481131.24, 2, Loading got .tmp/integral.165.integral.opt.got
+[execute_puzzle], 1551481131.24, 2, Outputs are equal.
+
+
+
+185
+
+[execute_puzzle], 1551481132.17, 2, Created log.
+[execute_puzzle], 1551481132.17, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481132.17, 2, Begin reference
+[execute_puzzle], 1551481133.61, 2, Integral = 0.807417
+[execute_puzzle], 1551481133.61, 2, Finished reference
+
+real	0m1.888s
+user	0m0.000s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481134.09, 2, Created log.
+[execute_puzzle], 1551481134.09, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481134.09, 2, Begin execution
+[execute_puzzle], 1551481134.29, 2, Integral = 0.807417
+[execute_puzzle], 1551481134.31, 2, Finished execution
+
+real	0m0.673s
+user	0m0.000s
+sys	0m0.015s
+
+
+[execute_puzzle], 1551481134.83, 2, Created log.
+[execute_puzzle], 1551481134.83, 2, Loading input .tmp/integral.185.input
+[execute_puzzle], 1551481134.83, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481134.83, 2, Loading reference .tmp/integral.185.ref
+[execute_puzzle], 1551481134.83, 2, Loading got .tmp/integral.185.integral.opt.got
+[execute_puzzle], 1551481134.83, 2, Outputs are equal.
+
+
+
+205
+
+[execute_puzzle], 1551481135.76, 2, Created log.
+[execute_puzzle], 1551481135.76, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481135.76, 2, Begin reference
+[execute_puzzle], 1551481137.80, 2, Integral = 0.0299185
+[execute_puzzle], 1551481137.80, 2, Finished reference
+
+real	0m2.500s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481138.27, 2, Created log.
+[execute_puzzle], 1551481138.27, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481138.27, 2, Begin execution
+[execute_puzzle], 1551481138.45, 2, Integral = 0.0299185
+[execute_puzzle], 1551481138.47, 2, Finished execution
+
+real	0m0.658s
+user	0m0.015s
+sys	0m0.061s
+
+
+[execute_puzzle], 1551481138.93, 2, Created log.
+[execute_puzzle], 1551481138.93, 2, Loading input .tmp/integral.205.input
+[execute_puzzle], 1551481138.93, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481138.93, 2, Loading reference .tmp/integral.205.ref
+[execute_puzzle], 1551481138.93, 2, Loading got .tmp/integral.205.integral.opt.got
+[execute_puzzle], 1551481138.93, 2, Outputs are equal.
+
+
+
+225
+
+[execute_puzzle], 1551481139.90, 2, Created log.
+[execute_puzzle], 1551481139.90, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481139.90, 2, Begin reference
+[execute_puzzle], 1551481142.60, 2, Integral = 0.107209
+[execute_puzzle], 1551481142.60, 2, Finished reference
+
+real	0m3.179s
+user	0m0.015s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481143.13, 2, Created log.
+[execute_puzzle], 1551481143.13, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481143.13, 2, Begin execution
+[execute_puzzle], 1551481143.34, 2, Integral = 0.107209
+[execute_puzzle], 1551481143.37, 2, Finished execution
+
+real	0m0.703s
+user	0m0.015s
+sys	0m0.045s
+
+
+[execute_puzzle], 1551481143.86, 2, Created log.
+[execute_puzzle], 1551481143.86, 2, Loading input .tmp/integral.225.input
+[execute_puzzle], 1551481143.86, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481143.86, 2, Loading reference .tmp/integral.225.ref
+[execute_puzzle], 1551481143.86, 2, Loading got .tmp/integral.225.integral.opt.got
+[execute_puzzle], 1551481143.86, 2, Outputs are equal.
+
+
+
+245
+
+[execute_puzzle], 1551481144.83, 2, Created log.
+[execute_puzzle], 1551481144.83, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481144.83, 2, Begin reference
+[execute_puzzle], 1551481148.27, 2, Integral = 0.244593
+[execute_puzzle], 1551481148.27, 2, Finished reference
+
+real	0m3.898s
+user	0m0.015s
+sys	0m0.031s
+
+
+[execute_puzzle], 1551481148.74, 2, Created log.
+[execute_puzzle], 1551481148.74, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481148.74, 2, Begin execution
+[execute_puzzle], 1551481148.98, 2, Integral = 0.244593
+[execute_puzzle], 1551481149.00, 2, Finished execution
+
+real	0m0.718s
+user	0m0.031s
+sys	0m0.015s
+
+
+[execute_puzzle], 1551481149.48, 2, Created log.
+[execute_puzzle], 1551481149.48, 2, Loading input .tmp/integral.245.input
+[execute_puzzle], 1551481149.48, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481149.48, 2, Loading reference .tmp/integral.245.ref
+[execute_puzzle], 1551481149.48, 2, Loading got .tmp/integral.245.integral.opt.got
+[execute_puzzle], 1551481149.48, 2, Outputs are equal.
+
+
+
+265
+
+[execute_puzzle], 1551481150.48, 2, Created log.
+[execute_puzzle], 1551481150.48, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481150.48, 2, Begin reference
+[execute_puzzle], 1551481154.65, 2, Integral = 0.0785464
+[execute_puzzle], 1551481154.65, 2, Finished reference
+
+real	0m4.670s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481155.15, 2, Created log.
+[execute_puzzle], 1551481155.15, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481155.15, 2, Begin execution
+[execute_puzzle], 1551481155.35, 2, Integral = 0.0785464
+[execute_puzzle], 1551481155.38, 2, Finished execution
+
+real	0m0.693s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481155.86, 2, Created log.
+[execute_puzzle], 1551481155.86, 2, Loading input .tmp/integral.265.input
+[execute_puzzle], 1551481155.86, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481155.86, 2, Loading reference .tmp/integral.265.ref
+[execute_puzzle], 1551481155.86, 2, Loading got .tmp/integral.265.integral.opt.got
+[execute_puzzle], 1551481155.86, 2, Outputs are equal.
+
+
+
+285
+
+[execute_puzzle], 1551481156.80, 2, Created log.
+[execute_puzzle], 1551481156.80, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481156.80, 2, Begin reference
+[execute_puzzle], 1551481161.97, 2, Integral = 0.095942
+[execute_puzzle], 1551481161.97, 2, Finished reference
+
+real	0m5.621s
+user	0m0.000s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481162.44, 2, Created log.
+[execute_puzzle], 1551481162.44, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481162.44, 2, Begin execution
+[execute_puzzle], 1551481162.66, 2, Integral = 0.095942
+[execute_puzzle], 1551481162.68, 2, Finished execution
+
+real	0m0.717s
+user	0m0.015s
+sys	0m0.015s
+
+
+[execute_puzzle], 1551481163.19, 2, Created log.
+[execute_puzzle], 1551481163.19, 2, Loading input .tmp/integral.285.input
+[execute_puzzle], 1551481163.19, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481163.19, 2, Loading reference .tmp/integral.285.ref
+[execute_puzzle], 1551481163.19, 2, Loading got .tmp/integral.285.integral.opt.got
+[execute_puzzle], 1551481163.19, 2, Outputs are equal.
+
+
+
+305
+
+[execute_puzzle], 1551481164.24, 2, Created log.
+[execute_puzzle], 1551481164.24, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481164.24, 2, Begin reference
+[execute_puzzle], 1551481170.34, 2, Integral = 0.00233156
+[execute_puzzle], 1551481170.34, 2, Finished reference
+
+real	0m6.579s
+user	0m0.016s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481170.81, 2, Created log.
+[execute_puzzle], 1551481170.81, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481170.81, 2, Begin execution
+[execute_puzzle], 1551481171.00, 2, Integral = 0.00233156
+[execute_puzzle], 1551481171.02, 2, Finished execution
+
+real	0m0.665s
+user	0m0.031s
+sys	0m0.015s
+
+
+[execute_puzzle], 1551481171.54, 2, Created log.
+[execute_puzzle], 1551481171.54, 2, Loading input .tmp/integral.305.input
+[execute_puzzle], 1551481171.54, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481171.54, 2, Loading reference .tmp/integral.305.ref
+[execute_puzzle], 1551481171.54, 2, Loading got .tmp/integral.305.integral.opt.got
+[execute_puzzle], 1551481171.54, 2, Outputs are equal.
+
+
+
+325
+
+[execute_puzzle], 1551481172.49, 2, Created log.
+[execute_puzzle], 1551481172.49, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481172.49, 2, Begin reference
+[execute_puzzle], 1551481179.51, 2, Integral = 0.0247165
+[execute_puzzle], 1551481179.51, 2, Finished reference
+
+real	0m7.460s
+user	0m0.000s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481179.96, 2, Created log.
+[execute_puzzle], 1551481179.96, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481179.96, 2, Begin execution
+[execute_puzzle], 1551481180.17, 2, Integral = 0.0247165
+[execute_puzzle], 1551481180.19, 2, Finished execution
+
+real	0m0.687s
+user	0m0.000s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481180.71, 2, Created log.
+[execute_puzzle], 1551481180.71, 2, Loading input .tmp/integral.325.input
+[execute_puzzle], 1551481180.71, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481180.71, 2, Loading reference .tmp/integral.325.ref
+[execute_puzzle], 1551481180.71, 2, Loading got .tmp/integral.325.integral.opt.got
+[execute_puzzle], 1551481180.71, 2, Outputs are equal.
+
+
+
+345
+
+[execute_puzzle], 1551481181.67, 2, Created log.
+[execute_puzzle], 1551481181.67, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481181.67, 2, Begin reference
+[execute_puzzle], 1551481189.91, 2, Integral = 0.308022
+[execute_puzzle], 1551481189.91, 2, Finished reference
+
+real	0m8.685s
+user	0m0.000s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481190.38, 2, Created log.
+[execute_puzzle], 1551481190.38, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481190.38, 2, Begin execution
+[execute_puzzle], 1551481190.87, 2, Integral = 0.308022
+[execute_puzzle], 1551481190.91, 2, Finished execution
+
+real	0m0.987s
+user	0m0.000s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481191.38, 2, Created log.
+[execute_puzzle], 1551481191.38, 2, Loading input .tmp/integral.345.input
+[execute_puzzle], 1551481191.38, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481191.38, 2, Loading reference .tmp/integral.345.ref
+[execute_puzzle], 1551481191.38, 2, Loading got .tmp/integral.345.integral.opt.got
+[execute_puzzle], 1551481191.38, 2, Outputs are equal.
+
+
+
+365
+
+[execute_puzzle], 1551481192.36, 2, Created log.
+[execute_puzzle], 1551481192.36, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481192.36, 2, Begin reference
+[execute_puzzle], 1551481202.17, 2, Integral = 0.207327
+[execute_puzzle], 1551481202.17, 2, Finished reference
+
+real	0m10.254s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481202.62, 2, Created log.
+[execute_puzzle], 1551481202.62, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481202.62, 2, Begin execution
+[execute_puzzle], 1551481202.86, 2, Integral = 0.207327
+[execute_puzzle], 1551481202.88, 2, Finished execution
+
+real	0m0.711s
+user	0m0.000s
+sys	0m0.031s
+
+
+[execute_puzzle], 1551481203.39, 2, Created log.
+[execute_puzzle], 1551481203.39, 2, Loading input .tmp/integral.365.input
+[execute_puzzle], 1551481203.39, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481203.39, 2, Loading reference .tmp/integral.365.ref
+[execute_puzzle], 1551481203.39, 2, Loading got .tmp/integral.365.integral.opt.got
+[execute_puzzle], 1551481203.39, 2, Outputs are equal.
+
+
+
+385
+
+[execute_puzzle], 1551481204.34, 2, Created log.
+[execute_puzzle], 1551481204.34, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481204.34, 2, Begin reference
+[execute_puzzle], 1551481215.76, 2, Integral = 0.0188148
+[execute_puzzle], 1551481215.76, 2, Finished reference
+
+real	0m11.843s
+user	0m0.000s
+sys	0m0.031s
+
+
+[execute_puzzle], 1551481216.22, 2, Created log.
+[execute_puzzle], 1551481216.22, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481216.22, 2, Begin execution
+[execute_puzzle], 1551481216.46, 2, Integral = 0.0188148
+[execute_puzzle], 1551481216.48, 2, Finished execution
+
+real	0m0.722s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481216.97, 2, Created log.
+[execute_puzzle], 1551481216.97, 2, Loading input .tmp/integral.385.input
+[execute_puzzle], 1551481216.97, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481216.97, 2, Loading reference .tmp/integral.385.ref
+[execute_puzzle], 1551481216.97, 2, Loading got .tmp/integral.385.integral.opt.got
+[execute_puzzle], 1551481216.97, 2, Outputs are equal.
+
+
+
+405
+
+[execute_puzzle], 1551481218.03, 2, Created log.
+[execute_puzzle], 1551481218.03, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481218.03, 2, Begin reference
+[execute_puzzle], 1551481231.09, 2, Integral = 0.074546
+[execute_puzzle], 1551481231.09, 2, Finished reference
+
+real	0m13.599s
+user	0m0.015s
+sys	0m0.062s
+
+
+[execute_puzzle], 1551481231.57, 2, Created log.
+[execute_puzzle], 1551481231.57, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481231.57, 2, Begin execution
+[execute_puzzle], 1551481231.78, 2, Integral = 0.074546
+[execute_puzzle], 1551481231.80, 2, Finished execution
+
+real	0m0.687s
+user	0m0.000s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481232.33, 2, Created log.
+[execute_puzzle], 1551481232.33, 2, Loading input .tmp/integral.405.input
+[execute_puzzle], 1551481232.33, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481232.33, 2, Loading reference .tmp/integral.405.ref
+[execute_puzzle], 1551481232.33, 2, Loading got .tmp/integral.405.integral.opt.got
+[execute_puzzle], 1551481232.33, 2, Outputs are equal.
+
+
+
+425
+
+[execute_puzzle], 1551481233.28, 2, Created log.
+[execute_puzzle], 1551481233.28, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481233.28, 2, Begin reference
+[execute_puzzle], 1551481248.50, 2, Integral = 0.480327
+[execute_puzzle], 1551481248.50, 2, Finished reference
+
+real	0m15.688s
+user	0m0.015s
+sys	0m0.015s
+
+
+[execute_puzzle], 1551481248.96, 2, Created log.
+[execute_puzzle], 1551481248.96, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481248.96, 2, Begin execution
+[execute_puzzle], 1551481249.41, 2, Integral = 0.480327
+[execute_puzzle], 1551481249.44, 2, Finished execution
+
+real	0m0.938s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481249.97, 2, Created log.
+[execute_puzzle], 1551481249.97, 2, Loading input .tmp/integral.425.input
+[execute_puzzle], 1551481249.98, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481249.98, 2, Loading reference .tmp/integral.425.ref
+[execute_puzzle], 1551481249.98, 2, Loading got .tmp/integral.425.integral.opt.got
+[execute_puzzle], 1551481249.98, 2, Outputs are equal.
+
+
+
+445
+
+[execute_puzzle], 1551481250.98, 2, Created log.
+[execute_puzzle], 1551481250.98, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481250.98, 2, Begin reference
+[execute_puzzle], 1551481268.31, 2, Integral = 0.0665865
+[execute_puzzle], 1551481268.31, 2, Finished reference
+
+real	0m17.779s
+user	0m0.000s
+sys	0m0.061s
+
+
+[execute_puzzle], 1551481268.79, 2, Created log.
+[execute_puzzle], 1551481268.79, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481268.79, 2, Begin execution
+[execute_puzzle], 1551481269.07, 2, Integral = 0.0665865
+[execute_puzzle], 1551481269.09, 2, Finished execution
+
+real	0m0.761s
+user	0m0.000s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481269.59, 2, Created log.
+[execute_puzzle], 1551481269.59, 2, Loading input .tmp/integral.445.input
+[execute_puzzle], 1551481269.59, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481269.59, 2, Loading reference .tmp/integral.445.ref
+[execute_puzzle], 1551481269.59, 2, Loading got .tmp/integral.445.integral.opt.got
+[execute_puzzle], 1551481269.59, 2, Outputs are equal.
+
+
+
+465
+
+[execute_puzzle], 1551481270.61, 2, Created log.
+[execute_puzzle], 1551481270.61, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481270.61, 2, Begin reference
+[execute_puzzle], 1551481290.44, 2, Integral = 0.409044
+[execute_puzzle], 1551481290.44, 2, Finished reference
+
+real	0m20.358s
+user	0m0.015s
+sys	0m0.031s
+
+
+[execute_puzzle], 1551481290.92, 2, Created log.
+[execute_puzzle], 1551481290.92, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481290.92, 2, Begin execution
+[execute_puzzle], 1551481291.43, 2, Integral = 0.409044
+[execute_puzzle], 1551481291.46, 2, Finished execution
+
+real	0m1.000s
+user	0m0.000s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481291.93, 2, Created log.
+[execute_puzzle], 1551481291.93, 2, Loading input .tmp/integral.465.input
+[execute_puzzle], 1551481291.93, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481291.93, 2, Loading reference .tmp/integral.465.ref
+[execute_puzzle], 1551481291.93, 2, Loading got .tmp/integral.465.integral.opt.got
+[execute_puzzle], 1551481291.93, 2, Outputs are equal.
+
+
+
+485
+
+[execute_puzzle], 1551481292.87, 2, Created log.
+[execute_puzzle], 1551481292.87, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481292.87, 2, Begin reference
+[execute_puzzle], 1551481314.74, 2, Integral = 0.127883
+[execute_puzzle], 1551481314.74, 2, Finished reference
+
+real	0m22.324s
+user	0m0.000s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481315.22, 2, Created log.
+[execute_puzzle], 1551481315.22, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481315.22, 2, Begin execution
+[execute_puzzle], 1551481315.71, 2, Integral = 0.127883
+[execute_puzzle], 1551481315.74, 2, Finished execution
+
+real	0m0.972s
+user	0m0.015s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481316.20, 2, Created log.
+[execute_puzzle], 1551481316.20, 2, Loading input .tmp/integral.485.input
+[execute_puzzle], 1551481316.20, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481316.20, 2, Loading reference .tmp/integral.485.ref
+[execute_puzzle], 1551481316.20, 2, Loading got .tmp/integral.485.integral.opt.got
+[execute_puzzle], 1551481316.20, 2, Outputs are equal.
+
+
+
+505
+
+[execute_puzzle], 1551481317.15, 2, Created log.
+[execute_puzzle], 1551481317.15, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481317.15, 2, Begin reference
+[execute_puzzle], 1551481341.74, 2, Integral = 0.257571
+[execute_puzzle], 1551481341.74, 2, Finished reference
+
+real	0m25.029s
+user	0m0.000s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481342.21, 2, Created log.
+[execute_puzzle], 1551481342.21, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481342.21, 2, Begin execution
+[execute_puzzle], 1551481342.50, 2, Integral = 0.257571
+[execute_puzzle], 1551481342.54, 2, Finished execution
+
+real	0m0.798s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481343.07, 2, Created log.
+[execute_puzzle], 1551481343.07, 2, Loading input .tmp/integral.505.input
+[execute_puzzle], 1551481343.07, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481343.07, 2, Loading reference .tmp/integral.505.ref
+[execute_puzzle], 1551481343.07, 2, Loading got .tmp/integral.505.integral.opt.got
+[execute_puzzle], 1551481343.07, 2, Outputs are equal.
+
+
+
+525
+
+[execute_puzzle], 1551481344.02, 2, Created log.
+[execute_puzzle], 1551481344.02, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481344.02, 2, Begin reference
+[execute_puzzle], 1551481371.46, 2, Integral = 0.103203
+[execute_puzzle], 1551481371.46, 2, Finished reference
+
+real	0m27.888s
+user	0m0.000s
+sys	0m0.045s
+
+
+[execute_puzzle], 1551481371.91, 2, Created log.
+[execute_puzzle], 1551481371.91, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481371.91, 2, Begin execution
+[execute_puzzle], 1551481372.54, 2, Integral = 0.103203
+[execute_puzzle], 1551481372.57, 2, Finished execution
+
+real	0m1.129s
+user	0m0.015s
+sys	0m0.046s
+
+
+[execute_puzzle], 1551481373.04, 2, Created log.
+[execute_puzzle], 1551481373.04, 2, Loading input .tmp/integral.525.input
+[execute_puzzle], 1551481373.04, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481373.04, 2, Loading reference .tmp/integral.525.ref
+[execute_puzzle], 1551481373.04, 2, Loading got .tmp/integral.525.integral.opt.got
+[execute_puzzle], 1551481373.04, 2, Outputs are equal.
+
+
+
+545
+
+[execute_puzzle], 1551481373.99, 2, Created log.
+[execute_puzzle], 1551481373.99, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481373.99, 2, Begin reference
+[execute_puzzle], 1551481404.94, 2, Integral = 0.2441
+[execute_puzzle], 1551481404.94, 2, Finished reference
+
+real	0m31.405s
+user	0m0.015s
+sys	0m0.030s
+
+
+[execute_puzzle], 1551481405.40, 2, Created log.
+[execute_puzzle], 1551481405.40, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481405.40, 2, Begin execution
+[execute_puzzle], 1551481406.06, 2, Integral = 0.2441
+[execute_puzzle], 1551481406.10, 2, Finished execution
+
+real	0m1.165s
+user	0m0.030s
+sys	0m0.015s
+
+
+[execute_puzzle], 1551481406.60, 2, Created log.
+[execute_puzzle], 1551481406.60, 2, Loading input .tmp/integral.545.input
+[execute_puzzle], 1551481406.60, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481406.60, 2, Loading reference .tmp/integral.545.ref
+[execute_puzzle], 1551481406.60, 2, Loading got .tmp/integral.545.integral.opt.got
+[execute_puzzle], 1551481406.60, 2, Outputs are equal.
+
+
+
+565
+
+[execute_puzzle], 1551481407.60, 2, Created log.
+[execute_puzzle], 1551481407.60, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481407.60, 2, Begin reference
+[execute_puzzle], 1551481442.57, 2, Integral = 0.206767
+[execute_puzzle], 1551481442.57, 2, Finished reference
+
+real	0m35.428s
+user	0m0.030s
+sys	0m0.015s
+
+
+[execute_puzzle], 1551481443.04, 2, Created log.
+[execute_puzzle], 1551481443.04, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551481443.04, 2, Begin execution
+[execute_puzzle], 1551481443.51, 2, Integral = 0.206767
+[execute_puzzle], 1551481443.53, 2, Finished execution
+
+real	0m0.921s
+user	0m0.000s
+sys	0m0.045s
+
+
+[execute_puzzle], 1551481443.96, 2, Created log.
+[execute_puzzle], 1551481443.96, 2, Loading input .tmp/integral.565.input
+[execute_puzzle], 1551481443.96, 2, Creating puzzle integral to match input
+[execute_puzzle], 1551481443.96, 2, Loading reference .tmp/integral.565.ref
+[execute_puzzle], 1551481443.96, 2, Loading got .tmp/integral.565.integral.opt.got
+[execute_puzzle], 1551481443.96, 2, Outputs are equal.
+
+
+
+585
+

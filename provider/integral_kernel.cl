@@ -27,12 +27,11 @@ __kernel void integral_kernel(
 
 					  float x[3]={x1,x2,x3};
 					  
-				  for(unsigned i=0; i<D;i++){
-					if(x[i] > bounds[i]){
-					  acc=0;
+
+					if((x[0] > bounds[0]) || (x[1] > bounds[1]) || (x[2] > bounds[2])){
 					  flg = 0;
 					}
-				  }	
+
 					  
 				  if(flg == 1){
 					  float dx=range/r;
@@ -48,9 +47,6 @@ __kernel void integral_kernel(
 
 
 					  sum_total[i1] += acc;
-				  }
-				  else{
-					  sum_total[i1] += 0;
 				  }
 				  
 				}
