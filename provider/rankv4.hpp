@@ -17,7 +17,8 @@ public:
 	  unsigned sze = a.size();
 	  //tbb::parallel_for(0u,sze,[&](unsigned i){
       for(unsigned i=0; i<a.size(); i++){
-        acc += pow(a[i]-b[i],2.0);
+		float subres = a[i]-b[i];
+        acc += (subres*subres);
       }//);
       return acc;
     }
@@ -38,7 +39,7 @@ public:
         }//);
       }//);
 
-      double total=0;
+      /*double total=0;
 	  //tbb::parallel_for(0u,n,[&](unsigned i){
       for(unsigned i=0; i<n; i++){
         next[i] = (current[i] * 0.3  + next[i] * 0.7 );
@@ -49,7 +50,7 @@ public:
 	  //tbb::parallel_for(0u,n,[&](unsigned i){
         next[i] /= total;
         //log->LogVerbose("    c[%u] = %g", i, next[i]);
-      }//);
+      }//);*/
     }
 	
     void Execute(
@@ -59,7 +60,8 @@ public:
 			  ) const
     {
       const std::vector<std::vector<uint32_t> > &edges=pInput->edges;
-      float tol=pow((pInput->tol),2.0);
+	  float tol=pInput->tol;
+      tol*=tol;
       unsigned n=edges.size();
 
       log->LogInfo("Starting iterations.");
