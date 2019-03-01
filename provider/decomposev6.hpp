@@ -51,14 +51,14 @@ public:
 		  at(rank,c2)=div( at(rank,c2) , pivot );
           }//);
 			
-		 // tbb::parallel_for(unsigned(rank+1),rr,[&](unsigned r2){	//THIS ONE SPEEDS UP
-          for(unsigned r2=rank+1; r2<rr; r2++){
+		 tbb::parallel_for(unsigned(rank+1),rr,[&](unsigned r2){	//THIS ONE SPEEDS UP
+          //for(unsigned r2=rank+1; r2<rr; r2++){
             unsigned count=at(r2, c1);
 		//	tbb::parallel_for(0u,cc,[&](unsigned c2){
            for(unsigned c2=0; c2<cc; c2++){
               at(r2,c2) = sub( at(r2,c2) , mul( count, at(rank,c2)) );
             }//);
-          }//);
+          });
 
           ++rank;
         }
@@ -84,14 +84,14 @@ public:
       
       log->LogInfo("Building random matrix");
       std::vector<uint32_t> matrix(rr*cc);
-      //tbb::parallel_for(0u,unsigned(matrix.size()),[&](unsigned i){ //this is quick
-	  for(unsigned i=0; i<matrix.size(); i++){
+      tbb::parallel_for(0u,unsigned(matrix.size()),[&](unsigned i){ //this is quick
+	  //for(unsigned i=0; i<matrix.size(); i++){
 		  uint32_t seed = pInput->seed;
 		  seed += i * PRIME32_2;
 		  seed  = (seed<<13) | (seed>>(32-13));
 		  seed *= PRIME32_1;
           matrix[i]= seed % 7;
-      }//);
+      });
       //dump(log, Log_Verbose, rr, cc, &matrix[0]);
       
       log->LogInfo("Doing the decomposition");
