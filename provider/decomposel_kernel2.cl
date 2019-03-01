@@ -54,7 +54,7 @@ __kernel void decompose_kernel_2(
 		matrix[rr*c2 + r1] = matrix[rr*c2 + rank];
 		matrix[rr*c2 + rank] = tmp;
 		
-         matrix[rr*c2 + rank]=div(  matrix[rr*c2 + rank] , pivot );
-		 matrix[rr*c2 + rank]=div(  matrix[rr*c2 + rank] , pivot );
+         //matrix[rr*c2 + rank]=div(  matrix[rr*c2 + rank] , pivot );
+		 matrix[rr*c2 + rank]= mul(  matrix[rr*c2 + rank] , mul_inv(pivot) );
 	}
 						

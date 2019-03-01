@@ -201,7 +201,15 @@ public:
       }
     }
 
-
+	uint32_t make_bit(uint32_t seed, uint32_t input) const
+    {
+      const uint32_t PRIME32_1  = 2654435761U;
+      const uint32_t PRIME32_2 = 2246822519U;
+      seed += input * PRIME32_2;
+      seed  = (seed<<13) | (seed>>(32-13));
+      seed *= PRIME32_1;
+      return seed % P;
+    }
 
     void Execute(
 			  ILog *log,

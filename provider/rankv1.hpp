@@ -2,7 +2,7 @@
 #define user_rank_hppv1
 
 #include "puzzler/puzzles/rank.hpp"
-#include "tbb/parallel_for.h"
+//#include "tbb/parallel_for.h"
 
 namespace puzzler{
 class RankProviderv1
@@ -17,16 +17,17 @@ public:
 	  unsigned sze = a.size();
 	  tbb::parallel_for(0u,sze,[&](unsigned i){
       //for(unsigned i=0; i<a.size(); i++){
-        acc += pow(a[i]-b[i],2.0);
+		float subres = a[i]-b[i];
+        acc += (subres*subres);
       });
-      return sqrt(acc);
+      return acc;
     }
 
     void iteration(ILog *log, unsigned n, const std::vector<std::vector<uint32_t> > &edges, const float *current, float *next) const
     {
-      //for(unsigned i=0; i<n; i++){
-       // next[i]=0;
-      //}
+      for(unsigned i=0; i<n; i++){
+        next[i]=0;
+      }
       //for(unsigned i=0; i<n; i++){
 	  
 	  tbb::parallel_for(0u,n,[&](unsigned i){
@@ -60,6 +61,7 @@ public:
     {
       const std::vector<std::vector<uint32_t> > &edges=pInput->edges;
       float tol=pInput->tol;
+	  tol *= tol;
       unsigned n=edges.size();
 
       log->LogInfo("Starting iterations.");
@@ -67,10 +69,16 @@ public:
       curr[0]=1.0;
       std::vector<float> next(n, 0.0f);
       float dist=norm(curr,next);
-      while( tol < dist ){
+	  
+	   while( tol < dist ){
         log->LogVerbose("dist=%g", dist);
         iteration(log, n, edges, &curr[0], &next[0]);
-        std::swap(curr, next);
+		if(tol >= norm(curr, next)){
+			pOutput->ranks=next;
+			break;
+		}
+		iteration(log, n, edges, &next[0], &curr[0]);
+        //std::swap(curr, next);
         dist=norm(curr, next);
       }
       
