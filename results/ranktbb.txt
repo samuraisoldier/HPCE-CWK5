@@ -1,0 +1,270 @@
+275
+
+[execute_puzzle], 1551482979.90, 2, Created log.
+[execute_puzzle], 1551482979.90, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551482979.90, 2, Begin reference
+[execute_puzzle], 1551482979.90, 2, Starting iterations.
+[execute_puzzle], 1551482979.90, 2, Finished
+[execute_puzzle], 1551482979.90, 2, Finished reference
+
+real	0m0.464s
+user	0m0.000s
+sys	0m0.061s
+
+
+
+2075
+
+[execute_puzzle], 1551482980.99, 2, Created log.
+[execute_puzzle], 1551482981.04, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551482981.04, 2, Begin reference
+[execute_puzzle], 1551482981.04, 2, Starting iterations.
+[execute_puzzle], 1551482981.04, 2, Finished
+[execute_puzzle], 1551482981.04, 2, Finished reference
+
+real	0m0.518s
+user	0m0.031s
+sys	0m0.030s
+
+
+
+5675
+
+[execute_puzzle], 1551482982.37, 2, Created log.
+[execute_puzzle], 1551482982.52, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551482982.52, 2, Begin reference
+[execute_puzzle], 1551482982.52, 2, Starting iterations.
+[execute_puzzle], 1551482982.52, 2, Finished
+[execute_puzzle], 1551482982.52, 2, Finished reference
+
+real	0m0.649s
+user	0m0.015s
+sys	0m0.031s
+
+
+
+11075
+
+[execute_puzzle], 1551482984.62, 2, Created log.
+[execute_puzzle], 1551482984.92, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551482984.92, 2, Begin reference
+[execute_puzzle], 1551482984.92, 2, Starting iterations.
+[execute_puzzle], 1551482984.92, 2, Finished
+[execute_puzzle], 1551482984.92, 2, Finished reference
+
+real	0m0.827s
+user	0m0.000s
+sys	0m0.061s
+
+
+
+18275
+
+[execute_puzzle], 1551482987.49, 2, Created log.
+[execute_puzzle], 1551482988.06, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551482988.06, 2, Begin reference
+[execute_puzzle], 1551482988.06, 2, Starting iterations.
+[execute_puzzle], 1551482988.07, 2, Finished
+[execute_puzzle], 1551482988.07, 2, Finished reference
+
+real	0m1.177s
+user	0m0.000s
+sys	0m0.030s
+
+
+
+27275
+
+[execute_puzzle], 1551482991.21, 2, Created log.
+[execute_puzzle], 1551482992.28, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551482992.28, 2, Begin reference
+[execute_puzzle], 1551482992.28, 2, Starting iterations.
+[execute_puzzle], 1551482992.30, 2, Finished
+[execute_puzzle], 1551482992.30, 2, Finished reference
+
+real	0m1.776s
+user	0m0.000s
+sys	0m0.045s
+
+
+
+38075
+
+[execute_puzzle], 1551482996.92, 2, Created log.
+[execute_puzzle], 1551482998.22, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551482998.22, 2, Begin reference
+[execute_puzzle], 1551482998.22, 2, Starting iterations.
+[execute_puzzle], 1551482998.25, 2, Finished
+[execute_puzzle], 1551482998.25, 2, Finished reference
+
+real	0m2.030s
+user	0m0.000s
+sys	0m0.015s
+
+
+
+50675
+
+[execute_puzzle], 1551483003.82, 2, Created log.
+[execute_puzzle], 1551483005.54, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483005.54, 2, Begin reference
+[execute_puzzle], 1551483005.54, 2, Starting iterations.
+[execute_puzzle], 1551483005.58, 2, Finished
+[execute_puzzle], 1551483005.58, 2, Finished reference
+
+real	0m2.587s
+user	0m0.015s
+sys	0m0.062s
+
+
+
+65075
+
+[execute_puzzle], 1551483012.85, 2, Created log.
+[execute_puzzle], 1551483015.18, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483015.18, 2, Begin reference
+[execute_puzzle], 1551483015.18, 2, Starting iterations.
+[execute_puzzle], 1551483015.24, 2, Finished
+[execute_puzzle], 1551483015.24, 2, Finished reference
+
+real	0m3.345s
+user	0m0.000s
+sys	0m0.030s
+
+
+
+81275
+
+[execute_puzzle], 1551483024.15, 2, Created log.
+[execute_puzzle], 1551483027.21, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483027.21, 2, Begin reference
+[execute_puzzle], 1551483027.21, 2, Starting iterations.
+[execute_puzzle], 1551483027.29, 2, Finished
+[execute_puzzle], 1551483027.29, 2, Finished reference
+
+real	0m4.341s
+user	0m0.030s
+sys	0m0.046s
+
+
+
+99275
+
+[execute_puzzle], 1551483038.22, 2, Created log.
+[execute_puzzle], 1551483042.25, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483042.25, 2, Begin reference
+[execute_puzzle], 1551483042.25, 2, Starting iterations.
+[execute_puzzle], 1551483042.39, 2, Finished
+[execute_puzzle], 1551483042.39, 2, Finished reference
+
+real	0m5.444s
+user	0m0.000s
+sys	0m0.046s
+
+
+
+119075
+
+[execute_puzzle], 1551483059.33, 2, Created log.
+[execute_puzzle], 1551483065.59, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483065.59, 2, Begin reference
+[execute_puzzle], 1551483065.59, 2, Starting iterations.
+[execute_puzzle], 1551483065.77, 2, Finished
+[execute_puzzle], 1551483065.77, 2, Finished reference
+
+real	0m7.945s
+user	0m0.031s
+sys	0m0.030s
+
+
+
+140675
+
+[execute_puzzle], 1551483080.75, 2, Created log.
+[execute_puzzle], 1551483087.04, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483087.04, 2, Begin reference
+[execute_puzzle], 1551483087.04, 2, Starting iterations.
+[execute_puzzle], 1551483087.21, 2, Finished
+[execute_puzzle], 1551483087.21, 2, Finished reference
+
+real	0m8.015s
+user	0m0.046s
+sys	0m0.030s
+
+
+
+164075
+
+[execute_puzzle], 1551483110.43, 2, Created log.
+[execute_puzzle], 1551483119.25, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483119.25, 2, Begin reference
+[execute_puzzle], 1551483119.25, 2, Starting iterations.
+[execute_puzzle], 1551483119.53, 2, Finished
+[execute_puzzle], 1551483119.53, 2, Finished reference
+
+real	0m11.053s
+user	0m0.000s
+sys	0m0.108s
+
+
+
+189275
+
+[execute_puzzle], 1551483143.62, 2, Created log.
+[execute_puzzle], 1551483151.49, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483151.49, 2, Begin reference
+[execute_puzzle], 1551483151.49, 2, Starting iterations.
+[execute_puzzle], 1551483151.75, 2, Finished
+[execute_puzzle], 1551483151.75, 2, Finished reference
+
+real	0m9.803s
+user	0m0.015s
+sys	0m0.045s
+
+
+
+216275
+
+[execute_puzzle], 1551483175.29, 2, Created log.
+[execute_puzzle], 1551483184.13, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483184.13, 2, Begin reference
+[execute_puzzle], 1551483184.13, 2, Starting iterations.
+[execute_puzzle], 1551483184.41, 2, Finished
+[execute_puzzle], 1551483184.41, 2, Finished reference
+
+real	0m10.941s
+user	0m0.015s
+sys	0m0.092s
+
+
+
+245075
+
+[execute_puzzle], 1551483210.32, 2, Created log.
+[execute_puzzle], 1551483220.27, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483220.27, 2, Begin reference
+[execute_puzzle], 1551483220.27, 2, Starting iterations.
+[execute_puzzle], 1551483220.59, 2, Finished
+[execute_puzzle], 1551483220.59, 2, Finished reference
+
+real	0m12.283s
+user	0m0.015s
+sys	0m0.046s
+
+
+
+275675
+
+[execute_puzzle], 1551483251.38, 2, Created log.
+[execute_puzzle], 1551483263.24, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551483263.24, 2, Begin reference
+[execute_puzzle], 1551483263.24, 2, Starting iterations.
+[execute_puzzle], 1551483263.64, 2, Finished
+[execute_puzzle], 1551483263.64, 2, Finished reference
+
+real	0m14.493s
+user	0m0.000s
+sys	0m0.155s
+
+
+

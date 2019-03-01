@@ -14,11 +14,11 @@ public:
     float norm(const std::vector<float> &a, const std::vector<float> &b) const
     {
       double acc=0;
-
-      for(unsigned i=0; i<a.size(); i++){
+	  tbb::parallel_for(0u,unsigned(a.size()),[&](unsigned i){
+      //for(unsigned i=0; i<a.size(); i++){
 		float subres = a[i]-b[i];
         acc += (subres*subres);
-      }//);
+      });
       return acc;
     }
 
