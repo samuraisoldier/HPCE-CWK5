@@ -25,13 +25,12 @@ public:
 
     void iteration(ILog *log, unsigned n, const std::vector<std::vector<uint32_t> > &edges, const float *current, float *next) const
     {
-      for(unsigned i=0; i<n; i++){
-        next[i]=0;
-      }
+	  std::memset(&next[0], 0, n*sizeof(next[0]));
+      //for(unsigned i=0; i<n; i++){
+        //next[i]=0;
+      //}
       for(unsigned i=0; i<n; i++){
 	  
-	  //tbb::parallel_for(0u,n,[&](unsigned i){
-		unsigned sze = edges[i].size();
 		//tbb::parallel_for(0u,sze,[&](unsigned j){
         for(unsigned j=0; j<edges[i].size(); j++){
           int dst=edges[i][j];
