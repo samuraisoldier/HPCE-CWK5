@@ -1,10 +1,6 @@
 #!/bin/bash
 ENGINE="decompose.opt"
-<<<<<<< HEAD
 ENGINE2="decompose.tbbif"
-
-=======
->>>>>>> refs/remotes/origin/master
 PUZZLE=${ENGINE%%.*}
 SCALES="35 103 183 271 364 461 562 667 774 884 996 1110 1227 1345 1465 1587 1711 1836 1962 2090 2219 2350 2482 2614 2748 2884 3020 3157 3295 3434"
 WORKING=w

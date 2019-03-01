@@ -39,12 +39,8 @@ void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
   Register("decompose.opencl", std::make_shared<puzzler::DecomposeProviderv2>());
   //opt
   Register("integral.opt", std::make_shared<puzzler::IntegralProviderv3>());
-<<<<<<< HEAD
   Register("decompose.tbbif", std::make_shared<puzzler::DecomposeProviderv6>());
   Register("decompose.opt", std::make_shared<puzzler::DecomposeProvidervopt>());
-=======
-  Register("decompose.opt", std::make_shared<puzzler::DecomposeProviderv6>());
->>>>>>> refs/remotes/origin/master
   Register("ising.opt", std::make_shared<puzzler::IsingProviderv3>());
   Register("rank.opt", std::make_shared<puzzler::RankProviderv4>());
   // Note that you can register the same engine twice under different names, for
