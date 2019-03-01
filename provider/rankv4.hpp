@@ -19,7 +19,7 @@ public:
       for(unsigned i=0; i<a.size(); i++){
         acc += pow(a[i]-b[i],2.0);
       }//);
-      return sqrt(acc);
+      return acc;
     }
 
     void iteration(ILog *log, unsigned n, const std::vector<std::vector<uint32_t> > &edges, const float *current, float *next) const
@@ -59,7 +59,7 @@ public:
 			  ) const
     {
       const std::vector<std::vector<uint32_t> > &edges=pInput->edges;
-      float tol=pInput->tol;
+      float tol=pow((pInput->tol),2.0);
       unsigned n=edges.size();
 
       log->LogInfo("Starting iterations.");
@@ -68,48 +68,20 @@ public:
       std::vector<float> next(n, 0.0f);
       float dist=norm(curr,next);
 	  
-	/*
-	  int flg = 0;
-      while( tol < dist ){
-		if (flg == 0){
-			log->LogVerbose("dist=%g", dist);
-			iteration(log, n, edges, &curr[0], &next[0]);
-			//std::swap(curr, next);
-			dist=norm(curr, next);
-			flg = 1;
-		}
-		else{
-			log->LogVerbose("dist=%g", dist);
-			iteration(log, n, edges, &next[0], &curr[0]);
-			//std::swap(curr, next);
-			dist=norm(curr, next);
-		}
-      }
-      if (flg == 1){
-		pOutput->ranks=curr;
-      }
-	  else{
-		 pOutput->ranks=next; 
-	  }*/
-	  
-	   /*while( tol < dist ){
-		if (flg == 0){
-			log->LogVerbose("dist=%g", dist);
-			iteration(log, n, edges, &curr[0], &next[0]);
-			//std::swap(curr, next);
-			dist=norm(curr, next);
-			flg = 1;
-		}
-	   }
-	  */
-	        while( tol < dist ){
+
+	   while( tol < dist ){
         log->LogVerbose("dist=%g", dist);
         iteration(log, n, edges, &curr[0], &next[0]);
-        std::swap(curr, next);
+		if(tol >= norm(curr, next)){
+			pOutput->ranks=next;
+			break;
+		}
+		iteration(log, n, edges, &next[0], &curr[0]);
+        //std::swap(curr, next);
         dist=norm(curr, next);
       }
 	  
-	  
+	  pOutput->ranks=curr;
       log->LogInfo("Finished");
     }
 
