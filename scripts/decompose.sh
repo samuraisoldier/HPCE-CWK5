@@ -10,7 +10,7 @@ for SCALE in $SCALES ; do
 	if [ ! -f w/$puzzle.$i.input ]; then
 		bin/create_puzzle_input $puzzle $i > w/$puzzle.$i.input
 	fi
-  
+ echo ${SCALE} 
   echo ${SCALE} >> results/decomposetbb.txt
     echo -e '\r' >> results/decomposetbb.txt
 	echo 'opt' >> results/decomposetbb.txt
