@@ -1,96 +1,72 @@
-176450
+462450
 
-[execute_puzzle], 1551435597.28, 2, Created log.
-[execute_puzzle], 1551435604.52, 2, Loaded input, puzzle=rank
-[execute_puzzle], 1551435604.52, 2, Begin reference
-[execute_puzzle], 1551435604.52, 2, Starting iterations.
-[execute_puzzle], 1551435604.73, 2, Finished
-[execute_puzzle], 1551435604.73, 2, Finished reference
+[execute_puzzle], 1551440957.55, 2, Created log.
+[execute_puzzle], 1551440979.23, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551440979.23, 2, Begin reference
+[execute_puzzle], 1551440979.23, 2, Starting iterations.
+[execute_puzzle], 1551440979.94, 2, Finished
+[execute_puzzle], 1551440979.94, 2, Finished reference
 
-real	0m9.035s
-user	0m0.000s
-sys	0m0.076s
+real	0m25.704s
+user	0m0.015s
+sys	0m0.077s
 
 
-[execute_puzzle], 1551435606.33, 2, Created log.
-[execute_puzzle], 1551435613.52, 2, Loaded input, puzzle=rank
-[execute_puzzle], 1551435613.52, 2, Begin execution
-[execute_puzzle], 1551435613.52, 2, Starting iterations.
-[execute_puzzle], 1551435613.72, 2, Finished
-[execute_puzzle], 1551435613.72, 2, Finished execution
+[execute_puzzle], 1551440983.26, 2, Created log.
+[execute_puzzle], 1551441004.94, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551441004.94, 2, Begin execution
+[execute_puzzle], 1551441004.94, 2, Starting iterations.
+[execute_puzzle], 1551441008.19, 2, Finished
+[execute_puzzle], 1551441008.19, 2, Finished execution
 
-real	0m8.952s
+real	0m28.252s
 user	0m0.000s
 sys	0m0.061s
 
 
-[execute_puzzle], 1551435615.29, 2, Created log.
-[execute_puzzle], 1551435615.29, 2, Loading input .tmp/rank.176450.input
-[execute_puzzle], 1551435626.07, 2, Creating puzzle rank to match input
-[execute_puzzle], 1551435626.07, 2, Loading reference .tmp/rank.176450.ref
-[execute_puzzle], 1551435626.79, 2, Loading got .tmp/rank.176450.rank.opt.got
-[execute_puzzle], 1551435627.51, 2, Outputs are equal.
+[execute_puzzle], 1551441011.51, 2, Created log.
+[execute_puzzle], 1551441011.51, 2, Loading input .tmp/rank.462450.input
+[execute_puzzle], 1551441044.26, 2, Creating puzzle rank to match input
+[execute_puzzle], 1551441044.26, 2, Loading reference .tmp/rank.462450.ref
+[execute_puzzle], 1551441046.17, 2, Loading got .tmp/rank.462450.rank.opt.got
+[execute_puzzle], 1551441048.10, 2, Outputs are equal.
 
 
 
-1488450
+504150
 
-[execute_puzzle], 1551435824.87, 2, Created log.
-[execute_puzzle], 1551435909.70, 2, Loaded input, puzzle=rank
-[execute_puzzle], 1551435909.70, 2, Begin reference
-[execute_puzzle], 1551435909.70, 2, Starting iterations.
-[execute_puzzle], 1551435914.55, 2, Finished
-[execute_puzzle], 1551435914.55, 2, Finished reference
+[execute_puzzle], 1551441102.37, 2, Created log.
+[execute_puzzle], 1551441125.89, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551441125.89, 2, Begin reference
+[execute_puzzle], 1551441125.89, 2, Starting iterations.
+[execute_puzzle], 1551441126.69, 2, Finished
+[execute_puzzle], 1551441126.69, 2, Finished reference
 
-real	1m39.978s
+real	0m27.917s
 user	0m0.015s
-sys	0m0.248s
-
-
-[execute_puzzle], 1551435924.87, 2, Created log.
-[execute_puzzle], 1551436009.47, 2, Loaded input, puzzle=rank
-[execute_puzzle], 1551436009.47, 2, Begin execution
-[execute_puzzle], 1551436009.47, 2, Starting iterations.
-[execute_puzzle], 1551436014.06, 2, Finished
-[execute_puzzle], 1551436014.06, 2, Finished execution
-
-real	1m39.516s
-user	0m0.000s
-sys	0m0.233s
-
-
-276450
-
-[execute_puzzle], 1551438652.67, 2, Created log.
-[execute_puzzle], 1551438665.27, 2, Loaded input, puzzle=rank
-[execute_puzzle], 1551438665.27, 2, Begin reference
-[execute_puzzle], 1551438665.27, 2, Starting iterations.
-[execute_puzzle], 1551438665.67, 2, Finished
-[execute_puzzle], 1551438665.67, 2, Finished reference
-
-real	0m15.280s
-user	0m0.030s
 sys	0m0.061s
 
 
-[execute_puzzle], 1551438668.03, 2, Created log.
-[execute_puzzle], 1551438681.01, 2, Loaded input, puzzle=rank
-[execute_puzzle], 1551438681.01, 2, Begin execution
-[execute_puzzle], 1551438681.01, 2, Starting iterations.
-[execute_puzzle], 1551438682.15, 2, Finished
-[execute_puzzle], 1551438682.15, 2, Finished execution
+[execute_puzzle], 1551441130.30, 2, Created log.
+[execute_puzzle], 1551441153.81, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551441153.81, 2, Begin execution
+[execute_puzzle], 1551441153.81, 2, Starting iterations.
+[execute_puzzle], 1551441156.09, 2, Finished
+[execute_puzzle], 1551441156.09, 2, Finished execution
 
-real	0m16.382s
-user	0m0.015s
-sys	0m0.108s
-
-
-[execute_puzzle], 1551438684.34, 2, Created log.
-[execute_puzzle], 1551438684.34, 2, Loading input .tmp/rank.276450.input
-[execute_puzzle], 1551438705.39, 2, Creating puzzle rank to match input
-[execute_puzzle], 1551438705.39, 2, Loading reference .tmp/rank.276450.ref
-[execute_puzzle], 1551438707.15, 2, Loading got .tmp/rank.276450.rank.opt.got
-[execute_puzzle], 1551438708.85, 2, Outputs are equal.
+real	0m29.373s
+user	0m0.000s
+sys	0m0.077s
 
 
+[execute_puzzle], 1551441159.67, 2, Created log.
+[execute_puzzle], 1551441159.67, 2, Loading input .tmp/rank.504150.input
+[execute_puzzle], 1551441195.97, 2, Creating puzzle rank to match input
+[execute_puzzle], 1551441195.97, 2, Loading reference .tmp/rank.504150.ref
+[execute_puzzle], 1551441198.07, 2, Loading got .tmp/rank.504150.rank.opt.got
+[execute_puzzle], 1551441200.16, 2, Outputs are equal.
+
+
+
+547650
 

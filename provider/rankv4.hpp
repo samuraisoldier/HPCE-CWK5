@@ -24,9 +24,9 @@ public:
 
     void iteration(ILog *log, unsigned n, const std::vector<std::vector<uint32_t> > &edges, const float *current, float *next) const
     {
-      //for(unsigned i=0; i<n; i++){
-       // next[i]=0;
-      //}
+      for(unsigned i=0; i<n; i++){
+        next[i]=0;
+      }
       for(unsigned i=0; i<n; i++){
 	  
 	  //tbb::parallel_for(0u,n,[&](unsigned i){
@@ -67,15 +67,49 @@ public:
       curr[0]=1.0;
       std::vector<float> next(n, 0.0f);
       float dist=norm(curr,next);
+	  
+	/*
+	  int flg = 0;
       while( tol < dist ){
+		if (flg == 0){
+			log->LogVerbose("dist=%g", dist);
+			iteration(log, n, edges, &curr[0], &next[0]);
+			//std::swap(curr, next);
+			dist=norm(curr, next);
+			flg = 1;
+		}
+		else{
+			log->LogVerbose("dist=%g", dist);
+			iteration(log, n, edges, &next[0], &curr[0]);
+			//std::swap(curr, next);
+			dist=norm(curr, next);
+		}
+      }
+      if (flg == 1){
+		pOutput->ranks=curr;
+      }
+	  else{
+		 pOutput->ranks=next; 
+	  }*/
+	  
+	   /*while( tol < dist ){
+		if (flg == 0){
+			log->LogVerbose("dist=%g", dist);
+			iteration(log, n, edges, &curr[0], &next[0]);
+			//std::swap(curr, next);
+			dist=norm(curr, next);
+			flg = 1;
+		}
+	   }
+	  */
+	        while( tol < dist ){
         log->LogVerbose("dist=%g", dist);
         iteration(log, n, edges, &curr[0], &next[0]);
         std::swap(curr, next);
         dist=norm(curr, next);
       }
-      
-      pOutput->ranks=curr;
-      
+	  
+	  
       log->LogInfo("Finished");
     }
 

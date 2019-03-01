@@ -3,6 +3,7 @@
 #define CL_USE_DEPRECATED_OPENCL_1_2_APIS
 #define __CL_ENABLE_EXCEPTIONS 
 #include "CL/cl.hpp"
+#include "tbb/atomic.h"
 
 #include <fstream>
 #include <streambuf>
@@ -216,9 +217,13 @@ public:
 	  
       log->LogInfo("Building random matrix");
       std::vector<uint32_t> matrix(rr*cc);
+	  tbb::parallel_for(0u,unsigned(matrix.size()),[&](unsigned i){
+        matrix[i]=make_bit(pInput->seed, i);
+      });
+	  /*
       for(unsigned i=0; i<matrix.size(); i++){
         matrix[i]=make_bit(pInput->seed, i);
-      }
+      }*/
       dump(log, Log_Verbose, rr, cc, &matrix[0]);
       
       log->LogInfo("Doing the decomposition");		
@@ -229,10 +234,15 @@ public:
       
       log->LogInfo("Collecting decomposed hash.");
       dump(log, Log_Verbose, rr, cc, &matrix[0]);
-      uint64_t hash=0;
+      /*uint64_t hash=0;
       for(unsigned i=0; i<matrix.size(); i++){
         hash += uint64_t(matrix[i])*i;
-      }
+      }*/
+	  tbb::atomic<uint64_t> hash=0;
+	  tbb::parallel_for(0u,unsigned(matrix.size()),[&](unsigned i){
+        hash += uint64_t(matrix[i])*i;
+      });
+	  
       pOutput->hash=hash;
       
       log->LogInfo("Finished");
