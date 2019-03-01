@@ -1,468 +1,136 @@
 35
 
-[execute_puzzle], 1551463165.80, 2, Created log.
-[execute_puzzle], 1551463165.80, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463165.80, 2, Begin reference
-[execute_puzzle], 1551463165.80, 2, Building random matrix
-[execute_puzzle], 1551463165.80, 2, Doing the decomposition
-[execute_puzzle], 1551463165.80, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463165.80, 2, Finished
-[execute_puzzle], 1551463165.80, 2, Finished reference
+opt
 
-real	0m0.460s
+
+real	0m0.543s
+user	0m0.000s
+sys	0m0.046s
+
+tbbif
+
+[execute_puzzle], 1551473874.00, 2, Created log.
+[execute_puzzle], 1551473874.00, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551473874.00, 2, Begin execution
+[execute_puzzle], 1551473874.00, 2, Building random matrix
+[execute_puzzle], 1551473874.00, 2, Doing the decomposition
+[execute_puzzle], 1551473874.00, 2, Collecting decomposed hash.
+[execute_puzzle], 1551473874.00, 2, Finished
+[execute_puzzle], 1551473874.00, 2, Finished execution
+
+real	0m0.491s
 user	0m0.000s
 sys	0m0.045s
 
 
-[execute_puzzle], 1551463166.26, 2, Created log.
-[execute_puzzle], 1551463166.26, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463166.26, 2, Begin execution
-[execute_puzzle], 1551463166.26, 2, Building random matrix
-[execute_puzzle], 1551463166.27, 2, Doing the decomposition
-[execute_puzzle], 1551463166.27, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463166.27, 2, Finished
-[execute_puzzle], 1551463166.27, 2, Finished execution
+[execute_puzzle], 1551473874.46, 2, Created log.
+[execute_puzzle], 1551473874.46, 2, Loading input w/decompose.35.input
+[execute_puzzle], 1551473874.46, 2, Creating puzzle decompose to match input
+[execute_puzzle], 1551473874.46, 2, Loading reference w/decompose.35.decompose.tbbif.got
+[execute_puzzle], 1551473874.46, 2, Loading got w/decompose.35.decompose.opt.got
+Caught exception : FileInStream::Recv - Not all data was recieved, m_offset=0, todo=4, errno=0
 
-real	0m0.436s
+
+
+103
+
+opt
+
+
+real	0m0.387s
 user	0m0.000s
+sys	0m0.030s
+
+tbbif
+
+[execute_puzzle], 1551473875.40, 2, Created log.
+[execute_puzzle], 1551473875.40, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551473875.40, 2, Begin execution
+[execute_puzzle], 1551473875.40, 2, Building random matrix
+[execute_puzzle], 1551473875.40, 2, Doing the decomposition
+[execute_puzzle], 1551473875.41, 2, Collecting decomposed hash.
+[execute_puzzle], 1551473875.41, 2, Finished
+[execute_puzzle], 1551473875.41, 2, Finished execution
+
+real	0m0.468s
+user	0m0.015s
 sys	0m0.045s
 
 
-[execute_puzzle], 1551463166.70, 2, Created log.
-[execute_puzzle], 1551463166.70, 2, Loading input .tmp/decompose.35.input
-[execute_puzzle], 1551463166.70, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551463166.70, 2, Loading reference .tmp/decompose.35.ref
-[execute_puzzle], 1551463166.70, 2, Loading got .tmp/decompose.35.decompose.tbb.got
-[execute_puzzle], 1551463166.70, 2, Outputs are equal.
+[execute_puzzle], 1551473875.84, 2, Created log.
+[execute_puzzle], 1551473875.84, 2, Loading input w/decompose.103.input
+[execute_puzzle], 1551473875.84, 2, Creating puzzle decompose to match input
+[execute_puzzle], 1551473875.84, 2, Loading reference w/decompose.103.decompose.tbbif.got
+[execute_puzzle], 1551473875.84, 2, Loading got w/decompose.103.decompose.opt.got
+Caught exception : FileInStream::Recv - Not all data was recieved, m_offset=0, todo=4, errno=0
 
 
 
-774
+183
 
-[execute_puzzle], 1551463167.61, 2, Created log.
-[execute_puzzle], 1551463167.61, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463167.61, 2, Begin reference
-[execute_puzzle], 1551463167.61, 2, Building random matrix
-[execute_puzzle], 1551463167.62, 2, Doing the decomposition
-[execute_puzzle], 1551463169.79, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463169.79, 2, Finished
-[execute_puzzle], 1551463169.79, 2, Finished reference
+opt
 
-real	0m2.667s
+
+real	0m0.386s
 user	0m0.000s
 sys	0m0.061s
 
+tbbif
 
-[execute_puzzle], 1551463170.30, 2, Created log.
-[execute_puzzle], 1551463170.30, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463170.30, 2, Begin execution
-[execute_puzzle], 1551463170.30, 2, Building random matrix
-[execute_puzzle], 1551463170.30, 2, Doing the decomposition
-[execute_puzzle], 1551463172.70, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463172.71, 2, Finished
-[execute_puzzle], 1551463172.72, 2, Finished execution
+[execute_puzzle], 1551473876.97, 2, Created log.
+[execute_puzzle], 1551473876.97, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551473876.97, 2, Begin execution
+[execute_puzzle], 1551473876.97, 2, Building random matrix
+[execute_puzzle], 1551473876.97, 2, Doing the decomposition
+[execute_puzzle], 1551473877.01, 2, Collecting decomposed hash.
+[execute_puzzle], 1551473877.01, 2, Finished
+[execute_puzzle], 1551473877.01, 2, Finished execution
 
-real	0m2.854s
-user	0m0.015s
-sys	0m0.045s
-
-
-[execute_puzzle], 1551463173.16, 2, Created log.
-[execute_puzzle], 1551463173.16, 2, Loading input .tmp/decompose.774.input
-[execute_puzzle], 1551463173.16, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551463173.16, 2, Loading reference .tmp/decompose.774.ref
-[execute_puzzle], 1551463173.16, 2, Loading got .tmp/decompose.774.decompose.tbb.got
-[execute_puzzle], 1551463173.16, 2, Outputs are equal.
+real	0m0.714s
+user	0m0.000s
+sys	0m0.046s
 
 
+[execute_puzzle], 1551473877.43, 2, Created log.
+[execute_puzzle], 1551473877.43, 2, Loading input w/decompose.183.input
+[execute_puzzle], 1551473877.43, 2, Creating puzzle decompose to match input
+[execute_puzzle], 1551473877.43, 2, Loading reference w/decompose.183.decompose.tbbif.got
+[execute_puzzle], 1551473877.43, 2, Loading got w/decompose.183.decompose.opt.got
+Caught exception : FileInStream::Recv - Not all data was recieved, m_offset=0, todo=4, errno=0
 
-1227
 
-[execute_puzzle], 1551463174.14, 2, Created log.
-[execute_puzzle], 1551463174.14, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463174.14, 2, Begin reference
-[execute_puzzle], 1551463174.14, 2, Building random matrix
-[execute_puzzle], 1551463174.15, 2, Doing the decomposition
-[execute_puzzle], 1551463182.40, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463182.40, 2, Finished
-[execute_puzzle], 1551463182.41, 2, Finished reference
 
-real	0m8.819s
+271
+
+opt
+
+
+real	0m0.399s
+user	0m0.000s
+sys	0m0.061s
+
+tbbif
+
+[execute_puzzle], 1551473878.34, 2, Created log.
+[execute_puzzle], 1551473878.34, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551473878.34, 2, Begin execution
+[execute_puzzle], 1551473878.34, 2, Building random matrix
+[execute_puzzle], 1551473878.34, 2, Doing the decomposition
+[execute_puzzle], 1551473878.39, 2, Collecting decomposed hash.
+[execute_puzzle], 1551473878.39, 2, Finished
+[execute_puzzle], 1551473878.39, 2, Finished execution
+
+real	0m0.494s
 user	0m0.000s
 sys	0m0.030s
 
 
-[execute_puzzle], 1551463182.92, 2, Created log.
-[execute_puzzle], 1551463182.92, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463182.92, 2, Begin execution
-[execute_puzzle], 1551463182.92, 2, Building random matrix
-[execute_puzzle], 1551463182.92, 2, Doing the decomposition
-[execute_puzzle], 1551463191.46, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463191.50, 2, Finished
-[execute_puzzle], 1551463191.50, 2, Finished execution
-
-real	0m9.070s
-user	0m0.000s
-sys	0m0.030s
-
-
-[execute_puzzle], 1551463192.05, 2, Created log.
-[execute_puzzle], 1551463192.05, 2, Loading input .tmp/decompose.1227.input
-[execute_puzzle], 1551463192.05, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551463192.05, 2, Loading reference .tmp/decompose.1227.ref
-[execute_puzzle], 1551463192.05, 2, Loading got .tmp/decompose.1227.decompose.tbb.got
-[execute_puzzle], 1551463192.05, 2, Outputs are equal.
-
-
-
-2090
-
-[execute_puzzle], 1551463193.31, 2, Created log.
-[execute_puzzle], 1551463193.31, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463193.31, 2, Begin reference
-[execute_puzzle], 1551463193.31, 2, Building random matrix
-[execute_puzzle], 1551463193.37, 2, Doing the decomposition
-[execute_puzzle], 1551463246.51, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463246.52, 2, Finished
-[execute_puzzle], 1551463246.52, 2, Finished reference
-
-real	0m54.333s
-user	0m0.030s
-sys	0m0.031s
-
-
-[execute_puzzle], 1551463247.54, 2, Created log.
-[execute_puzzle], 1551463247.54, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463247.54, 2, Begin execution
-[execute_puzzle], 1551463247.54, 2, Building random matrix
-[execute_puzzle], 1551463247.56, 2, Doing the decomposition
-[execute_puzzle], 1551463284.24, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463284.35, 2, Finished
-[execute_puzzle], 1551463284.36, 2, Finished execution
-
-real	0m37.821s
-user	0m0.046s
-sys	0m0.015s
-
-
-[execute_puzzle], 1551463285.35, 2, Created log.
-[execute_puzzle], 1551463285.35, 2, Loading input .tmp/decompose.2090.input
-[execute_puzzle], 1551463285.35, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551463285.35, 2, Loading reference .tmp/decompose.2090.ref
-[execute_puzzle], 1551463285.35, 2, Loading got .tmp/decompose.2090.decompose.tbb.got
-[execute_puzzle], 1551463285.35, 2, Outputs are equal.
-
-
-
-2482
-
-[execute_puzzle], 1551463286.26, 2, Created log.
-[execute_puzzle], 1551463286.26, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463286.26, 2, Begin reference
-[execute_puzzle], 1551463286.26, 2, Building random matrix
-[execute_puzzle], 1551463286.30, 2, Doing the decomposition
-[execute_puzzle], 1551463375.87, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463375.87, 2, Finished
-[execute_puzzle], 1551463375.88, 2, Finished reference
-
-real	1m30.630s
-user	0m0.000s
-sys	0m0.045s
-
-
-[execute_puzzle], 1551463376.89, 2, Created log.
-[execute_puzzle], 1551463376.89, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463376.89, 2, Begin execution
-[execute_puzzle], 1551463376.89, 2, Building random matrix
-[execute_puzzle], 1551463376.92, 2, Doing the decomposition
-[execute_puzzle], 1551463437.78, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463438.00, 2, Finished
-[execute_puzzle], 1551463438.00, 2, Finished execution
-
-real	1m2.110s
-user	0m0.000s
-sys	0m0.045s
-
-
-[execute_puzzle], 1551463439.01, 2, Created log.
-[execute_puzzle], 1551463439.01, 2, Loading input .tmp/decompose.2482.input
-[execute_puzzle], 1551463439.01, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551463439.01, 2, Loading reference .tmp/decompose.2482.ref
-[execute_puzzle], 1551463439.01, 2, Loading got .tmp/decompose.2482.decompose.tbb.got
-[execute_puzzle], 1551463439.01, 2, Outputs are equal.
-
-
-
-3434
-
-[execute_puzzle], 1551463439.90, 2, Created log.
-[execute_puzzle], 1551463439.90, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463439.90, 2, Begin reference
-[execute_puzzle], 1551463439.90, 2, Building random matrix
-[execute_puzzle], 1551463439.97, 2, Doing the decomposition
-[execute_puzzle], 1551463689.36, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463689.37, 2, Finished
-[execute_puzzle], 1551463689.38, 2, Finished reference
-
-real	4m10.477s
-user	0m0.000s
-sys	0m0.031s
-
-
-[execute_puzzle], 1551463690.40, 2, Created log.
-[execute_puzzle], 1551463690.40, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551463690.40, 2, Begin execution
-[execute_puzzle], 1551463690.40, 2, Building random matrix
-[execute_puzzle], 1551463690.45, 2, Doing the decomposition
-[execute_puzzle], 1551463851.01, 2, Collecting decomposed hash.
-[execute_puzzle], 1551463851.32, 2, Finished
-[execute_puzzle], 1551463851.34, 2, Finished execution
-
-real	2m41.948s
-user	0m0.015s
-sys	0m0.015s
-
-
-[execute_puzzle], 1551463852.37, 2, Created log.
-[execute_puzzle], 1551463852.37, 2, Loading input .tmp/decompose.3434.input
-[execute_puzzle], 1551463852.37, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551463852.37, 2, Loading reference .tmp/decompose.3434.ref
-[execute_puzzle], 1551463852.37, 2, Loading got .tmp/decompose.3434.decompose.tbb.got
-[execute_puzzle], 1551463852.37, 2, Outputs are equal.
-
-
-
-35
-
-[execute_puzzle], 1551464223.56, 2, Created log.
-[execute_puzzle], 1551464223.56, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464223.56, 2, Begin reference
-[execute_puzzle], 1551464223.56, 2, Building random matrix
-[execute_puzzle], 1551464223.56, 2, Doing the decomposition
-[execute_puzzle], 1551464223.56, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464223.56, 2, Finished
-[execute_puzzle], 1551464223.56, 2, Finished reference
-
-real	0m2.248s
-user	0m0.008s
-sys	0m0.972s
-
-
-[execute_puzzle], 1551464225.79, 2, Created log.
-[execute_puzzle], 1551464225.79, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464225.79, 2, Begin execution
-[execute_puzzle], 1551464225.79, 2, Building random matrix
-[execute_puzzle], 1551464225.79, 2, Doing the decomposition
-[execute_puzzle], 1551464225.80, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464225.80, 2, Finished
-[execute_puzzle], 1551464225.80, 2, Finished execution
-
-real	0m2.235s
-user	0m0.000s
-sys	0m1.000s
-
-
-[execute_puzzle], 1551464228.15, 2, Created log.
-[execute_puzzle], 1551464228.15, 2, Loading input .tmp/decompose.35.input
-[execute_puzzle], 1551464228.15, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551464228.15, 2, Loading reference .tmp/decompose.35.ref
-[execute_puzzle], 1551464228.15, 2, Loading got .tmp/decompose.35.decompose.tbb.got
-[execute_puzzle], 1551464228.15, 2, Outputs are equal.
-
-
-
-774
-
-[execute_puzzle], 1551464232.69, 2, Created log.
-[execute_puzzle], 1551464232.69, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464232.69, 2, Begin reference
-[execute_puzzle], 1551464232.69, 2, Building random matrix
-[execute_puzzle], 1551464232.69, 2, Doing the decomposition
-[execute_puzzle], 1551464235.87, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464235.87, 2, Finished
-[execute_puzzle], 1551464235.87, 2, Finished reference
-
-real	0m5.411s
-user	0m3.196s
-sys	0m0.948s
-
-
-[execute_puzzle], 1551464238.18, 2, Created log.
-[execute_puzzle], 1551464238.18, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464238.18, 2, Begin execution
-[execute_puzzle], 1551464238.18, 2, Building random matrix
-[execute_puzzle], 1551464238.18, 2, Doing the decomposition
-[execute_puzzle], 1551464239.75, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464239.77, 2, Finished
-[execute_puzzle], 1551464239.77, 2, Finished execution
-
-real	0m3.900s
-user	0m24.544s
-sys	0m1.464s
-
-
-[execute_puzzle], 1551464242.13, 2, Created log.
-[execute_puzzle], 1551464242.13, 2, Loading input .tmp/decompose.774.input
-[execute_puzzle], 1551464242.13, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551464242.13, 2, Loading reference .tmp/decompose.774.ref
-[execute_puzzle], 1551464242.13, 2, Loading got .tmp/decompose.774.decompose.tbb.got
-[execute_puzzle], 1551464242.13, 2, Outputs are equal.
-
-
-
-1227
-
-[execute_puzzle], 1551464246.71, 2, Created log.
-[execute_puzzle], 1551464246.71, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464246.71, 2, Begin reference
-[execute_puzzle], 1551464246.71, 2, Building random matrix
-[execute_puzzle], 1551464246.72, 2, Doing the decomposition
-[execute_puzzle], 1551464255.68, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464255.68, 2, Finished
-[execute_puzzle], 1551464255.68, 2, Finished reference
-
-real	0m11.184s
-user	0m8.980s
-sys	0m0.948s
-
-
-[execute_puzzle], 1551464257.91, 2, Created log.
-[execute_puzzle], 1551464257.91, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464257.91, 2, Begin execution
-[execute_puzzle], 1551464257.91, 2, Building random matrix
-[execute_puzzle], 1551464257.91, 2, Doing the decomposition
-[execute_puzzle], 1551464262.59, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464262.64, 2, Finished
-[execute_puzzle], 1551464262.64, 2, Finished execution
-
-real	0m6.963s
-user	1m15.024s
-sys	0m1.388s
-
-
-[execute_puzzle], 1551464265.00, 2, Created log.
-[execute_puzzle], 1551464265.00, 2, Loading input .tmp/decompose.1227.input
-[execute_puzzle], 1551464265.00, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551464265.00, 2, Loading reference .tmp/decompose.1227.ref
-[execute_puzzle], 1551464265.00, 2, Loading got .tmp/decompose.1227.decompose.tbb.got
-[execute_puzzle], 1551464265.00, 2, Outputs are equal.
-
-
-
-2090
-
-[execute_puzzle], 1551464269.39, 2, Created log.
-[execute_puzzle], 1551464269.39, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464269.39, 2, Begin reference
-[execute_puzzle], 1551464269.39, 2, Building random matrix
-[execute_puzzle], 1551464269.41, 2, Doing the decomposition
-[execute_puzzle], 1551464316.94, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464316.94, 2, Finished
-[execute_puzzle], 1551464316.95, 2, Finished reference
-
-real	0m49.771s
-user	0m47.564s
-sys	0m0.948s
-
-
-[execute_puzzle], 1551464319.14, 2, Created log.
-[execute_puzzle], 1551464319.14, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464319.14, 2, Begin execution
-[execute_puzzle], 1551464319.14, 2, Building random matrix
-[execute_puzzle], 1551464319.16, 2, Doing the decomposition
-[execute_puzzle], 1551464335.21, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464335.36, 2, Finished
-[execute_puzzle], 1551464335.36, 2, Finished execution
-
-real	0m18.420s
-user	4m18.356s
-sys	0m1.752s
-
-
-[execute_puzzle], 1551464337.72, 2, Created log.
-[execute_puzzle], 1551464337.72, 2, Loading input .tmp/decompose.2090.input
-[execute_puzzle], 1551464337.72, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551464337.72, 2, Loading reference .tmp/decompose.2090.ref
-[execute_puzzle], 1551464337.72, 2, Loading got .tmp/decompose.2090.decompose.tbb.got
-[execute_puzzle], 1551464337.72, 2, Outputs are equal.
-
-
-
-2482
-
-[execute_puzzle], 1551464342.28, 2, Created log.
-[execute_puzzle], 1551464342.28, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464342.28, 2, Begin reference
-[execute_puzzle], 1551464342.28, 2, Building random matrix
-[execute_puzzle], 1551464342.32, 2, Doing the decomposition
-[execute_puzzle], 1551464430.58, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464430.59, 2, Finished
-[execute_puzzle], 1551464430.59, 2, Finished reference
-
-real	1m30.676s
-user	1m28.316s
-sys	0m0.936s
-
-
-[execute_puzzle], 1551464432.79, 2, Created log.
-[execute_puzzle], 1551464432.79, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464432.79, 2, Begin execution
-[execute_puzzle], 1551464432.79, 2, Building random matrix
-[execute_puzzle], 1551464432.81, 2, Doing the decomposition
-[execute_puzzle], 1551464456.78, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464457.02, 2, Finished
-[execute_puzzle], 1551464457.02, 2, Finished execution
-
-real	0m26.432s
-user	6m26.480s
-sys	0m1.624s
-
-
-[execute_puzzle], 1551464459.24, 2, Created log.
-[execute_puzzle], 1551464459.24, 2, Loading input .tmp/decompose.2482.input
-[execute_puzzle], 1551464459.24, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551464459.24, 2, Loading reference .tmp/decompose.2482.ref
-[execute_puzzle], 1551464459.24, 2, Loading got .tmp/decompose.2482.decompose.tbb.got
-[execute_puzzle], 1551464459.24, 2, Outputs are equal.
-
-
-
-3434
-
-[execute_puzzle], 1551464463.71, 2, Created log.
-[execute_puzzle], 1551464463.71, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464463.71, 2, Begin reference
-[execute_puzzle], 1551464463.71, 2, Building random matrix
-[execute_puzzle], 1551464463.78, 2, Doing the decomposition
-[execute_puzzle], 1551464755.26, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464755.27, 2, Finished
-[execute_puzzle], 1551464755.27, 2, Finished reference
-
-real	4m53.848s
-user	4m51.468s
-sys	0m0.952s
-
-
-[execute_puzzle], 1551464757.61, 2, Created log.
-[execute_puzzle], 1551464757.61, 2, Loaded input, puzzle=decompose
-[execute_puzzle], 1551464757.61, 2, Begin execution
-[execute_puzzle], 1551464757.61, 2, Building random matrix
-[execute_puzzle], 1551464757.64, 2, Doing the decomposition
-[execute_puzzle], 1551464810.78, 2, Collecting decomposed hash.
-[execute_puzzle], 1551464811.24, 2, Finished
-[execute_puzzle], 1551464811.24, 2, Finished execution
-
-real	0m55.963s
-user	14m16.028s
-sys	0m2.152s
-
-
-[execute_puzzle], 1551464813.58, 2, Created log.
-[execute_puzzle], 1551464813.58, 2, Loading input .tmp/decompose.3434.input
-[execute_puzzle], 1551464813.58, 2, Creating puzzle decompose to match input
-[execute_puzzle], 1551464813.58, 2, Loading reference .tmp/decompose.3434.ref
-[execute_puzzle], 1551464813.58, 2, Loading got .tmp/decompose.3434.decompose.tbb.got
-[execute_puzzle], 1551464813.58, 2, Outputs are equal.
+[execute_puzzle], 1551473878.84, 2, Created log.
+[execute_puzzle], 1551473878.84, 2, Loading input w/decompose.271.input
+[execute_puzzle], 1551473878.84, 2, Creating puzzle decompose to match input
+[execute_puzzle], 1551473878.84, 2, Loading reference w/decompose.271.decompose.tbbif.got
+[execute_puzzle], 1551473878.84, 2, Loading got w/decompose.271.decompose.opt.got
+Caught exception : FileInStream::Recv - Not all data was recieved, m_offset=0, todo=4, errno=0
 
 
 

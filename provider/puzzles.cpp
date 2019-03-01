@@ -39,6 +39,7 @@ void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
   Register("decompose.opencl", std::make_shared<puzzler::DecomposeProviderv2>());
   //opt
   Register("integral.opt", std::make_shared<puzzler::IntegralProviderv3>());
+  Register("decompose.tbbif", std::make_shared<puzzler::DecomposeProviderv6>());
   Register("decompose.opt", std::make_shared<puzzler::DecomposeProvidervopt>());
   Register("ising.opt", std::make_shared<puzzler::IsingProviderv3>());
   Register("rank.opt", std::make_shared<puzzler::RankProviderv4>());
