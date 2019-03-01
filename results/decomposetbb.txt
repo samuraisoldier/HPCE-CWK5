@@ -1,0 +1,297 @@
+3716
+
+opt
+
+[execute_puzzle], 1551479566.57, 2, Created log.
+[execute_puzzle], 1551479566.57, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551479566.57, 2, Begin execution
+[execute_puzzle], 1551479566.57, 2, Building random matrix
+[execute_puzzle], 1551479566.59, 2, Doing the decomposition
+[execute_puzzle], 1551479651.71, 2, Collecting decomposed hash.
+[execute_puzzle], 1551479651.73, 2, Finished
+[execute_puzzle], 1551479651.73, 2, Finished execution
+
+real	1m27.203s
+user	10m26.324s
+sys	0m15.784s
+
+tbbif
+
+[execute_puzzle], 1551479653.76, 2, Created log.
+[execute_puzzle], 1551479653.76, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551479653.76, 2, Begin execution
+[execute_puzzle], 1551479653.76, 2, Building random matrix
+[execute_puzzle], 1551479653.78, 2, Doing the decomposition
+[execute_puzzle], 1551479688.94, 2, Collecting decomposed hash.
+[execute_puzzle], 1551479688.95, 2, Finished
+[execute_puzzle], 1551479688.95, 2, Finished execution
+
+real	0m37.220s
+user	9m14.732s
+sys	0m5.672s
+
+
+3858
+
+opt
+
+[execute_puzzle], 1551479692.89, 2, Created log.
+[execute_puzzle], 1551479692.89, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551479692.89, 2, Begin execution
+[execute_puzzle], 1551479692.89, 2, Building random matrix
+[execute_puzzle], 1551479692.92, 2, Doing the decomposition
+[execute_puzzle], 1551479786.67, 2, Collecting decomposed hash.
+[execute_puzzle], 1551479786.68, 2, Finished
+[execute_puzzle], 1551479786.68, 2, Finished execution
+
+real	1m35.764s
+user	11m29.024s
+sys	0m17.716s
+
+tbbif
+
+[execute_puzzle], 1551479788.66, 2, Created log.
+[execute_puzzle], 1551479788.66, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551479788.66, 2, Begin execution
+[execute_puzzle], 1551479788.66, 2, Building random matrix
+[execute_puzzle], 1551479788.68, 2, Doing the decomposition
+[execute_puzzle], 1551479827.42, 2, Collecting decomposed hash.
+[execute_puzzle], 1551479827.43, 2, Finished
+[execute_puzzle], 1551479827.43, 2, Finished execution
+
+real	0m40.751s
+user	10m11.208s
+sys	0m6.092s
+
+
+4001
+
+opt
+
+[execute_puzzle], 1551479831.64, 2, Created log.
+[execute_puzzle], 1551479831.64, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551479831.64, 2, Begin execution
+[execute_puzzle], 1551479831.64, 2, Building random matrix
+[execute_puzzle], 1551479831.67, 2, Doing the decomposition
+[execute_puzzle], 1551479935.74, 2, Collecting decomposed hash.
+[execute_puzzle], 1551479935.76, 2, Finished
+[execute_puzzle], 1551479935.76, 2, Finished execution
+
+real	1m46.360s
+user	12m41.800s
+sys	0m18.228s
+
+tbbif
+
+[execute_puzzle], 1551479937.96, 2, Created log.
+[execute_puzzle], 1551479937.96, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551479937.96, 2, Begin execution
+[execute_puzzle], 1551479937.96, 2, Building random matrix
+[execute_puzzle], 1551479937.98, 2, Doing the decomposition
+[execute_puzzle], 1551479980.22, 2, Collecting decomposed hash.
+[execute_puzzle], 1551479980.23, 2, Finished
+[execute_puzzle], 1551479980.24, 2, Finished execution
+
+real	0m44.476s
+user	11m7.116s
+sys	0m6.224s
+
+
+4144
+
+opt
+
+[execute_puzzle], 1551479984.56, 2, Created log.
+[execute_puzzle], 1551479984.56, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551479984.56, 2, Begin execution
+[execute_puzzle], 1551479984.56, 2, Building random matrix
+[execute_puzzle], 1551479984.59, 2, Doing the decomposition
+[execute_puzzle], 1551480099.47, 2, Collecting decomposed hash.
+[execute_puzzle], 1551480099.48, 2, Finished
+[execute_puzzle], 1551480099.48, 2, Finished execution
+
+real	1m57.172s
+user	14m3.608s
+sys	0m19.732s
+
+tbbif
+
+[execute_puzzle], 1551480101.73, 2, Created log.
+[execute_puzzle], 1551480101.73, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551480101.73, 2, Begin execution
+[execute_puzzle], 1551480101.73, 2, Building random matrix
+[execute_puzzle], 1551480101.76, 2, Doing the decomposition
+[execute_puzzle], 1551480149.39, 2, Collecting decomposed hash.
+[execute_puzzle], 1551480149.40, 2, Finished
+[execute_puzzle], 1551480149.41, 2, Finished execution
+
+real	0m49.923s
+user	12m31.924s
+sys	0m6.520s
+
+
+4289
+
+opt
+
+[execute_puzzle], 1551480153.39, 2, Created log.
+[execute_puzzle], 1551480153.39, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551480153.39, 2, Begin execution
+[execute_puzzle], 1551480153.39, 2, Building random matrix
+[execute_puzzle], 1551480153.42, 2, Doing the decomposition
+[execute_puzzle], 1551480280.23, 2, Collecting decomposed hash.
+[execute_puzzle], 1551480280.25, 2, Finished
+[execute_puzzle], 1551480280.25, 2, Finished execution
+
+real	2m8.836s
+user	15m38.904s
+sys	0m21.724s
+
+tbbif
+
+[execute_puzzle], 1551480282.50, 2, Created log.
+[execute_puzzle], 1551480282.50, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551480282.50, 2, Begin execution
+[execute_puzzle], 1551480282.50, 2, Building random matrix
+[execute_puzzle], 1551480282.53, 2, Doing the decomposition
+[execute_puzzle], 1551480335.07, 2, Collecting decomposed hash.
+[execute_puzzle], 1551480335.09, 2, Finished
+[execute_puzzle], 1551480335.09, 2, Finished execution
+
+real	0m54.835s
+user	13m50.620s
+sys	0m6.544s
+
+
+4434
+
+opt
+
+[execute_puzzle], 1551480339.07, 2, Created log.
+[execute_puzzle], 1551480339.07, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551480339.07, 2, Begin execution
+[execute_puzzle], 1551480339.07, 2, Building random matrix
+[execute_puzzle], 1551480339.10, 2, Doing the decomposition
+[execute_puzzle], 1551480477.89, 2, Collecting decomposed hash.
+[execute_puzzle], 1551480477.91, 2, Finished
+[execute_puzzle], 1551480477.91, 2, Finished execution
+
+real	2m20.820s
+user	17m15.976s
+sys	0m24.668s
+
+tbbif
+
+[execute_puzzle], 1551480480.16, 2, Created log.
+[execute_puzzle], 1551480480.16, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551480480.16, 2, Begin execution
+[execute_puzzle], 1551480480.16, 2, Building random matrix
+[execute_puzzle], 1551480480.19, 2, Doing the decomposition
+[execute_puzzle], 1551480539.03, 2, Collecting decomposed hash.
+[execute_puzzle], 1551480539.04, 2, Finished
+[execute_puzzle], 1551480539.04, 2, Finished execution
+
+real	1m1.131s
+user	15m30.552s
+sys	0m6.556s
+
+
+4581
+
+opt
+
+[execute_puzzle], 1551480543.03, 2, Created log.
+[execute_puzzle], 1551480543.03, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551480543.03, 2, Begin execution
+[execute_puzzle], 1551480543.03, 2, Building random matrix
+[execute_puzzle], 1551480543.06, 2, Doing the decomposition
+[execute_puzzle], 1551480696.29, 2, Collecting decomposed hash.
+[execute_puzzle], 1551480696.31, 2, Finished
+[execute_puzzle], 1551480696.31, 2, Finished execution
+
+real	2m35.291s
+user	18m57.916s
+sys	0m24.088s
+
+tbbif
+
+[execute_puzzle], 1551480698.57, 2, Created log.
+[execute_puzzle], 1551480698.57, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551480698.57, 2, Begin execution
+[execute_puzzle], 1551480698.57, 2, Building random matrix
+[execute_puzzle], 1551480698.60, 2, Doing the decomposition
+[execute_puzzle], 1551480762.93, 2, Collecting decomposed hash.
+[execute_puzzle], 1551480762.95, 2, Finished
+[execute_puzzle], 1551480762.95, 2, Finished execution
+
+real	1m6.647s
+user	16m57.156s
+sys	0m7.316s
+
+
+4728
+
+opt
+
+[execute_puzzle], 1551480767.34, 2, Created log.
+[execute_puzzle], 1551480767.34, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551480767.34, 2, Begin execution
+[execute_puzzle], 1551480767.34, 2, Building random matrix
+[execute_puzzle], 1551480767.38, 2, Doing the decomposition
+[execute_puzzle], 1551480937.49, 2, Collecting decomposed hash.
+[execute_puzzle], 1551480937.51, 2, Finished
+[execute_puzzle], 1551480937.51, 2, Finished execution
+
+real	2m52.424s
+user	21m5.612s
+sys	0m24.412s
+
+tbbif
+
+[execute_puzzle], 1551480939.48, 2, Created log.
+[execute_puzzle], 1551480939.48, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551480939.48, 2, Begin execution
+[execute_puzzle], 1551480939.48, 2, Building random matrix
+[execute_puzzle], 1551480939.51, 2, Doing the decomposition
+[execute_puzzle], 1551481011.10, 2, Collecting decomposed hash.
+[execute_puzzle], 1551481011.12, 2, Finished
+[execute_puzzle], 1551481011.12, 2, Finished execution
+
+real	1m13.607s
+user	18m52.560s
+sys	0m7.548s
+
+
+4875
+
+opt
+
+[execute_puzzle], 1551481015.29, 2, Created log.
+[execute_puzzle], 1551481015.29, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551481015.29, 2, Begin execution
+[execute_puzzle], 1551481015.29, 2, Building random matrix
+[execute_puzzle], 1551481015.33, 2, Doing the decomposition
+[execute_puzzle], 1551481199.62, 2, Collecting decomposed hash.
+[execute_puzzle], 1551481199.64, 2, Finished
+[execute_puzzle], 1551481199.64, 2, Finished execution
+
+real	3m6.336s
+user	22m56.648s
+sys	0m24.868s
+
+tbbif
+
+[execute_puzzle], 1551481201.66, 2, Created log.
+[execute_puzzle], 1551481201.66, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551481201.66, 2, Begin execution
+[execute_puzzle], 1551481201.66, 2, Building random matrix
+[execute_puzzle], 1551481201.69, 2, Doing the decomposition
+[execute_puzzle], 1551481279.77, 2, Collecting decomposed hash.
+[execute_puzzle], 1551481279.79, 2, Finished
+[execute_puzzle], 1551481279.79, 2, Finished execution
+
+real	1m20.147s
+user	20m35.612s
+sys	0m7.684s
+
+
