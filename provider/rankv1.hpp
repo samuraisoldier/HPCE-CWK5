@@ -2,7 +2,7 @@
 #define user_rank_hppv1
 
 #include "puzzler/puzzles/rank.hpp"
-//#include "tbb/parallel_for.h"
+#include "tbb/parallel_for.h"
 
 namespace puzzler{
 class RankProviderv1
@@ -14,25 +14,24 @@ public:
     float norm(const std::vector<float> &a, const std::vector<float> &b) const
     {
       double acc=0;
-	  unsigned sze = a.size();
-	  tbb::parallel_for(0u,sze,[&](unsigned i){
-      //for(unsigned i=0; i<a.size(); i++){
+
+      for(unsigned i=0; i<a.size(); i++){
 		float subres = a[i]-b[i];
         acc += (subres*subres);
-      });
+      }
       return acc;
     }
 
     void iteration(ILog *log, unsigned n, const std::vector<std::vector<uint32_t> > &edges, const float *current, float *next) const
     {
       for(unsigned i=0; i<n; i++){
+	  //tbb::parallel_for(0u,n,[&](unsigned i){
         next[i]=0;
       }
       //for(unsigned i=0; i<n; i++){
 	  
 	  tbb::parallel_for(0u,n,[&](unsigned i){
-		unsigned sze = edges[i].size();
-		tbb::parallel_for(0u,sze,[&](unsigned j){
+		tbb::parallel_for(0u,unsigned(edges[i].size()),[&](unsigned j){
         //for(unsigned j=0; j<edges[i].size(); j++){
           int dst=edges[i][j];
           next[dst] += current[i] / edges[i].size();
