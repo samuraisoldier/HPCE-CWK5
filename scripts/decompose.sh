@@ -2,14 +2,14 @@
 ENGINE="decompose.opt"
 ENGINE2="decompose.tbbif"
 PUZZLE=${ENGINE%%.*}
-SCALES="35 103 183 271 364 461 562 667 774 884 996 1110 1227 1345 1465 1587 1711 1836 1962 2090 2219 2350 2482 2614 2748 2884 3020 3157 3295 3434"
+SCALES="2219 2350 2482 2614 2748 2884 3020 3157 3295 3434"
 WORKING=w
 mkdir ${WORKING}
 for SCALE in $SCALES ; do
   mkdir -p w
-	if [ ! -f w/$puzzle.$i.input ]; then
+#	if [ ! -f w/$puzzle.$i.input ]; then
 		bin/create_puzzle_input $puzzle $i > w/$puzzle.$i.input
-	fi
+#	fi
  echo ${SCALE} 
   echo ${SCALE} >> results/decomposetbb.txt
     echo -e '\r' >> results/decomposetbb.txt

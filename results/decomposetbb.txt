@@ -1296,3 +1296,263 @@ user	0m0.000s
 sys	0m0.876s
 
 
+2219
+
+opt
+
+[execute_puzzle], 1551476104.55, 2, Created log.
+[execute_puzzle], 1551476104.55, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551476104.55, 2, Begin execution
+[execute_puzzle], 1551476104.55, 2, Building random matrix
+[execute_puzzle], 1551476104.56, 2, Doing the decomposition
+[execute_puzzle], 1551476123.79, 2, Collecting decomposed hash.
+[execute_puzzle], 1551476123.80, 2, Finished
+[execute_puzzle], 1551476123.80, 2, Finished execution
+
+real	0m21.283s
+user	2m11.848s
+sys	0m6.888s
+
+tbbif
+
+[execute_puzzle], 1551476125.77, 2, Created log.
+[execute_puzzle], 1551476125.77, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551476125.77, 2, Begin execution
+[execute_puzzle], 1551476125.77, 2, Building random matrix
+[execute_puzzle], 1551476125.78, 2, Doing the decomposition
+[execute_puzzle], 1551476133.04, 2, Collecting decomposed hash.
+[execute_puzzle], 1551476133.04, 2, Finished
+[execute_puzzle], 1551476133.04, 2, Finished execution
+
+real	0m9.240s
+user	1m53.960s
+sys	0m2.608s
+
+
+2350
+
+opt
+
+[execute_puzzle], 1551476137.03, 2, Created log.
+[execute_puzzle], 1551476137.03, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551476137.03, 2, Begin execution
+[execute_puzzle], 1551476137.03, 2, Building random matrix
+[execute_puzzle], 1551476137.04, 2, Doing the decomposition
+[execute_puzzle], 1551476159.75, 2, Collecting decomposed hash.
+[execute_puzzle], 1551476159.76, 2, Finished
+[execute_puzzle], 1551476159.76, 2, Finished execution
+
+real	0m24.740s
+user	2m36.100s
+sys	0m6.144s
+
+tbbif
+
+[execute_puzzle], 1551476161.73, 2, Created log.
+[execute_puzzle], 1551476161.73, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551476161.73, 2, Begin execution
+[execute_puzzle], 1551476161.73, 2, Building random matrix
+[execute_puzzle], 1551476161.74, 2, Doing the decomposition
+[execute_puzzle], 1551476170.30, 2, Collecting decomposed hash.
+[execute_puzzle], 1551476170.31, 2, Finished
+[execute_puzzle], 1551476170.31, 2, Finished execution
+
+real	0m10.547s
+user	2m13.716s
+sys	0m3.836s
+
+
+2482
+
+opt
+
+[execute_puzzle], 1551476174.54, 2, Created log.
+[execute_puzzle], 1551476174.54, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551476174.54, 2, Begin execution
+[execute_puzzle], 1551476174.54, 2, Building random matrix
+[execute_puzzle], 1551476174.55, 2, Doing the decomposition
+[execute_puzzle], 1551476201.27, 2, Collecting decomposed hash.
+[execute_puzzle], 1551476201.28, 2, Finished
+[execute_puzzle], 1551476201.28, 2, Finished execution
+
+real	0m28.988s
+user	3m3.640s
+sys	0m8.064s
+
+tbbif
+
+[execute_puzzle], 1551476203.32, 2, Created log.
+[execute_puzzle], 1551476203.32, 2, Loaded input, puzzle=decompose
+[execute_puzzle], 1551476203.32, 2, Begin execution
+[execute_puzzle], 1551476203.32, 2, Building random matrix
+[execute_puzzle], 1551476203.33, 2, Doing the decomposition
+[execute_puzzle], 1551476213.45, 2, Collecting decomposed hash.
+[execute_puzzle], 1551476213.45, 2, Finished
+[execute_puzzle], 1551476213.45, 2, Finished execution
+
+real	0m12.176s
+user	2m38.824s
+sys	0m3.488s
+
+
+2614
+
+opt
+
+cat: w/decompose.2614.input: No such file or directory
+[execute_puzzle], 1551476217.40, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m1.968s
+user	0m0.000s
+sys	0m0.864s
+
+tbbif
+
+cat: w/decompose.2614.input: No such file or directory
+[execute_puzzle], 1551476219.66, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m2.260s
+user	0m0.008s
+sys	0m0.868s
+
+
+2748
+
+opt
+
+cat: w/decompose.2748.input: No such file or directory
+[execute_puzzle], 1551476223.57, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m1.972s
+user	0m0.008s
+sys	0m0.872s
+
+tbbif
+
+cat: w/decompose.2748.input: No such file or directory
+[execute_puzzle], 1551476225.55, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m1.983s
+user	0m0.008s
+sys	0m0.868s
+
+
+2884
+
+opt
+
+cat: w/decompose.2884.input: No such file or directory
+[execute_puzzle], 1551476229.75, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m1.976s
+user	0m0.012s
+sys	0m0.860s
+
+tbbif
+
+cat: w/decompose.2884.input: No such file or directory
+[execute_puzzle], 1551476231.72, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m1.975s
+user	0m0.008s
+sys	0m0.860s
+
+
+3020
+
+opt
+
+cat: w/decompose.3020.input: No such file or directory
+[execute_puzzle], 1551476235.68, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m1.980s
+user	0m0.008s
+sys	0m0.864s
+
+tbbif
+
+cat: w/decompose.3020.input: No such file or directory
+[execute_puzzle], 1551476237.76, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m2.084s
+user	0m0.004s
+sys	0m0.860s
+
+
+3157
+
+opt
+
+cat: w/decompose.3157.input: No such file or directory
+[execute_puzzle], 1551476242.00, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m1.988s
+user	0m0.008s
+sys	0m0.864s
+
+tbbif
+
+cat: w/decompose.3157.input: No such file or directory
+[execute_puzzle], 1551476243.98, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m1.971s
+user	0m0.008s
+sys	0m0.868s
+
+
+3295
+
+opt
+
+cat: w/decompose.3295.input: No such file or directory
+[execute_puzzle], 1551476248.19, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m2.251s
+user	0m0.008s
+sys	0m0.860s
+
+tbbif
+
+cat: w/decompose.3295.input: No such file or directory
+[execute_puzzle], 1551476250.45, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m2.255s
+user	0m0.012s
+sys	0m0.860s
+
+
+3434
+
+opt
+
+cat: w/decompose.3434.input: No such file or directory
+[execute_puzzle], 1551476254.67, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m2.236s
+user	0m0.008s
+sys	0m0.852s
+
+tbbif
+
+cat: w/decompose.3434.input: No such file or directory
+[execute_puzzle], 1551476256.68, 2, Created log.
+Caught exception : StdoutStream::Recv - End of file.
+
+real	0m2.008s
+user	0m0.012s
+sys	0m0.856s
+
+
