@@ -8,8 +8,9 @@ mkdir ${WORKING}
 for SCALE in $SCALES ; do
   mkdir -p w
 #	if [ ! -f w/$puzzle.$i.input ]; then
-		bin/create_puzzle_input $puzzle $i > w/$puzzle.$i.input
+#		bin/create_puzzle_input $puzzle $i > w/$puzzle.$i.input
 #	fi
+ bin/create_puzzle_input ${PUZZLE} ${SCALE} > ${WORKING}/${PUZZLE}.${SCALE}.input
  echo ${SCALE} 
   echo ${SCALE} >> results/decomposetbb.txt
     echo -e '\r' >> results/decomposetbb.txt
