@@ -1,5 +1,5 @@
 #!/bin/bash
-ENGINE="decompose.tbb"
+ENGINE="decompose.opt"
 PUZZLE=${ENGINE%%.*}
 SCALES="35 774  1227  2090  2482 3434"
 WORKING=.tmp
