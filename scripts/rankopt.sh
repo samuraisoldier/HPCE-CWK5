@@ -8,6 +8,9 @@ now=`date +%Y-%m-%d_%H-%M-%S`
 if [ ! -d results ]; then
 	mkdir results
 fi
+if [ ! -d w ]; then
+	mkdir w
+fi
 echo "i,N,engine,time(s)" > results/${now}_${puzzle}_times.csv
 n=0
 for engine in $engines ;
