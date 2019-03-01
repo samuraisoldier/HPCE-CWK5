@@ -111,7 +111,7 @@ public:
 		size_t mBuffer=rr*cc*4;
 		cl::Buffer buffM(context, CL_MEM_READ_WRITE, mBuffer);
 
-		cl::Kernel kernel(program, "decompose_kernel");
+		//cl::Kernel kernel(program, "decompose_kernel");
 		cl::Kernel kernel_2(program, "decompose_kernel_2");
 		kernel_2.setArg(0, rr);
 		kernel_2.setArg(1, cc);
@@ -119,9 +119,9 @@ public:
 
 		cl::CommandQueue queue(context, device);
 
-		kernel.setArg(0, rr);
-		kernel.setArg(1, cc);
-		kernel.setArg(2, buffM);
+		//kernel.setArg(0, rr);
+		//kernel.setArg(1, cc);
+		//kernel.setArg(2, buffM);
 		
 
 	    dump(log, Log_Debug, rr, cc, matrix);
@@ -138,8 +138,8 @@ public:
 			kernel_2.setArg(3, rank);
 			kernel_2.setArg(4, pivot);
 			kernel_2.setArg(5, r1);
-			kernel.setArg(4, c1);
-			kernel.setArg(3, rank);		
+			//kernel.setArg(4, c1);
+			//kernel.setArg(3, rank);		
 			
 			
 			cl::Event ev2CopiedState;
@@ -162,7 +162,7 @@ public:
           } */
 
 
-		
+		/*
 		cl::CommandQueue queue(context, device);
 				
 		
@@ -193,7 +193,14 @@ public:
               at(r2,c2) = sub( at(r2,c2) , mul( count, at(rank,c2)) );
             }//);
           }//);*/
-		  
+		 tbb::parallel_for(unsigned(rank+1),rr,[&](unsigned r2){	//THIS ONE SPEEDS UP
+          //for(unsigned r2=rank+1; r2<rr; r2++){
+            unsigned count=at(r2, c1);
+			//tbb::parallel_for(0u,cc,[&](unsigned c2){
+            for(unsigned c2=0; c2<cc; c2++){
+              at(r2,c2) = sub( at(r2,c2) , mul( count, at(rank,c2)) );
+            }//);
+          });
         ++rank;
         }
 
