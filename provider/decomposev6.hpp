@@ -2,7 +2,7 @@
 #define user_decompose_hpp_v3
 
 #include "puzzler/puzzles/decompose.hpp"
-//#include "tbb/atomic.h"
+#include "tbb/atomic.h"
 #include "tbb/parallel_for.h"
 
 namespace puzzler{
@@ -26,14 +26,14 @@ public:
     void decompose(ILog *log, unsigned rr, unsigned cc, unsigned p, uint32_t *matrix) const
     {
       auto at = [=](unsigned r, unsigned c) -> uint32_t &{
-        assert(r<rr && c<cc);
+//        assert(r<rr && c<cc);
         return matrix[rr*c+r];
       };
 
       //dump(log, Log_Debug, rr, cc, matrix);
 
       unsigned rank=0;
-	  //tbb::parallel_for(0u,cc,[&](unsigned c1){
+//	  tbb::parallel_for(0u,cc,[&](unsigned c1){
       for(unsigned c1=0; c1<cc; c1++){
         unsigned r1=rank;
         while(r1<rr && at(r1,c1)==0){
@@ -49,10 +49,10 @@ public:
           }//);
 			
 		  tbb::parallel_for(unsigned(rank+1),rr,[&](unsigned r2){	//THIS ONE SPEEDS UP
-          //for(unsigned r2=rank+1; r2<rr; r2++){
+        //  for(unsigned r2=rank+1; r2<rr; r2++){
             unsigned count=at(r2, c1);
-			//tbb::parallel_for(0u,cc,[&](unsigned c2){
-            for(unsigned c2=0; c2<cc; c2++){
+		//	tbb::parallel_for(0u,cc,[&](unsigned c2){
+           for(unsigned c2=0; c2<cc; c2++){
               at(r2,c2) = sub( at(r2,c2) , mul( count, at(rank,c2)) );
             }//);
           });
@@ -78,10 +78,10 @@ public:
       
       log->LogInfo("Building random matrix");
       std::vector<uint32_t> matrix(rr*cc);
-      //tbb::parallel_for(0u,unsigned(matrix.size()),[&](unsigned i){
+//      tbb::parallel_for(0u,unsigned(matrix.size()),[&](unsigned i){
 	  for(unsigned i=0; i<matrix.size(); i++){
         matrix[i]=make_bit(pInput->seed, i);
-      }//);
+      }
       //dump(log, Log_Verbose, rr, cc, &matrix[0]);
       
       log->LogInfo("Doing the decomposition");
@@ -89,12 +89,12 @@ public:
       
       log->LogInfo("Collecting decomposed hash.");
       //dump(log, Log_Verbose, rr, cc, &matrix[0]);
-      uint64_t hash=0;
-	  //tbb::atomic<uint64_t> hash=0;
-      //tbb::parallel_for(0u,unsigned(matrix.size()),[&](unsigned i){
-	  for(unsigned i=0; i<matrix.size(); i++){
+      //uint64_t hash=0;
+      tbb::atomic<uint64_t> hash=0;
+      tbb::parallel_for(0u,unsigned(matrix.size()),[&](unsigned i){
+//	  for(unsigned i=0; i<matrix.size(); i++){
         hash += uint64_t(matrix[i])*i;
-      }//);
+      });
       pOutput->hash=hash;
       
       log->LogInfo("Finished");
