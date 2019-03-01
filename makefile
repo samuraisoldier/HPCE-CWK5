@@ -1,6 +1,6 @@
 SHELL=/bin/bash
 
-CPPFLAGS += -std=c++11 -W -Wall  -g 
+CPPFLAGS += -std=c++11 -W -Wall  -g -pg
 CPPFLAGS += -O3
 CPPFLAGS += -I include
 
@@ -29,7 +29,3 @@ bin/% : src/%.cpp lib/libpuzzler.a
 	-mkdir -p bin
 	$(CXX) $(CPPFLAGS) -o $@ $^ $(LDFLAGS) $(LDLIBS) -Llib -lpuzzler
 
-bin/test_opencl : provider/test_opencl.cpp
-	mkdir -p $(dir $@)
-	$(CXX) $(CPPFLAGS) -o $@ $^ $(LDFLAGS) -lOpenCL
-	
