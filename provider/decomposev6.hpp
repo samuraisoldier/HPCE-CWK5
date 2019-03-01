@@ -43,7 +43,7 @@ public:
         if(r1!=rr){
           unsigned pivot=at(r1,c1);
 		  //tbb::parallel_for(0u,cc,[&](unsigned c2){
-          for(unsigned c2=0; c2<cc; c2++){
+          for(unsigned c2=rank; c2<cc; c2++){
             std::swap( at(r1,c2), at(rank,c2) );
             at(rank,c2)=div( at(rank,c2) , pivot );
           }//);
@@ -75,12 +75,19 @@ public:
       unsigned rr=n;
       unsigned cc=n;
       unsigned p=7;
+	  const uint32_t PRIME32_1  = 2654435761U;
+      const uint32_t PRIME32_2 = 2246822519U;
+
       
       log->LogInfo("Building random matrix");
       std::vector<uint32_t> matrix(rr*cc);
 //      tbb::parallel_for(0u,unsigned(matrix.size()),[&](unsigned i){
 	  for(unsigned i=0; i<matrix.size(); i++){
-        matrix[i]=make_bit(pInput->seed, i);
+		  uint32_t seed = pInput->seed;
+		  seed += i * PRIME32_2;
+		  seed  = (seed<<13) | (seed>>(32-13));
+		  seed *= PRIME32_1;
+          matrix[i]= seed % 7;
       }
       //dump(log, Log_Verbose, rr, cc, &matrix[0]);
       

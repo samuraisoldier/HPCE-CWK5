@@ -81,7 +81,7 @@ public:
         dist=norm(curr, next);
       }
 	  
-	  pOutput->ranks=curr;
+	  pOutput->ranks=next;
       log->LogInfo("Finished");
     }
 
