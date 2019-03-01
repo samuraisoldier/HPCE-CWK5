@@ -86,7 +86,7 @@ public:
         assert(r<rr && c<cc);
         return matrix[rr*c+r];
       };
-	unsigned p=7;
+	//unsigned p=7;
 
 		
 		cl::Context context(devices);
@@ -234,14 +234,14 @@ public:
       
       log->LogInfo("Collecting decomposed hash.");
       dump(log, Log_Verbose, rr, cc, &matrix[0]);
-      /*uint64_t hash=0;
+      uint64_t hash=0;
       for(unsigned i=0; i<matrix.size(); i++){
         hash += uint64_t(matrix[i])*i;
-      }*/
-	  tbb::atomic<uint64_t> hash=0;
+      }
+	  /*tbb::atomic<uint64_t> hash=0;
 	  tbb::parallel_for(0u,unsigned(matrix.size()),[&](unsigned i){
         hash += uint64_t(matrix[i])*i;
-      });
+      });*/
 	  
       pOutput->hash=hash;
       
