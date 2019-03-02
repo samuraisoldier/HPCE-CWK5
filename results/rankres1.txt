@@ -1,0 +1,349 @@
+275
+
+ref
+
+[execute_puzzle], 1551539097.45, 2, Created log.
+[execute_puzzle], 1551539097.45, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539097.45, 2, Begin execution
+[execute_puzzle], 1551539097.45, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551539097.45, 2, Starting iterations.
+[execute_puzzle], 1551539097.45, 2, Finished
+[execute_puzzle], 1551539097.45, 2, Finished execution
+
+real	0m2.020s
+user	0m0.008s
+sys	0m0.872ss
+
+tbb
+
+[execute_puzzle], 1551539099.47, 2, Created log.
+[execute_puzzle], 1551539099.47, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539099.47, 2, Begin execution
+[execute_puzzle], 1551539099.47, 2, Starting iterations.
+[execute_puzzle], 1551539099.48, 2, Finished
+[execute_puzzle], 1551539099.48, 2, Finished execution
+
+real	0m2.031s
+user	0m0.012s
+sys	0m0.900s
+
+opt
+
+[execute_puzzle], 1551539101.50, 2, Created log.
+[execute_puzzle], 1551539101.50, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539101.50, 2, Begin execution
+[execute_puzzle], 1551539101.50, 2, Starting iterations.
+[execute_puzzle], 1551539101.50, 2, Finished
+[execute_puzzle], 1551539101.50, 2, Finished execution
+
+real	0m2.016s
+user	0m0.008s
+sys	0m0.880s
+
+
+2075
+
+ref
+
+[execute_puzzle], 1551539105.80, 2, Created log.
+[execute_puzzle], 1551539105.81, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539105.81, 2, Begin execution
+[execute_puzzle], 1551539105.81, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551539105.81, 2, Starting iterations.
+[execute_puzzle], 1551539105.81, 2, Finished
+[execute_puzzle], 1551539105.81, 2, Finished execution
+
+real	0m2.032s
+user	0m0.020s
+sys	0m0.868s
+
+tbb
+
+[execute_puzzle], 1551539107.83, 2, Created log.
+[execute_puzzle], 1551539107.84, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539107.84, 2, Begin execution
+[execute_puzzle], 1551539107.84, 2, Starting iterations.
+[execute_puzzle], 1551539107.84, 2, Finished
+[execute_puzzle], 1551539107.84, 2, Finished execution
+
+real	0m2.031s
+user	0m0.028s
+sys	0m0.896s
+
+opt
+
+[execute_puzzle], 1551539109.87, 2, Created log.
+[execute_puzzle], 1551539109.88, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539109.88, 2, Begin execution
+[execute_puzzle], 1551539109.88, 2, Starting iterations.
+[execute_puzzle], 1551539109.88, 2, Finished
+[execute_puzzle], 1551539109.88, 2, Finished execution
+
+real	0m2.035s
+user	0m0.016s
+sys	0m0.872s
+
+
+5675
+
+ref
+
+[execute_puzzle], 1551539113.98, 2, Created log.
+[execute_puzzle], 1551539114.01, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539114.01, 2, Begin execution
+[execute_puzzle], 1551539114.01, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551539114.01, 2, Starting iterations.
+[execute_puzzle], 1551539114.01, 2, Finished
+[execute_puzzle], 1551539114.01, 2, Finished execution
+
+real	0m2.047s
+user	0m0.024s
+sys	0m0.888s
+
+tbb
+
+[execute_puzzle], 1551539116.04, 2, Created log.
+[execute_puzzle], 1551539116.07, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539116.07, 2, Begin execution
+[execute_puzzle], 1551539116.07, 2, Starting iterations.
+[execute_puzzle], 1551539116.08, 2, Finished
+[execute_puzzle], 1551539116.08, 2, Finished execution
+
+real	0m2.067s
+user	0m0.060s
+sys	0m0.916s
+
+opt
+
+[execute_puzzle], 1551539118.06, 2, Created log.
+[execute_puzzle], 1551539118.08, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539118.08, 2, Begin execution
+[execute_puzzle], 1551539118.08, 2, Starting iterations.
+[execute_puzzle], 1551539118.08, 2, Finished
+[execute_puzzle], 1551539118.08, 2, Finished execution
+
+real	0m2.008s
+user	0m0.012s
+sys	0m0.904s
+
+
+11075
+
+ref
+
+[execute_puzzle], 1551539122.32, 2, Created log.
+[execute_puzzle], 1551539122.37, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539122.37, 2, Begin execution
+[execute_puzzle], 1551539122.37, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551539122.37, 2, Starting iterations.
+[execute_puzzle], 1551539122.38, 2, Finished
+[execute_puzzle], 1551539122.38, 2, Finished execution
+
+real	0m2.112s
+user	0m0.028s
+sys	0m0.920s
+
+tbb
+
+[execute_puzzle], 1551539124.45, 2, Created log.
+[execute_puzzle], 1551539124.49, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539124.49, 2, Begin execution
+[execute_puzzle], 1551539124.49, 2, Starting iterations.
+[execute_puzzle], 1551539124.51, 2, Finished
+[execute_puzzle], 1551539124.51, 2, Finished execution
+
+real	0m2.131s
+user	0m0.108s
+sys	0m0.964s
+
+opt
+
+[execute_puzzle], 1551539126.58, 2, Created log.
+[execute_puzzle], 1551539126.63, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539126.63, 2, Begin execution
+[execute_puzzle], 1551539126.63, 2, Starting iterations.
+[execute_puzzle], 1551539126.63, 2, Finished
+[execute_puzzle], 1551539126.63, 2, Finished execution
+
+real	0m2.123s
+user	0m0.020s
+sys	0m0.916s
+
+
+18275
+
+ref
+
+[execute_puzzle], 1551539130.93, 2, Created log.
+[execute_puzzle], 1551539131.02, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539131.02, 2, Begin execution
+[execute_puzzle], 1551539131.02, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551539131.02, 2, Starting iterations.
+[execute_puzzle], 1551539131.03, 2, Finished
+[execute_puzzle], 1551539131.03, 2, Finished execution
+
+real	0m2.176s
+user	0m0.044s
+sys	0m0.964s
+
+tbb
+
+[execute_puzzle], 1551539133.12, 2, Created log.
+[execute_puzzle], 1551539133.21, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539133.21, 2, Begin execution
+[execute_puzzle], 1551539133.21, 2, Starting iterations.
+[execute_puzzle], 1551539133.23, 2, Finished
+[execute_puzzle], 1551539133.23, 2, Finished execution
+
+real	0m2.195s
+user	0m0.084s
+sys	0m1.148s
+
+opt
+
+[execute_puzzle], 1551539135.52, 2, Created log.
+[execute_puzzle], 1551539135.60, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539135.60, 2, Begin execution
+[execute_puzzle], 1551539135.60, 2, Starting iterations.
+[execute_puzzle], 1551539135.61, 2, Finished
+[execute_puzzle], 1551539135.61, 2, Finished execution
+
+real	0m2.380s
+user	0m0.048s
+sys	0m0.948s
+
+
+27275
+
+ref
+
+[execute_puzzle], 1551539140.29, 2, Created log.
+[execute_puzzle], 1551539140.42, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539140.42, 2, Begin execution
+[execute_puzzle], 1551539140.42, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551539140.42, 2, Starting iterations.
+[execute_puzzle], 1551539140.44, 2, Finished
+[execute_puzzle], 1551539140.44, 2, Finished execution
+
+real	0m2.436s
+user	0m0.060s
+sys	0m1.012s
+
+tbb
+
+[execute_puzzle], 1551539142.47, 2, Created log.
+[execute_puzzle], 1551539142.60, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539142.60, 2, Begin execution
+[execute_puzzle], 1551539142.60, 2, Starting iterations.
+[execute_puzzle], 1551539142.63, 2, Finished
+[execute_puzzle], 1551539142.63, 2, Finished execution
+
+real	0m2.187s
+user	0m0.260s
+sys	0m1.088s
+
+opt
+
+[execute_puzzle], 1551539144.84, 2, Created log.
+[execute_puzzle], 1551539144.97, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539144.97, 2, Begin execution
+[execute_puzzle], 1551539144.97, 2, Starting iterations.
+[execute_puzzle], 1551539144.98, 2, Finished
+[execute_puzzle], 1551539144.98, 2, Finished execution
+
+real	0m2.344s
+user	0m0.044s
+sys	0m1.004s
+
+
+38075
+
+ref
+
+[execute_puzzle], 1551539149.79, 2, Created log.
+[execute_puzzle], 1551539149.98, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539149.98, 2, Begin execution
+[execute_puzzle], 1551539149.98, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551539149.98, 2, Starting iterations.
+[execute_puzzle], 1551539150.01, 2, Finished
+[execute_puzzle], 1551539150.01, 2, Finished execution
+
+real	0m2.260s
+user	0m0.092s
+sys	0m1.056s
+
+tbb
+
+[execute_puzzle], 1551539152.04, 2, Created log.
+[execute_puzzle], 1551539152.24, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539152.24, 2, Begin execution
+[execute_puzzle], 1551539152.24, 2, Starting iterations.
+[execute_puzzle], 1551539152.28, 2, Finished
+[execute_puzzle], 1551539152.28, 2, Finished execution
+
+real	0m2.271s
+user	0m0.416s
+sys	0m1.092s
+
+opt
+
+[execute_puzzle], 1551539154.30, 2, Created log.
+[execute_puzzle], 1551539154.50, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539154.50, 2, Begin execution
+[execute_puzzle], 1551539154.50, 2, Starting iterations.
+[execute_puzzle], 1551539154.52, 2, Finished
+[execute_puzzle], 1551539154.52, 2, Finished execution
+
+real	0m2.232s
+user	0m0.088s
+sys	0m1.052s
+
+
+50675
+
+ref
+
+[execute_puzzle], 1551539159.28, 2, Created log.
+[execute_puzzle], 1551539159.55, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539159.55, 2, Begin execution
+[execute_puzzle], 1551539159.55, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551539159.55, 2, Starting iterations.
+[execute_puzzle], 1551539159.59, 2, Finished
+[execute_puzzle], 1551539159.59, 2, Finished execution
+
+real	0m2.391s
+user	0m0.120s
+sys	0m1.140s
+
+tbb
+
+[execute_puzzle], 1551539161.65, 2, Created log.
+[execute_puzzle], 1551539161.91, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539161.91, 2, Begin execution
+[execute_puzzle], 1551539161.91, 2, Starting iterations.
+[execute_puzzle], 1551539161.95, 2, Finished
+[execute_puzzle], 1551539161.95, 2, Finished execution
+
+real	0m2.363s
+user	0m0.164s
+sys	0m1.300s
+
+opt
+
+[execute_puzzle], 1551539164.01, 2, Created log.
+[execute_puzzle], 1551539164.27, 2, Loaded input, puzzle=rank
+[execute_puzzle], 1551539164.27, 2, Begin execution
+[execute_puzzle], 1551539164.27, 2, Starting iterations.
+[execute_puzzle], 1551539164.29, 2, Finished
+[execute_puzzle], 1551539164.29, 2, Finished execution
+
+real	0m2.331s
+user	0m0.140s
+sys	0m1.092s
+
+
+65075
+
+ref
+
+[execute_puzzle], 1551539169.40, 2, Created log.

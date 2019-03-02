@@ -29,11 +29,11 @@ public:
         //next[i]=0;
       //}
       for(unsigned i=0; i<n; i++){
-	  
+	  float tmp = current[i] / edges[i].size();
 		//tbb::parallel_for(0u,sze,[&](unsigned j){
         for(unsigned j=0; j<edges[i].size(); j++){
           int dst=edges[i][j];
-          next[dst] += current[i] / edges[i].size();
+          next[dst] += tmp;
         }//);
       }//);
 
