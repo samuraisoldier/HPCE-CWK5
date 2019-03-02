@@ -24,31 +24,32 @@ public:
 
     void iteration(ILog *log, unsigned n, const std::vector<std::vector<uint32_t> > &edges, const float *current, float *next) const
     {
-      //for(unsigned i=0; i<n; i++){
-	  tbb::parallel_for(0u,n,[&](unsigned i){
-        next[i]=0;
-      });
       for(unsigned i=0; i<n; i++){
 	  //tbb::parallel_for(0u,n,[&](unsigned i){
-		//tbb::parallel_for(0u,unsigned(edges[i].size()),[&](unsigned j){
-        for(unsigned j=0; j<edges[i].size(); j++){
+        next[i]=0;
+      }
+      //for(unsigned i=0; i<n; i++){
+	  
+	  tbb::parallel_for(0u,n,[&](unsigned i){
+		tbb::parallel_for(0u,unsigned(edges[i].size()),[&](unsigned j){
+        //for(unsigned j=0; j<edges[i].size(); j++){
           int dst=edges[i][j];
           next[dst] += current[i] / edges[i].size();
-        }//);
-      }//);
+        });
+      });
 
-      tbb::atomic<double> total=0;
+      double total=0;
 	  tbb::parallel_for(0u,n,[&](unsigned i){
       //for(unsigned i=0; i<n; i++){
         next[i] = (current[i] * 0.3  + next[i] * 0.7 );
-        total = total + next[i];
+        total += next[i];
       });
       //log->LogVerbose("  total=%g", total);
       //for(unsigned i=0; i<n; i++){
-	  //tbb::parallel_for(0u,n,[&](unsigned i){
-       // next[i] /= total;
+	  tbb::parallel_for(0u,n,[&](unsigned i){
+        next[i] /= total;
        // log->LogVerbose("    c[%u] = %g", i, next[i]);
-      //});
+      });
     }
 	
     void Execute(
@@ -71,7 +72,12 @@ public:
 	   while( tol < dist ){
         log->LogVerbose("dist=%g", dist);
         iteration(log, n, edges, &curr[0], &next[0]);
-        std::swap(curr, next);
+		if(tol >= norm(curr, next)){
+			pOutput->ranks=next;
+			break;
+		}
+		iteration(log, n, edges, &next[0], &curr[0]);
+        //std::swap(curr, next);
         dist=norm(curr, next);
       }
       
