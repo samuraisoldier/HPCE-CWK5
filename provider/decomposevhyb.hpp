@@ -1,5 +1,5 @@
-#ifndef user_decompose_hppvopt
-#define user_decompose_hppvopt
+#ifndef user_decompose_hppvhyb
+#define user_decompose_hppvhyb
 #define CL_USE_DEPRECATED_OPENCL_1_2_APIS
 #define __CL_ENABLE_EXCEPTIONS 
 #include "CL/cl.hpp"
@@ -10,7 +10,7 @@
 #include "puzzler/puzzles/decompose.hpp"
 
 namespace puzzler{
-class DecomposeProvidervopt
+class DecomposeProvidervhyb
   : public puzzler::DecomposePuzzle
 {
 private:
@@ -18,7 +18,7 @@ private:
 	std::vector<cl::Device> devices;
 	cl::Device device;
 public:
-  DecomposeProvidervopt()
+  DecomposeProvidervhyb()
   {	  		cl::Platform::get(&platforms);
 		if(platforms.size()==0){
 			throw std::runtime_error("No OpenCL platforms found.");
