@@ -14,11 +14,11 @@ public:
     float norm(const std::vector<float> &a, const std::vector<float> &b) const
     {
       double acc=0;
-
-      for(unsigned i=0; i<a.size(); i++){
+	tbb::parallel_for(0u, unsigned(a.size()), [&](unsigned i){
+//      for(unsigned i=0; i<a.size(); i++){
 		float subres = a[i]-b[i];
         acc += (subres*subres);
-      }
+      });
       return acc;
     }
 
@@ -36,19 +36,19 @@ public:
           next[dst] += current[i] / edges[i].size();
         }//);
       }//);
-
+	//double total = 0;
       tbb::atomic<double> total=0;
-	  tbb::parallel_for(0u,n,[&](unsigned i){
-      //for(unsigned i=0; i<n; i++){
+  tbb::parallel_for(0u,n,[&](unsigned i){
+//      for(unsigned i=0; i<n; i++){
         next[i] = (current[i] * 0.3  + next[i] * 0.7 );
         total = total + next[i];
       });
       //log->LogVerbose("  total=%g", total);
       //for(unsigned i=0; i<n; i++){
-	  //tbb::parallel_for(0u,n,[&](unsigned i){
-       // next[i] /= total;
+//	  tbb::parallel_for(0u,n,[&](unsigned i){
+ //     		 next[i] /= total;
        // log->LogVerbose("    c[%u] = %g", i, next[i]);
-      //});
+  //    });
     }
 	
     void Execute(
