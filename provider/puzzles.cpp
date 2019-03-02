@@ -22,10 +22,6 @@
 #include "decomposev3.hpp"
 #include "rankv3.hpp"
 
-//extra
-#include "decomposevhyb.hpp"
-#include "integralvrep.hpp"
-
 
 void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
 {
@@ -49,10 +45,7 @@ void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
   Register("decompose.opt", std::make_shared<puzzler::DecomposeProviderv3>());
   Register("ising.opt", std::make_shared<puzzler::IsingProviderv3>());
   Register("rank.opt", std::make_shared<puzzler::RankProviderv3>());
-  
-  //extra
-  Register("decompose.hyb", std::make_shared<puzzler::DecomposeProvidervhyb>());
-  Register("integral.rep", std::make_shared<puzzler::IntegralProvidervrep>());
+ 
 
 }
 
