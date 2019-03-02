@@ -1,0 +1,432 @@
+5
+
+ref
+
+[execute_puzzle], 1551548937.02, 2, Created log.
+[execute_puzzle], 1551548937.02, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548937.02, 2, Begin execution
+[execute_puzzle], 1551548937.02, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548937.02, 2, Integral = 0.00233127
+[execute_puzzle], 1551548937.02, 2, Finished execution
+
+real	0m2.027s
+user	0m0.008s
+sys	0m0.884s
+
+opt
+
+[execute_puzzle], 1551548939.29, 2, Created log.
+[execute_puzzle], 1551548939.29, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53180 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53181 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.387s
+user	0m0.012s
+sys	0m0.884s
+
+
+10
+
+ref
+
+[execute_puzzle], 1551548941.40, 2, Created log.
+[execute_puzzle], 1551548941.40, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548941.40, 2, Begin execution
+[execute_puzzle], 1551548941.40, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548941.41, 2, Integral = 0.0156461
+[execute_puzzle], 1551548941.41, 2, Finished execution
+
+real	0m1.998s
+user	0m0.020s
+sys	0m0.864s
+
+opt
+
+[execute_puzzle], 1551548943.68, 2, Created log.
+[execute_puzzle], 1551548943.68, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53224 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53225 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.388s
+user	0m0.012s
+sys	0m0.868s
+
+
+15
+
+ref
+
+[execute_puzzle], 1551548945.79, 2, Created log.
+[execute_puzzle], 1551548945.79, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548945.79, 2, Begin execution
+[execute_puzzle], 1551548945.79, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548945.80, 2, Integral = 0.205295
+[execute_puzzle], 1551548945.80, 2, Finished execution
+
+real	0m2.002s
+user	0m0.020s
+sys	0m0.876s
+
+opt
+
+[execute_puzzle], 1551548947.83, 2, Created log.
+[execute_puzzle], 1551548947.83, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53268 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53269 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.148s
+user	0m0.012s
+sys	0m0.868s
+
+
+20
+
+ref
+
+[execute_puzzle], 1551548949.98, 2, Created log.
+[execute_puzzle], 1551548949.98, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548949.98, 2, Begin execution
+[execute_puzzle], 1551548949.98, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548950.00, 2, Integral = 0.00825049
+[execute_puzzle], 1551548950.00, 2, Finished execution
+
+real	0m2.042s
+user	0m0.028s
+sys	0m0.864s
+
+opt
+
+[execute_puzzle], 1551548952.25, 2, Created log.
+[execute_puzzle], 1551548952.25, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53311 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53312 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.388s
+user	0m0.008s
+sys	0m0.884s
+
+
+25
+
+ref
+
+[execute_puzzle], 1551548954.64, 2, Created log.
+[execute_puzzle], 1551548954.64, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548954.64, 2, Begin execution
+[execute_puzzle], 1551548954.64, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548954.67, 2, Integral = 0.510831
+[execute_puzzle], 1551548954.67, 2, Finished execution
+
+real	0m2.282s
+user	0m0.040s
+sys	0m0.876s
+
+opt
+
+[execute_puzzle], 1551548956.69, 2, Created log.
+[execute_puzzle], 1551548956.69, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53359 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53360 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.144s
+user	0m0.008s
+sys	0m0.872s
+
+
+30
+
+ref
+
+[execute_puzzle], 1551548958.79, 2, Created log.
+[execute_puzzle], 1551548958.79, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548958.79, 2, Begin execution
+[execute_puzzle], 1551548958.79, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548958.83, 2, Integral = 0.111176
+[execute_puzzle], 1551548958.83, 2, Finished execution
+
+real	0m2.014s
+user	0m0.044s
+sys	0m0.876s
+
+opt
+
+[execute_puzzle], 1551548960.82, 2, Created log.
+[execute_puzzle], 1551548960.82, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53404 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53405 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.116s
+user	0m0.012s
+sys	0m0.868s
+
+
+35
+
+ref
+
+[execute_puzzle], 1551548962.95, 2, Created log.
+[execute_puzzle], 1551548962.95, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548962.95, 2, Begin execution
+[execute_puzzle], 1551548962.95, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548963.00, 2, Integral = 0.0587504
+[execute_puzzle], 1551548963.00, 2, Finished execution
+
+real	0m2.062s
+user	0m0.060s
+sys	0m0.872s
+
+opt
+
+[execute_puzzle], 1551548965.26, 2, Created log.
+[execute_puzzle], 1551548965.26, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53444 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53445 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.380s
+user	0m0.012s
+sys	0m0.884s
+
+
+40
+
+ref
+
+[execute_puzzle], 1551548967.65, 2, Created log.
+[execute_puzzle], 1551548967.65, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548967.65, 2, Begin execution
+[execute_puzzle], 1551548967.65, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548967.72, 2, Integral = 0.0231715
+[execute_puzzle], 1551548967.72, 2, Finished execution
+
+real	0m2.334s
+user	0m0.072s
+sys	0m0.880s
+
+opt
+
+[execute_puzzle], 1551548969.73, 2, Created log.
+[execute_puzzle], 1551548969.73, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53490 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53491 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.132s
+user	0m0.008s
+sys	0m0.872s
+
+
+45
+
+ref
+
+[execute_puzzle], 1551548972.06, 2, Created log.
+[execute_puzzle], 1551548972.06, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548972.06, 2, Begin execution
+[execute_puzzle], 1551548972.06, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548972.14, 2, Integral = 0.0462733
+[execute_puzzle], 1551548972.14, 2, Finished execution
+
+real	0m2.286s
+user	0m0.092s
+sys	0m0.876s
+
+opt
+
+[execute_puzzle], 1551548974.40, 2, Created log.
+[execute_puzzle], 1551548974.40, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53533 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53534 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.372s
+user	0m0.012s
+sys	0m0.872s
+
+
+50
+
+ref
+
+[execute_puzzle], 1551548976.50, 2, Created log.
+[execute_puzzle], 1551548976.50, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548976.50, 2, Begin execution
+[execute_puzzle], 1551548976.50, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548976.60, 2, Integral = 0.0084313
+[execute_puzzle], 1551548976.60, 2, Finished execution
+
+real	0m2.086s
+user	0m0.116s
+sys	0m0.864s
+
+opt
+
+[execute_puzzle], 1551548978.87, 2, Created log.
+[execute_puzzle], 1551548978.87, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53578 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53579 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.388s
+user	0m0.008s
+sys	0m0.880s
+
+
+55
+
+ref
+
+[execute_puzzle], 1551548980.98, 2, Created log.
+[execute_puzzle], 1551548980.98, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548980.98, 2, Begin execution
+[execute_puzzle], 1551548980.98, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548981.11, 2, Integral = 0.154276
+[execute_puzzle], 1551548981.11, 2, Finished execution
+
+real	0m2.122s
+user	0m0.132s
+sys	0m0.880s
+
+opt
+
+[execute_puzzle], 1551548983.10, 2, Created log.
+[execute_puzzle], 1551548983.10, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53620 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53621 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.104s
+user	0m0.008s
+sys	0m0.868s
+
+
+60
+
+ref
+
+[execute_puzzle], 1551548985.24, 2, Created log.
+[execute_puzzle], 1551548985.24, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548985.24, 2, Begin execution
+[execute_puzzle], 1551548985.24, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548985.40, 2, Integral = 0.287568
+[execute_puzzle], 1551548985.40, 2, Finished execution
+
+real	0m2.178s
+user	0m0.164s
+sys	0m0.876s
+
+opt
+
+[execute_puzzle], 1551548987.66, 2, Created log.
+[execute_puzzle], 1551548987.66, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53662 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53663 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.392s
+user	0m0.012s
+sys	0m0.864s
+
+
+65
+
+ref
+
+[execute_puzzle], 1551548989.81, 2, Created log.
+[execute_puzzle], 1551548989.81, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548989.81, 2, Begin execution
+[execute_puzzle], 1551548989.81, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548990.00, 2, Integral = 0.0503125
+[execute_puzzle], 1551548990.00, 2, Finished execution
+
+real	0m2.210s
+user	0m0.200s
+sys	0m0.872s
+
+opt
+
+[execute_puzzle], 1551548992.26, 2, Created log.
+[execute_puzzle], 1551548992.26, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53703 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53704 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.380s
+user	0m0.008s
+sys	0m0.888s
+
+
+70
+
+ref
+
+[execute_puzzle], 1551548994.38, 2, Created log.
+[execute_puzzle], 1551548994.38, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548994.38, 2, Begin execution
+[execute_puzzle], 1551548994.38, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548994.60, 2, Integral = 0.00662464
+[execute_puzzle], 1551548994.60, 2, Finished execution
+
+real	0m2.218s
+user	0m0.236s
+sys	0m0.872s
+
+opt
+
+[execute_puzzle], 1551548996.59, 2, Created log.
+[execute_puzzle], 1551548996.59, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53744 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53745 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.107s
+user	0m0.012s
+sys	0m0.868s
+
+
+75
+
+ref
+
+[execute_puzzle], 1551548998.69, 2, Created log.
+[execute_puzzle], 1551548998.69, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551548998.69, 2, Begin execution
+[execute_puzzle], 1551548998.69, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551548998.95, 2, Integral = 0.0373291
+[execute_puzzle], 1551548998.95, 2, Finished execution
+
+real	0m2.242s
+user	0m0.280s
+sys	0m0.868s
+
+opt
+
+[execute_puzzle], 1551549000.93, 2, Created log.
+[execute_puzzle], 1551549000.93, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53784 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53785 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.096s
+user	0m0.012s
+sys	0m0.868s
+
+
+80
+
+ref
+
+[execute_puzzle], 1551549003.18, 2, Created log.
+[execute_puzzle], 1551549003.18, 2, Loaded input, puzzle=integral
+[execute_puzzle], 1551549003.18, 2, Begin execution
+[execute_puzzle], 1551549003.18, 2, Using ReferenceExecute to implement Execute. Should this be overriden?
+[execute_puzzle], 1551549003.49, 2, Integral = 0.00348491
+[execute_puzzle], 1551549003.49, 2, Finished execution
+
+real	0m2.438s
+user	0m0.320s
+sys	0m0.872s
+
+opt
+
+[execute_puzzle], 1551549005.62, 2, Created log.
+[execute_puzzle], 1551549005.62, 2, Loaded input, puzzle=integral
+scripts/integralrep.sh: line 10: 53824 Done                    cat ${WORKING}/${PUZZLE}.${SCALE}.input
+     53825 Segmentation fault      (core dumped) | bin/execute_puzzle ${ENGINE4} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE4}.got
+
+real	0m2.244s
+user	0m0.008s
+sys	0m0.860s
+
+
