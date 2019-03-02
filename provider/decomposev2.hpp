@@ -34,7 +34,7 @@ public:
 		if(getenv("HPCE_SELECT_PLATFORM")){
 			selectedPlatform=atoi(getenv("HPCE_SELECT_PLATFORM"));
 		}
-//std::cerr<<"Choosing platform "<<selectedPlatform<<"\n";
+std::cerr<<"Choosing platform "<<selectedPlatform<<"\n";
 		cl::Platform platform=platforms.at(selectedPlatform);   
 		
 
@@ -53,7 +53,7 @@ public:
 		if(getenv("HPCE_SELECT_DEVICE")){
 			selectedDevice=atoi(getenv("HPCE_SELECT_DEVICE"));
 		}
-		//std::cerr<<"Choosing device "<<selectedDevice<<"\n";
+		std::cerr<<"Choosing device "<<selectedDevice<<"\n";
 		device=devices.at(selectedDevice);}
   
   	std::string LoadSource(const char *fileName)const
@@ -107,7 +107,7 @@ public:
 			throw;
 		}
 		
-		//std::cerr<<"Chosen device and platform"<<"\n\n";
+		std::cerr<<"Chosen device and platform"<<"\n\n";
 		size_t mBuffer=rr*cc*4;
 		cl::Buffer buffM(context, CL_MEM_READ_WRITE, mBuffer);
 
@@ -157,28 +157,31 @@ public:
 			queue.enqueueReadBuffer(buffM, CL_TRUE, 0, mBuffer, &matrix[0], &copyBackDependencies2);
 
 		
-		cl::CommandQueue queue(context, device);
+//		cl::CommandQueue queue(context, device);
 				
 		
 		
 		cl::Event evCopiedState;
 		queue.enqueueWriteBuffer(buffM, CL_FALSE, 0, mBuffer, &matrix[0], NULL, &evCopiedState);
 
-		//std::cerr<<(rank+1)<<"rank"<<"\n";
-		//std::cerr<<(rr-rank-1)<<"rr-rank-1"<<"\n";
+//		std::cerr<<(rank+1)<<"rank"<<"\n";
+//		std::cerr<<(rr-rank-1)<<"rr-rank-1"<<"\n";
 		cl::NDRange offset(rank + 1);				// Always start iterations at x=0, y=0
 		cl::NDRange globalSize(rr-rank-1);	// Global size must match the original loops
 		cl::NDRange localSize=cl::NullRange;	// We don't care about local size
-		//std::cerr<<"debug6"<<"\n";
+//		std::cerr<<"debug6"<<"\n";
 		
 		std::vector<cl::Event> kernelDependencies(1, evCopiedState);
-		//std::cerr<<"debug9"<<"\n";
+//		std::cerr<<"debug9"<<"\n";
 		cl::Event evExecutedKernel;
-		//std::cerr<<"debug7"<<"\n";
-		queue.enqueueNDRangeKernel(kernel, offset, globalSize, localSize, &kernelDependencies, &evExecutedKernel);
+//		std::cerr<<"debug7"<<"\n";
+		if((rr-rank-1)!=0){
+			queue.enqueueNDRangeKernel(kernel, offset, globalSize, localSize, &kernelDependencies, &evExecutedKernel);
+		
+//		std::cerr<<"debug 10" << "\n";
 		std::vector<cl::Event> copyBackDependencies(1, evExecutedKernel);
 		queue.enqueueReadBuffer(buffM, CL_TRUE, 0, mBuffer, &matrix[0], &copyBackDependencies);
-		
+		}
 		
         ++rank;
         }
