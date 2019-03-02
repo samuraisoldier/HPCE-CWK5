@@ -34,7 +34,7 @@ public:
 		if(getenv("HPCE_SELECT_PLATFORM")){
 			selectedPlatform=atoi(getenv("HPCE_SELECT_PLATFORM"));
 		}
-std::cerr<<"Choosing platform "<<selectedPlatform<<"\n";
+		//std::cerr<<"Choosing platform "<<selectedPlatform<<"\n";
 		cl::Platform platform=platforms.at(selectedPlatform);   
 		
 
@@ -53,7 +53,7 @@ std::cerr<<"Choosing platform "<<selectedPlatform<<"\n";
 		if(getenv("HPCE_SELECT_DEVICE")){
 			selectedDevice=atoi(getenv("HPCE_SELECT_DEVICE"));
 		}
-		std::cerr<<"Choosing device "<<selectedDevice<<"\n";
+		//std::cerr<<"Choosing device "<<selectedDevice<<"\n";
 		device=devices.at(selectedDevice);}
   
   	std::string LoadSource(const char *fileName)const
@@ -107,7 +107,7 @@ std::cerr<<"Choosing platform "<<selectedPlatform<<"\n";
 			throw;
 		}
 		
-		std::cerr<<"Chosen device and platform"<<"\n\n";
+		//std::cerr<<"Chosen device and platform"<<"\n\n";
 		size_t mBuffer=rr*cc*4;
 		cl::Buffer buffM(context, CL_MEM_READ_WRITE, mBuffer);
 

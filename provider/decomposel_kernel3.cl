@@ -16,11 +16,6 @@ unsigned mul_inv(unsigned x)
   return 0;
 }
 
-unsigned div(unsigned a, unsigned b) 
-{ return mul(a, mul_inv(b) ); }
-
-
-
 
 __kernel  void decompose_kernel(
 						unsigned rr, 

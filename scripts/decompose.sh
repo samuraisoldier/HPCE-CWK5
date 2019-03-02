@@ -1,8 +1,8 @@
 #!/bin/bash
-ENGINE="decompose.opt"
-ENGINE2="decompose.tbbif"
+ENGINE="decompose.ref"
+ENGINE2="decompose.opt"
 PUZZLE=${ENGINE%%.*}
-SCALES="2219 2350 2482 2614 2748 2884 3020 3157 3295 3434"
+SCALES="35  183    562    996    1465    1962 "
 WORKING=w
 mkdir ${WORKING}
 for SCALE in $SCALES ; do
@@ -12,21 +12,21 @@ for SCALE in $SCALES ; do
 #	fi
  bin/create_puzzle_input ${PUZZLE} ${SCALE} > ${WORKING}/${PUZZLE}.${SCALE}.input
  echo ${SCALE} 
-  echo ${SCALE} >> results/decomposetbb.txt
-    echo -e '\r' >> results/decomposetbb.txt
-	echo 'opt' >> results/decomposetbb.txt
-	echo -e '\r' >> results/decomposetbb.txt
-  time(cat ${WORKING}/${PUZZLE}.${SCALE}.input | bin/execute_puzzle ${ENGINE} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE}.got) 2>> results/decomposetbb.txt
-    echo -e '\r' >> results/decomposetbb.txt
-	echo 'tbbif' >> results/decomposetbb.txt
-	echo -e '\r' >> results/decomposetbb.txt
-  time(cat ${WORKING}/${PUZZLE}.${SCALE}.input | bin/execute_puzzle ${ENGINE2} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE2}.got) 2>> results/decomposetbb.txt
-  echo -e '\r' >> results/decomposetbb.txt
-  echo -e '\r' >> results/decomposetbb.txt
- # bin/compare_puzzle_output ${WORKING}/${PUZZLE}.${SCALE}.input ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE2}.got ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE}.got 2>> results/decomposetbb.txt
-  #echo -e '\r' >> results/decomposetbb.txt
-  #echo -e '\r' >> results/decomposetbb.txt
-  #echo -e '\r' >> results/decomposetbb.txt
+  echo ${SCALE} >> results/decomposeopt.txt
+    echo -e '\r' >> results/decomposeopt.txt
+	echo 'opt' >> results/decomposeopt.txt
+	echo -e '\r' >> results/decomposeopt.txt
+  time(cat ${WORKING}/${PUZZLE}.${SCALE}.input | bin/execute_puzzle ${ENGINE} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE}.got) 2>> results/decomposeopt.txt
+    echo -e '\r' >> results/decomposeopt.txt
+	echo 'tbbif' >> results/decomposeopt.txt
+	echo -e '\r' >> results/decomposeopt.txt
+  time(cat ${WORKING}/${PUZZLE}.${SCALE}.input | bin/execute_puzzle ${ENGINE2} 2 > ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE2}.got) 2>> results/decomposeopt.txt
+  echo -e '\r' >> results/decomposeopt.txt
+  echo -e '\r' >> results/decomposeopt.txt
+  bin/compare_puzzle_output ${WORKING}/${PUZZLE}.${SCALE}.input ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE2}.got ${WORKING}/${PUZZLE}.${SCALE}.${ENGINE}.got 2>> results/decomposeopt.txt
+  echo -e '\r' >> results/decomposeopt.txt
+  echo -e '\r' >> results/decomposeopt.txt
+  echo -e '\r' >> results/decomposeopt.txt
   
   if [[ $? -ne 0 ]] ; then
     >&2 echo "FAIL"
