@@ -24,7 +24,7 @@
 
 //extra
 #include "decomposevhyb.hpp"
-#include "rankvext.hpp"
+#include "integralvrep.hpp"
 
 
 void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
@@ -52,7 +52,7 @@ void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
   
   //extra
   Register("decompose.hyb", std::make_shared<puzzler::DecomposeProvidervhyb>());
-//  Register("rank.ext", std::make_shared<puzzler::RankProvidervext>());
+  Register("integral.rep", std::make_shared<puzzler::IntegralProvidervrep>());
 
 }
 
