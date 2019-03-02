@@ -18,6 +18,7 @@ do
 		if [ ! -f w/$puzzle.$i.input ]; then
 			bin/create_puzzle_input $puzzle $i > w/$puzzle.$i.input
 		fi
+		echo $i
 		EXEC_TIME=`(cat w/$puzzle.$i.input | bin/execute_puzzle $puzzle.$engine 2) 2>&1 | grep -a 'Begin execution\|Finished execution'`
 		start=$(echo $EXEC_TIME | cut -d',' -f 2)
 		end=$(echo $EXEC_TIME | cut -d',' -f 5)

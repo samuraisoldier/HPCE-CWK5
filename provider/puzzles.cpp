@@ -52,7 +52,7 @@ void puzzler::PuzzleRegistrar::UserRegisterPuzzles()
   
   //extra
   Register("decompose.hyb", std::make_shared<puzzler::DecomposeProvidervhyb>());
-  Register("rank.ext", std::make_shared<puzzler::RankProvidervext>());
+//  Register("rank.ext", std::make_shared<puzzler::RankProvidervext>());
 
 }
 

@@ -28,14 +28,27 @@ public:
       //for(unsigned i=0; i<n; i++){
         //next[i]=0;
       //}
+/*	float tmp;
       for(unsigned i=0; i<n; i++){
-	  float tmp = current[i] / edges[i].size();
+	 tmp = current[i] / edges[i].size();
 		//tbb::parallel_for(0u,sze,[&](unsigned j){
         for(unsigned j=0; j<edges[i].size(); j++){
           int dst=edges[i][j];
           next[dst] += tmp;
         }//);
       }//);
+*/
+std::vector<float> tmp(n);
+		  tbb::parallel_for(0u,n,[&](unsigned i){
+			tmp[i] = current[i]/edges[i].size();
+		  });
+		  for(unsigned i=0; i<n; i++){
+			//tbb::parallel_for(0u,unsigned(edges[i].size()),[&](unsigned j){
+			for(unsigned j=0; j<edges[i].size(); j++){
+			  int dst=edges[i][j];
+			  next[dst] += tmp[i];
+			}//);
+		  }//);
 
       /*double total=0;
 	  //tbb::parallel_for(0u,n,[&](unsigned i){

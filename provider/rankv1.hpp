@@ -5,11 +5,11 @@
 #include "tbb/parallel_for.h"
 
 namespace puzzler{
-class RankProvidervext
+class RankProviderv1
   : public puzzler::RankPuzzle
 {
 public:
-  RankProvidervext()
+  RankProviderv1()
   {}/*
     float norm(ILog *log, const std::vector<float> &a, const std::vector<float> &b) const
     {
