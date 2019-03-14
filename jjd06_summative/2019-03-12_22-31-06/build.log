@@ -1,0 +1,16 @@
+cd provider && make all
+make[1]: Entering directory '/home/ubuntu/hpce-2018-private/scripts/cw5/tmp/hEEELp/working/provider'
+g++  -std=c++11 -W -Wall  -g -O3 -DNDEBUG=1 -I ../include -Wno-unused-parameter -Wno-unused-variable -fno-omit-frame-pointer  -c -o puzzles.o puzzles.cpp
+mkdir -p ../lib
+ar cr ../lib/libpuzzler.a puzzles.o
+make[1]: Leaving directory '/home/ubuntu/hpce-2018-private/scripts/cw5/tmp/hEEELp/working/provider'
+mkdir -p bin
+g++ -std=c++11 -W -Wall  -g -O3 -I include -o bin/execute_puzzle src/execute_puzzle.cpp lib/libpuzzler.a  -lrt -ltbb -lOpenCL -Llib -lpuzzler
+mkdir -p bin
+g++ -std=c++11 -W -Wall  -g -O3 -I include -o bin/create_puzzle_input src/create_puzzle_input.cpp lib/libpuzzler.a  -lrt -ltbb -lOpenCL -Llib -lpuzzler
+mkdir -p bin
+g++ -std=c++11 -W -Wall  -g -O3 -I include -o bin/run_puzzle src/run_puzzle.cpp lib/libpuzzler.a  -lrt -ltbb -lOpenCL -Llib -lpuzzler
+mkdir -p bin
+g++ -std=c++11 -W -Wall  -g -O3 -I include -o bin/compare_puzzle_output src/compare_puzzle_output.cpp lib/libpuzzler.a  -lrt -ltbb -lOpenCL -Llib -lpuzzler
+mkdir -p bin
+g++ -std=c++11 -W -Wall  -g -O3 -I include -o bin/time_puzzle src/time_puzzle.cpp lib/libpuzzler.a  -lrt -ltbb -lOpenCL -Llib -lpuzzler

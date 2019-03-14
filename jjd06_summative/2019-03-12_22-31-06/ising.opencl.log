@@ -1,0 +1,2 @@
+[run_puzzle], 1552555746.74, 2, Created log.
+Caught exception : No engine registered with name ising.opencl

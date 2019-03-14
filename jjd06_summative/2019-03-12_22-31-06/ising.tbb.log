@@ -1,0 +1,140 @@
+[run_puzzle], 1552555410.33, 2, Created log.
+[run_puzzle], 1552555410.33, 2, Creating random input
+[run_puzzle], 1552555410.33, 2, Executing puzzle
+[run_puzzle], 1552555410.33, 2, Building world
+[run_puzzle], 1552555410.33, 2, Doing iterations
+[run_puzzle], 1552555410.35, 2, Finished
+ising, ising.tbb, row, 2, 41, 0.0263958, 0.0263958
+[run_puzzle], 1552555410.35, 2, Creating random input
+[run_puzzle], 1552555410.35, 2, Executing puzzle
+[run_puzzle], 1552555410.35, 2, Building world
+[run_puzzle], 1552555410.35, 2, Doing iterations
+[run_puzzle], 1552555410.41, 2, Finished
+ising, ising.tbb, row, 3, 60, 0.0518916, 0.0782874
+[run_puzzle], 1552555410.41, 2, Creating random input
+[run_puzzle], 1552555410.41, 2, Executing puzzle
+[run_puzzle], 1552555410.41, 2, Building world
+[run_puzzle], 1552555410.41, 2, Doing iterations
+[run_puzzle], 1552555410.54, 2, Finished
+ising, ising.tbb, row, 4, 84, 0.133832, 0.212119
+[run_puzzle], 1552555410.54, 2, Executing reference
+[run_puzzle], 1552555410.54, 2, Building world
+[run_puzzle], 1552555410.54, 2, Doing iterations
+[run_puzzle], 1552555410.64, 2, Finished
+[run_puzzle], 1552555410.64, 2, Checking output
+[run_puzzle], 1552555410.64, 2, Output is correct
+[run_puzzle], 1552555410.64, 2, Creating random input
+[run_puzzle], 1552555410.64, 2, Executing puzzle
+[run_puzzle], 1552555410.64, 2, Building world
+[run_puzzle], 1552555410.64, 2, Doing iterations
+[run_puzzle], 1552555410.87, 2, Finished
+ising, ising.tbb, row, 5, 102, 0.227533, 0.439652
+[run_puzzle], 1552555410.87, 2, Creating random input
+[run_puzzle], 1552555410.87, 2, Executing puzzle
+[run_puzzle], 1552555410.87, 2, Building world
+[run_puzzle], 1552555410.87, 2, Doing iterations
+[run_puzzle], 1552555411.25, 2, Finished
+ising, ising.tbb, row, 6, 124, 0.373943, 0.813595
+[run_puzzle], 1552555411.25, 2, Creating random input
+[run_puzzle], 1552555411.25, 2, Executing puzzle
+[run_puzzle], 1552555411.25, 2, Building world
+[run_puzzle], 1552555411.25, 2, Doing iterations
+[run_puzzle], 1552555411.82, 2, Finished
+ising, ising.tbb, row, 7, 144, 0.577059, 1.39065
+[run_puzzle], 1552555411.82, 2, Creating random input
+[run_puzzle], 1552555411.82, 2, Executing puzzle
+[run_puzzle], 1552555411.82, 2, Building world
+[run_puzzle], 1552555411.82, 2, Doing iterations
+[run_puzzle], 1552555412.62, 2, Finished
+ising, ising.tbb, row, 8, 160, 0.800616, 2.19127
+[run_puzzle], 1552555412.62, 2, Executing reference
+[run_puzzle], 1552555412.62, 2, Building world
+[run_puzzle], 1552555412.62, 2, Doing iterations
+[run_puzzle], 1552555413.47, 2, Finished
+[run_puzzle], 1552555413.47, 2, Checking output
+[run_puzzle], 1552555413.47, 2, Output is correct
+[run_puzzle], 1552555413.47, 2, Creating random input
+[run_puzzle], 1552555413.47, 2, Executing puzzle
+[run_puzzle], 1552555413.47, 2, Building world
+[run_puzzle], 1552555413.47, 2, Doing iterations
+[run_puzzle], 1552555414.61, 2, Finished
+ising, ising.tbb, row, 9, 185, 1.14128, 3.33255
+[run_puzzle], 1552555414.61, 2, Creating random input
+[run_puzzle], 1552555414.61, 2, Executing puzzle
+[run_puzzle], 1552555414.61, 2, Building world
+[run_puzzle], 1552555414.61, 2, Doing iterations
+[run_puzzle], 1552555416.03, 2, Finished
+ising, ising.tbb, row, 10, 200, 1.42125, 4.7538
+[run_puzzle], 1552555416.03, 2, Creating random input
+[run_puzzle], 1552555416.03, 2, Executing puzzle
+[run_puzzle], 1552555416.03, 2, Building world
+[run_puzzle], 1552555416.03, 2, Doing iterations
+[run_puzzle], 1552555417.92, 2, Finished
+ising, ising.tbb, row, 11, 221, 1.88812, 6.64192
+[run_puzzle], 1552555417.92, 2, Creating random input
+[run_puzzle], 1552555417.92, 2, Executing puzzle
+[run_puzzle], 1552555417.92, 2, Building world
+[run_puzzle], 1552555417.92, 2, Doing iterations
+[run_puzzle], 1552555420.24, 2, Finished
+ising, ising.tbb, row, 12, 242, 2.3145, 8.95642
+[run_puzzle], 1552555420.24, 2, Creating random input
+[run_puzzle], 1552555420.24, 2, Executing puzzle
+[run_puzzle], 1552555420.24, 2, Building world
+[run_puzzle], 1552555420.24, 2, Doing iterations
+[run_puzzle], 1552555423.17, 2, Finished
+ising, ising.tbb, row, 13, 261, 2.93431, 11.8907
+[run_puzzle], 1552555423.17, 2, Creating random input
+[run_puzzle], 1552555423.17, 2, Executing puzzle
+[run_puzzle], 1552555423.17, 2, Building world
+[run_puzzle], 1552555423.17, 2, Doing iterations
+[run_puzzle], 1552555427.02, 2, Finished
+ising, ising.tbb, row, 14, 284, 3.85136, 15.7421
+[run_puzzle], 1552555427.02, 2, Creating random input
+[run_puzzle], 1552555427.02, 2, Executing puzzle
+[run_puzzle], 1552555427.02, 2, Building world
+[run_puzzle], 1552555427.02, 2, Doing iterations
+[run_puzzle], 1552555431.51, 2, Finished
+ising, ising.tbb, row, 15, 300, 4.48661, 20.2287
+[run_puzzle], 1552555431.51, 2, Creating random input
+[run_puzzle], 1552555431.51, 2, Executing puzzle
+[run_puzzle], 1552555431.51, 2, Building world
+[run_puzzle], 1552555431.51, 2, Doing iterations
+[run_puzzle], 1552555436.94, 2, Finished
+ising, ising.tbb, row, 16, 324, 5.43149, 25.6602
+[run_puzzle], 1552555436.94, 2, Creating random input
+[run_puzzle], 1552555436.94, 2, Executing puzzle
+[run_puzzle], 1552555436.94, 2, Building world
+[run_puzzle], 1552555436.94, 2, Doing iterations
+[run_puzzle], 1552555443.16, 2, Finished
+ising, ising.tbb, row, 17, 340, 6.22501, 31.8852
+[run_puzzle], 1552555443.17, 2, Creating random input
+[run_puzzle], 1552555443.17, 2, Executing puzzle
+[run_puzzle], 1552555443.17, 2, Building world
+[run_puzzle], 1552555443.17, 2, Doing iterations
+[run_puzzle], 1552555450.64, 2, Finished
+ising, ising.tbb, row, 18, 365, 7.47571, 39.3609
+[run_puzzle], 1552555450.64, 2, Creating random input
+[run_puzzle], 1552555450.64, 2, Executing puzzle
+[run_puzzle], 1552555450.64, 2, Building world
+[run_puzzle], 1552555450.64, 2, Doing iterations
+[run_puzzle], 1552555459.18, 2, Finished
+ising, ising.tbb, row, 19, 384, 8.53823, 47.8991
+[run_puzzle], 1552555459.18, 2, Executing reference
+[run_puzzle], 1552555459.18, 2, Building world
+[run_puzzle], 1552555459.18, 2, Doing iterations
+[run_puzzle], 1552555472.79, 2, Finished
+[run_puzzle], 1552555472.79, 2, Checking output
+[run_puzzle], 1552555472.79, 2, Output is correct
+[run_puzzle], 1552555472.79, 2, Creating random input
+[run_puzzle], 1552555472.79, 2, Executing puzzle
+[run_puzzle], 1552555472.79, 2, Building world
+[run_puzzle], 1552555472.80, 2, Doing iterations
+[run_puzzle], 1552555482.58, 2, Finished
+ising, ising.tbb, row, 20, 401, 9.7818, 57.6809
+[run_puzzle], 1552555482.58, 2, Creating random input
+[run_puzzle], 1552555482.58, 2, Executing puzzle
+[run_puzzle], 1552555482.58, 2, Building world
+[run_puzzle], 1552555482.58, 2, Doing iterations
+[run_puzzle], 1552555493.53, 2, Finished
+ising, ising.tbb, row, 21, 420, 10.9516, 68.6325
+ising, ising.tbb, metric, 20, 0, 20.2118, 68.6325
