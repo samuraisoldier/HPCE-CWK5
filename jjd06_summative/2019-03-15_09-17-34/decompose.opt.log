@@ -1,0 +1,163 @@
+[run_puzzle], 1552772690.83, 2, Created log.
+[run_puzzle], 1552772690.84, 2, Creating random input
+[run_puzzle], 1552772690.84, 2, Executing puzzle
+[run_puzzle], 1552772690.84, 2, Building random matrix
+[run_puzzle], 1552772690.84, 2, Doing the decomposition
+[run_puzzle], 1552772690.84, 2, Collecting decomposed hash.
+[run_puzzle], 1552772690.84, 2, Finished
+decompose, decompose.opt, row, 2, 84, 0.00412941, 0.00412941
+[run_puzzle], 1552772690.84, 2, Creating random input
+[run_puzzle], 1552772690.84, 2, Executing puzzle
+[run_puzzle], 1552772690.84, 2, Building random matrix
+[run_puzzle], 1552772690.84, 2, Doing the decomposition
+[run_puzzle], 1552772690.85, 2, Collecting decomposed hash.
+[run_puzzle], 1552772690.85, 2, Finished
+decompose, decompose.opt, row, 3, 156, 0.00646305, 0.0105925
+[run_puzzle], 1552772690.85, 2, Creating random input
+[run_puzzle], 1552772690.85, 2, Executing puzzle
+[run_puzzle], 1552772690.85, 2, Building random matrix
+[run_puzzle], 1552772690.85, 2, Doing the decomposition
+[run_puzzle], 1552772690.87, 2, Collecting decomposed hash.
+[run_puzzle], 1552772690.87, 2, Finished
+decompose, decompose.opt, row, 4, 267, 0.0214064, 0.0319989
+[run_puzzle], 1552772690.87, 2, Creating random input
+[run_puzzle], 1552772690.87, 2, Executing puzzle
+[run_puzzle], 1552772690.87, 2, Building random matrix
+[run_puzzle], 1552772690.87, 2, Doing the decomposition
+[run_puzzle], 1552772690.91, 2, Collecting decomposed hash.
+[run_puzzle], 1552772690.91, 2, Finished
+decompose, decompose.opt, row, 5, 343, 0.0393128, 0.0713117
+[run_puzzle], 1552772690.91, 2, Creating random input
+[run_puzzle], 1552772690.91, 2, Executing puzzle
+[run_puzzle], 1552772690.91, 2, Building random matrix
+[run_puzzle], 1552772690.91, 2, Doing the decomposition
+[run_puzzle], 1552772690.99, 2, Collecting decomposed hash.
+[run_puzzle], 1552772690.99, 2, Finished
+decompose, decompose.opt, row, 6, 457, 0.0845191, 0.155831
+[run_puzzle], 1552772690.99, 2, Creating random input
+[run_puzzle], 1552772690.99, 2, Executing puzzle
+[run_puzzle], 1552772690.99, 2, Building random matrix
+[run_puzzle], 1552772690.99, 2, Doing the decomposition
+[run_puzzle], 1552772691.13, 2, Collecting decomposed hash.
+[run_puzzle], 1552772691.13, 2, Finished
+decompose, decompose.opt, row, 7, 555, 0.139382, 0.295213
+[run_puzzle], 1552772691.13, 2, Creating random input
+[run_puzzle], 1552772691.13, 2, Executing puzzle
+[run_puzzle], 1552772691.13, 2, Building random matrix
+[run_puzzle], 1552772691.13, 2, Doing the decomposition
+[run_puzzle], 1552772691.33, 2, Collecting decomposed hash.
+[run_puzzle], 1552772691.33, 2, Finished
+decompose, decompose.opt, row, 8, 634, 0.196685, 0.491898
+[run_puzzle], 1552772691.33, 2, Creating random input
+[run_puzzle], 1552772691.33, 2, Executing puzzle
+[run_puzzle], 1552772691.33, 2, Building random matrix
+[run_puzzle], 1552772691.33, 2, Doing the decomposition
+[run_puzzle], 1552772691.65, 2, Collecting decomposed hash.
+[run_puzzle], 1552772691.65, 2, Finished
+decompose, decompose.opt, row, 9, 771, 0.327762, 0.81966
+[run_puzzle], 1552772691.65, 2, Creating random input
+[run_puzzle], 1552772691.65, 2, Executing puzzle
+[run_puzzle], 1552772691.65, 2, Building random matrix
+[run_puzzle], 1552772691.66, 2, Doing the decomposition
+[run_puzzle], 1552772692.08, 2, Collecting decomposed hash.
+[run_puzzle], 1552772692.08, 2, Finished
+decompose, decompose.opt, row, 10, 850, 0.428429, 1.24809
+[run_puzzle], 1552772692.08, 2, Creating random input
+[run_puzzle], 1552772692.08, 2, Executing puzzle
+[run_puzzle], 1552772692.08, 2, Building random matrix
+[run_puzzle], 1552772692.09, 2, Doing the decomposition
+[run_puzzle], 1552772692.76, 2, Collecting decomposed hash.
+[run_puzzle], 1552772692.76, 2, Finished
+decompose, decompose.opt, row, 11, 968, 0.681361, 1.92945
+[run_puzzle], 1552772692.76, 2, Creating random input
+[run_puzzle], 1552772692.76, 2, Executing puzzle
+[run_puzzle], 1552772692.76, 2, Building random matrix
+[run_puzzle], 1552772692.77, 2, Doing the decomposition
+[run_puzzle], 1552772693.65, 2, Collecting decomposed hash.
+[run_puzzle], 1552772693.65, 2, Finished
+decompose, decompose.opt, row, 12, 1091, 0.888708, 2.81816
+[run_puzzle], 1552772693.65, 2, Creating random input
+[run_puzzle], 1552772693.65, 2, Executing puzzle
+[run_puzzle], 1552772693.65, 2, Building random matrix
+[run_puzzle], 1552772693.66, 2, Doing the decomposition
+[run_puzzle], 1552772694.87, 2, Collecting decomposed hash.
+[run_puzzle], 1552772694.88, 2, Finished
+decompose, decompose.opt, row, 13, 1198, 1.2224, 4.04056
+[run_puzzle], 1552772694.88, 2, Creating random input
+[run_puzzle], 1552772694.88, 2, Executing puzzle
+[run_puzzle], 1552772694.88, 2, Building random matrix
+[run_puzzle], 1552772694.88, 2, Doing the decomposition
+[run_puzzle], 1552772696.47, 2, Collecting decomposed hash.
+[run_puzzle], 1552772696.47, 2, Finished
+decompose, decompose.opt, row, 14, 1339, 1.5975, 5.63806
+[run_puzzle], 1552772696.47, 2, Creating random input
+[run_puzzle], 1552772696.47, 2, Executing puzzle
+[run_puzzle], 1552772696.47, 2, Building random matrix
+[run_puzzle], 1552772696.48, 2, Doing the decomposition
+[run_puzzle], 1552772698.50, 2, Collecting decomposed hash.
+[run_puzzle], 1552772698.50, 2, Finished
+decompose, decompose.opt, row, 15, 1428, 2.02732, 7.66538
+[run_puzzle], 1552772698.50, 2, Creating random input
+[run_puzzle], 1552772698.50, 2, Executing puzzle
+[run_puzzle], 1552772698.50, 2, Building random matrix
+[run_puzzle], 1552772698.50, 2, Doing the decomposition
+[run_puzzle], 1552772701.11, 2, Collecting decomposed hash.
+[run_puzzle], 1552772701.12, 2, Finished
+decompose, decompose.opt, row, 16, 1581, 2.61516, 10.2805
+[run_puzzle], 1552772701.12, 2, Creating random input
+[run_puzzle], 1552772701.12, 2, Executing puzzle
+[run_puzzle], 1552772701.12, 2, Building random matrix
+[run_puzzle], 1552772701.12, 2, Doing the decomposition
+[run_puzzle], 1552772704.14, 2, Collecting decomposed hash.
+[run_puzzle], 1552772704.14, 2, Finished
+decompose, decompose.opt, row, 17, 1671, 3.02505, 13.3056
+[run_puzzle], 1552772704.14, 2, Creating random input
+[run_puzzle], 1552772704.14, 2, Executing puzzle
+[run_puzzle], 1552772704.14, 2, Building random matrix
+[run_puzzle], 1552772704.15, 2, Doing the decomposition
+[run_puzzle], 1552772708.17, 2, Collecting decomposed hash.
+[run_puzzle], 1552772708.17, 2, Finished
+decompose, decompose.opt, row, 18, 1835, 4.03021, 17.3358
+[run_puzzle], 1552772708.17, 2, Creating random input
+[run_puzzle], 1552772708.17, 2, Executing puzzle
+[run_puzzle], 1552772708.17, 2, Building random matrix
+[run_puzzle], 1552772708.18, 2, Doing the decomposition
+[run_puzzle], 1552772712.95, 2, Collecting decomposed hash.
+[run_puzzle], 1552772712.95, 2, Finished
+decompose, decompose.opt, row, 19, 1952, 4.78342, 22.1192
+[run_puzzle], 1552772712.95, 2, Creating random input
+[run_puzzle], 1552772712.95, 2, Executing puzzle
+[run_puzzle], 1552772712.95, 2, Building random matrix
+[run_puzzle], 1552772712.96, 2, Doing the decomposition
+[run_puzzle], 1552772718.66, 2, Collecting decomposed hash.
+[run_puzzle], 1552772718.67, 2, Finished
+decompose, decompose.opt, row, 20, 2060, 5.71073, 27.8299
+[run_puzzle], 1552772718.67, 2, Creating random input
+[run_puzzle], 1552772718.67, 2, Executing puzzle
+[run_puzzle], 1552772718.67, 2, Building random matrix
+[run_puzzle], 1552772718.67, 2, Doing the decomposition
+[run_puzzle], 1552772725.40, 2, Collecting decomposed hash.
+[run_puzzle], 1552772725.40, 2, Finished
+decompose, decompose.opt, row, 21, 2180, 6.73545, 34.5654
+[run_puzzle], 1552772725.40, 2, Creating random input
+[run_puzzle], 1552772725.40, 2, Executing puzzle
+[run_puzzle], 1552772725.40, 2, Building random matrix
+[run_puzzle], 1552772725.41, 2, Doing the decomposition
+[run_puzzle], 1552772733.32, 2, Collecting decomposed hash.
+[run_puzzle], 1552772733.32, 2, Finished
+decompose, decompose.opt, row, 22, 2315, 7.91914, 42.4845
+[run_puzzle], 1552772733.32, 2, Creating random input
+[run_puzzle], 1552772733.32, 2, Executing puzzle
+[run_puzzle], 1552772733.32, 2, Building random matrix
+[run_puzzle], 1552772733.33, 2, Doing the decomposition
+[run_puzzle], 1552772743.28, 2, Collecting decomposed hash.
+[run_puzzle], 1552772743.28, 2, Finished
+decompose, decompose.opt, row, 23, 2475, 9.96123, 52.4458
+[run_puzzle], 1552772743.28, 2, Creating random input
+[run_puzzle], 1552772743.28, 2, Executing puzzle
+[run_puzzle], 1552772743.28, 2, Building random matrix
+[run_puzzle], 1552772743.29, 2, Doing the decomposition
+[run_puzzle], 1552772754.90, 2, Collecting decomposed hash.
+[run_puzzle], 1552772754.91, 2, Finished
+decompose, decompose.opt, row, 24, 2614, 11.6291, 64.0748
+decompose, decompose.opt, metric, 23, 0, 23.6496, 64.0748

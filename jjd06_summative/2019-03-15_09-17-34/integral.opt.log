@@ -1,0 +1,406 @@
+[run_puzzle], 1552772754.94, 2, Created log.
+[run_puzzle], 1552772754.94, 2, Creating random input
+[run_puzzle], 1552772754.94, 2, Executing puzzle
+[run_puzzle], 1552772755.90, 2, Integral = 0.0295319
+integral, integral.opt, row, 2, 41, 0.981916, 0.981916
+[run_puzzle], 1552772755.93, 2, Creating random input
+[run_puzzle], 1552772755.93, 2, Executing puzzle
+[run_puzzle], 1552772756.04, 2, Integral = 0.0239562
+integral, integral.opt, row, 3, 60, 0.130079, 1.11199
+[run_puzzle], 1552772756.06, 2, Creating random input
+[run_puzzle], 1552772756.06, 2, Executing puzzle
+[run_puzzle], 1552772756.17, 2, Integral = 0.0245321
+integral, integral.opt, row, 4, 84, 0.130462, 1.24246
+[run_puzzle], 1552772756.19, 2, Creating random input
+[run_puzzle], 1552772756.19, 2, Executing puzzle
+[run_puzzle], 1552772756.30, 2, Integral = 0.0252506
+integral, integral.opt, row, 5, 102, 0.141258, 1.38371
+[run_puzzle], 1552772756.33, 2, Creating random input
+[run_puzzle], 1552772756.33, 2, Executing puzzle
+[run_puzzle], 1552772756.44, 2, Integral = 0.0244506
+integral, integral.opt, row, 6, 124, 0.140512, 1.52423
+[run_puzzle], 1552772756.47, 2, Creating random input
+[run_puzzle], 1552772756.47, 2, Executing puzzle
+[run_puzzle], 1552772756.59, 2, Integral = 0.0258915
+integral, integral.opt, row, 7, 144, 0.151901, 1.67613
+[run_puzzle], 1552772756.62, 2, Creating random input
+[run_puzzle], 1552772756.62, 2, Executing puzzle
+[run_puzzle], 1552772756.75, 2, Integral = 0.0254392
+integral, integral.opt, row, 8, 160, 0.152886, 1.82901
+[run_puzzle], 1552772756.77, 2, Creating random input
+[run_puzzle], 1552772756.77, 2, Executing puzzle
+[run_puzzle], 1552772756.90, 2, Integral = 0.0278274
+integral, integral.opt, row, 9, 185, 0.156084, 1.9851
+[run_puzzle], 1552772756.93, 2, Creating random input
+[run_puzzle], 1552772756.93, 2, Executing puzzle
+[run_puzzle], 1552772757.08, 2, Integral = 0.0252127
+integral, integral.opt, row, 10, 200, 0.176478, 2.16158
+[run_puzzle], 1552772757.11, 2, Creating random input
+[run_puzzle], 1552772757.11, 2, Executing puzzle
+[run_puzzle], 1552772757.23, 2, Integral = 0.0259863
+integral, integral.opt, row, 11, 221, 0.152023, 2.3136
+[run_puzzle], 1552772757.26, 2, Creating random input
+[run_puzzle], 1552772757.26, 2, Executing puzzle
+[run_puzzle], 1552772757.39, 2, Integral = 0.0256142
+integral, integral.opt, row, 12, 242, 0.150797, 2.4644
+[run_puzzle], 1552772757.41, 2, Creating random input
+[run_puzzle], 1552772757.41, 2, Executing puzzle
+[run_puzzle], 1552772757.53, 2, Integral = 0.0275283
+integral, integral.opt, row, 13, 261, 0.145262, 2.60966
+[run_puzzle], 1552772757.55, 2, Creating random input
+[run_puzzle], 1552772757.55, 2, Executing puzzle
+[run_puzzle], 1552772757.67, 2, Integral = 0.0254958
+integral, integral.opt, row, 14, 284, 0.137247, 2.7469
+[run_puzzle], 1552772757.69, 2, Creating random input
+[run_puzzle], 1552772757.69, 2, Executing puzzle
+[run_puzzle], 1552772757.81, 2, Integral = 0.0268114
+integral, integral.opt, row, 15, 300, 0.135662, 2.88257
+[run_puzzle], 1552772757.83, 2, Creating random input
+[run_puzzle], 1552772757.83, 2, Executing puzzle
+[run_puzzle], 1552772757.94, 2, Integral = 0.0267856
+integral, integral.opt, row, 16, 324, 0.135021, 3.01759
+[run_puzzle], 1552772757.96, 2, Creating random input
+[run_puzzle], 1552772757.96, 2, Executing puzzle
+[run_puzzle], 1552772758.08, 2, Integral = 0.0265139
+integral, integral.opt, row, 17, 340, 0.138247, 3.15584
+[run_puzzle], 1552772758.10, 2, Creating random input
+[run_puzzle], 1552772758.10, 2, Executing puzzle
+[run_puzzle], 1552772758.23, 2, Integral = 0.0267375
+integral, integral.opt, row, 18, 365, 0.14704, 3.30288
+[run_puzzle], 1552772758.25, 2, Creating random input
+[run_puzzle], 1552772758.25, 2, Executing puzzle
+[run_puzzle], 1552772758.39, 2, Integral = 0.0270168
+integral, integral.opt, row, 19, 384, 0.162357, 3.46523
+[run_puzzle], 1552772758.41, 2, Creating random input
+[run_puzzle], 1552772758.41, 2, Executing puzzle
+[run_puzzle], 1552772758.57, 2, Integral = 0.0266762
+integral, integral.opt, row, 20, 401, 0.172223, 3.63746
+[run_puzzle], 1552772758.58, 2, Creating random input
+[run_puzzle], 1552772758.58, 2, Executing puzzle
+[run_puzzle], 1552772758.70, 2, Integral = 0.0260828
+integral, integral.opt, row, 21, 420, 0.135214, 3.77267
+[run_puzzle], 1552772758.72, 2, Creating random input
+[run_puzzle], 1552772758.72, 2, Executing puzzle
+[run_puzzle], 1552772758.88, 2, Integral = 0.0264541
+integral, integral.opt, row, 22, 441, 0.17515, 3.94782
+[run_puzzle], 1552772758.89, 2, Creating random input
+[run_puzzle], 1552772758.89, 2, Executing puzzle
+[run_puzzle], 1552772759.04, 2, Integral = 0.0265358
+integral, integral.opt, row, 23, 464, 0.166177, 4.114
+[run_puzzle], 1552772759.06, 2, Creating random input
+[run_puzzle], 1552772759.06, 2, Executing puzzle
+[run_puzzle], 1552772759.24, 2, Integral = 0.0268596
+integral, integral.opt, row, 24, 485, 0.205553, 4.31955
+[run_puzzle], 1552772759.27, 2, Creating random input
+[run_puzzle], 1552772759.27, 2, Executing puzzle
+[run_puzzle], 1552772759.41, 2, Integral = 0.0267833
+integral, integral.opt, row, 25, 502, 0.174011, 4.49356
+[run_puzzle], 1552772759.44, 2, Creating random input
+[run_puzzle], 1552772759.44, 2, Executing puzzle
+[run_puzzle], 1552772759.64, 2, Integral = 0.0273225
+integral, integral.opt, row, 26, 523, 0.229018, 4.72258
+[run_puzzle], 1552772759.67, 2, Creating random input
+[run_puzzle], 1552772759.67, 2, Executing puzzle
+[run_puzzle], 1552772759.81, 2, Integral = 0.0264868
+integral, integral.opt, row, 27, 541, 0.171896, 4.89447
+[run_puzzle], 1552772759.84, 2, Creating random input
+[run_puzzle], 1552772759.84, 2, Executing puzzle
+[run_puzzle], 1552772760.03, 2, Integral = 0.0273563
+integral, integral.opt, row, 28, 565, 0.213073, 5.10755
+[run_puzzle], 1552772760.05, 2, Executing reference
+[run_puzzle], 1552772775.78, 2, Integral = 0.0273563
+[run_puzzle], 1552772775.78, 2, Checking output
+[run_puzzle], 1552772775.78, 2, Output is correct
+[run_puzzle], 1552772775.78, 2, Creating random input
+[run_puzzle], 1552772775.78, 2, Executing puzzle
+[run_puzzle], 1552772775.99, 2, Integral = 0.0271751
+integral, integral.opt, row, 29, 581, 0.231913, 5.33946
+[run_puzzle], 1552772776.01, 2, Creating random input
+[run_puzzle], 1552772776.01, 2, Executing puzzle
+[run_puzzle], 1552772776.18, 2, Integral = 0.0266641
+integral, integral.opt, row, 30, 601, 0.184518, 5.52398
+[run_puzzle], 1552772776.20, 2, Creating random input
+[run_puzzle], 1552772776.20, 2, Executing puzzle
+[run_puzzle], 1552772776.39, 2, Integral = 0.0266537
+integral, integral.opt, row, 31, 625, 0.212258, 5.73624
+[run_puzzle], 1552772776.41, 2, Creating random input
+[run_puzzle], 1552772776.41, 2, Executing puzzle
+[run_puzzle], 1552772776.61, 2, Integral = 0.0263765
+integral, integral.opt, row, 32, 640, 0.218778, 5.95501
+[run_puzzle], 1552772776.63, 2, Executing reference
+[run_puzzle], 1552772799.20, 2, Integral = 0.0263765
+[run_puzzle], 1552772799.20, 2, Checking output
+[run_puzzle], 1552772799.20, 2, Output is correct
+[run_puzzle], 1552772799.20, 2, Creating random input
+[run_puzzle], 1552772799.20, 2, Executing puzzle
+[run_puzzle], 1552772799.37, 2, Integral = 0.0266804
+integral, integral.opt, row, 33, 660, 0.186328, 6.14134
+[run_puzzle], 1552772799.39, 2, Creating random input
+[run_puzzle], 1552772799.39, 2, Executing puzzle
+[run_puzzle], 1552772799.60, 2, Integral = 0.0262482
+integral, integral.opt, row, 34, 680, 0.2261, 6.36744
+[run_puzzle], 1552772799.62, 2, Creating random input
+[run_puzzle], 1552772799.62, 2, Executing puzzle
+[run_puzzle], 1552772799.93, 2, Integral = 0.0264812
+integral, integral.opt, row, 35, 701, 0.337647, 6.70509
+[run_puzzle], 1552772799.95, 2, Creating random input
+[run_puzzle], 1552772799.95, 2, Executing puzzle
+[run_puzzle], 1552772800.11, 2, Integral = 0.0265336
+integral, integral.opt, row, 36, 724, 0.170827, 6.87592
+[run_puzzle], 1552772800.13, 2, Creating random input
+[run_puzzle], 1552772800.13, 2, Executing puzzle
+[run_puzzle], 1552772800.44, 2, Integral = 0.0266059
+integral, integral.opt, row, 37, 742, 0.332457, 7.20837
+[run_puzzle], 1552772800.46, 2, Executing reference
+[run_puzzle], 1552772835.19, 2, Integral = 0.0266059
+[run_puzzle], 1552772835.19, 2, Checking output
+[run_puzzle], 1552772835.19, 2, Output is correct
+[run_puzzle], 1552772835.19, 2, Creating random input
+[run_puzzle], 1552772835.19, 2, Executing puzzle
+[run_puzzle], 1552772835.38, 2, Integral = 0.0266994
+integral, integral.opt, row, 38, 762, 0.211626, 7.42
+[run_puzzle], 1552772835.40, 2, Creating random input
+[run_puzzle], 1552772835.40, 2, Executing puzzle
+[run_puzzle], 1552772835.79, 2, Integral = 0.0263214
+integral, integral.opt, row, 39, 782, 0.412873, 7.83287
+[run_puzzle], 1552772835.81, 2, Creating random input
+[run_puzzle], 1552772835.81, 2, Executing puzzle
+[run_puzzle], 1552772836.17, 2, Integral = 0.0265737
+integral, integral.opt, row, 40, 802, 0.375239, 8.20811
+[run_puzzle], 1552772836.19, 2, Creating random input
+[run_puzzle], 1552772836.19, 2, Executing puzzle
+[run_puzzle], 1552772836.58, 2, Integral = 0.0268157
+integral, integral.opt, row, 41, 822, 0.414385, 8.6225
+[run_puzzle], 1552772836.60, 2, Creating random input
+[run_puzzle], 1552772836.60, 2, Executing puzzle
+[run_puzzle], 1552772837.02, 2, Integral = 0.0262689
+integral, integral.opt, row, 42, 845, 0.437759, 9.06025
+[run_puzzle], 1552772837.04, 2, Creating random input
+[run_puzzle], 1552772837.04, 2, Executing puzzle
+[run_puzzle], 1552772837.47, 2, Integral = 0.0267933
+integral, integral.opt, row, 43, 863, 0.44472, 9.50497
+[run_puzzle], 1552772837.49, 2, Creating random input
+[run_puzzle], 1552772837.49, 2, Executing puzzle
+[run_puzzle], 1552772837.68, 2, Integral = 0.0265208
+integral, integral.opt, row, 44, 884, 0.218445, 9.72342
+[run_puzzle], 1552772837.71, 2, Creating random input
+[run_puzzle], 1552772837.71, 2, Executing puzzle
+[run_puzzle], 1552772838.00, 2, Integral = 0.0267422
+integral, integral.opt, row, 45, 904, 0.310604, 10.034
+[run_puzzle], 1552772838.02, 2, Creating random input
+[run_puzzle], 1552772838.02, 2, Executing puzzle
+[run_puzzle], 1552772838.33, 2, Integral = 0.0267531
+integral, integral.opt, row, 46, 923, 0.334519, 10.3685
+[run_puzzle], 1552772838.35, 2, Creating random input
+[run_puzzle], 1552772838.35, 2, Executing puzzle
+[run_puzzle], 1552772838.55, 2, Integral = 0.0268499
+integral, integral.opt, row, 47, 940, 0.218737, 10.5873
+[run_puzzle], 1552772838.57, 2, Creating random input
+[run_puzzle], 1552772838.57, 2, Executing puzzle
+[run_puzzle], 1552772838.80, 2, Integral = 0.0268391
+integral, integral.opt, row, 48, 964, 0.245424, 10.8327
+[run_puzzle], 1552772838.81, 2, Creating random input
+[run_puzzle], 1552772838.81, 2, Executing puzzle
+[run_puzzle], 1552772839.05, 2, Integral = 0.0268477
+integral, integral.opt, row, 49, 983, 0.254369, 11.0871
+[run_puzzle], 1552772839.07, 2, Creating random input
+[run_puzzle], 1552772839.07, 2, Executing puzzle
+[run_puzzle], 1552772839.33, 2, Integral = 0.0262989
+integral, integral.opt, row, 50, 1005, 0.28188, 11.369
+[run_puzzle], 1552772839.35, 2, Executing reference
+[run_puzzle], 1552772923.88, 2, Integral = 0.0262989
+[run_puzzle], 1552772923.88, 2, Checking output
+[run_puzzle], 1552772923.88, 2, Output is correct
+[run_puzzle], 1552772923.88, 2, Creating random input
+[run_puzzle], 1552772923.88, 2, Executing puzzle
+[run_puzzle], 1552772924.11, 2, Integral = 0.0265142
+integral, integral.opt, row, 51, 1020, 0.253563, 11.6225
+[run_puzzle], 1552772924.13, 2, Creating random input
+[run_puzzle], 1552772924.13, 2, Executing puzzle
+[run_puzzle], 1552772924.76, 2, Integral = 0.0269319
+integral, integral.opt, row, 52, 1043, 0.650539, 12.2731
+[run_puzzle], 1552772924.78, 2, Creating random input
+[run_puzzle], 1552772924.78, 2, Executing puzzle
+[run_puzzle], 1552772925.04, 2, Integral = 0.0264257
+integral, integral.opt, row, 53, 1060, 0.272053, 12.5451
+[run_puzzle], 1552772925.05, 2, Creating random input
+[run_puzzle], 1552772925.05, 2, Executing puzzle
+[run_puzzle], 1552772925.79, 2, Integral = 0.0268286
+integral, integral.opt, row, 54, 1083, 0.755631, 13.3007
+[run_puzzle], 1552772925.81, 2, Creating random input
+[run_puzzle], 1552772925.81, 2, Executing puzzle
+[run_puzzle], 1552772926.06, 2, Integral = 0.0267941
+integral, integral.opt, row, 55, 1100, 0.267611, 13.5683
+[run_puzzle], 1552772926.08, 2, Creating random input
+[run_puzzle], 1552772926.08, 2, Executing puzzle
+[run_puzzle], 1552772926.34, 2, Integral = 0.0267859
+integral, integral.opt, row, 56, 1124, 0.278898, 13.8472
+[run_puzzle], 1552772926.36, 2, Creating random input
+[run_puzzle], 1552772926.36, 2, Executing puzzle
+[run_puzzle], 1552772926.63, 2, Integral = 0.0267013
+integral, integral.opt, row, 57, 1140, 0.293804, 14.141
+[run_puzzle], 1552772926.65, 2, Executing reference
+[run_puzzle], 1552773049.08, 2, Integral = 0.0267013
+[run_puzzle], 1552773049.08, 2, Checking output
+[run_puzzle], 1552773049.08, 2, Output is correct
+[run_puzzle], 1552773049.08, 2, Creating random input
+[run_puzzle], 1552773049.08, 2, Executing puzzle
+[run_puzzle], 1552773049.92, 2, Integral = 0.0265694
+integral, integral.opt, row, 58, 1162, 0.860118, 15.0012
+[run_puzzle], 1552773049.94, 2, Creating random input
+[run_puzzle], 1552773049.94, 2, Executing puzzle
+[run_puzzle], 1552773050.82, 2, Integral = 0.0263693
+integral, integral.opt, row, 59, 1183, 0.898674, 15.8998
+[run_puzzle], 1552773050.83, 2, Creating random input
+[run_puzzle], 1552773050.83, 2, Executing puzzle
+[run_puzzle], 1552773051.16, 2, Integral = 0.0266106
+integral, integral.opt, row, 60, 1204, 0.339837, 16.2397
+[run_puzzle], 1552773051.17, 2, Creating random input
+[run_puzzle], 1552773051.17, 2, Executing puzzle
+[run_puzzle], 1552773051.67, 2, Integral = 0.0262974
+integral, integral.opt, row, 61, 1223, 0.514047, 16.7537
+[run_puzzle], 1552773051.69, 2, Creating random input
+[run_puzzle], 1552773051.69, 2, Executing puzzle
+[run_puzzle], 1552773052.20, 2, Integral = 0.0265933
+integral, integral.opt, row, 62, 1240, 0.525057, 17.2788
+[run_puzzle], 1552773052.21, 2, Executing reference
+[run_puzzle], 1552773209.11, 2, Integral = 0.0265933
+[run_puzzle], 1552773209.11, 2, Checking output
+[run_puzzle], 1552773209.11, 2, Output is correct
+[run_puzzle], 1552773209.11, 2, Creating random input
+[run_puzzle], 1552773209.11, 2, Executing puzzle
+[run_puzzle], 1552773210.17, 2, Integral = 0.0263452
+integral, integral.opt, row, 63, 1265, 1.0858, 18.3646
+[run_puzzle], 1552773210.19, 2, Creating random input
+[run_puzzle], 1552773210.19, 2, Executing puzzle
+[run_puzzle], 1552773211.27, 2, Integral = 0.0269758
+integral, integral.opt, row, 64, 1281, 1.09889, 19.4635
+[run_puzzle], 1552773211.29, 2, Creating random input
+[run_puzzle], 1552773211.29, 2, Executing puzzle
+[run_puzzle], 1552773211.82, 2, Integral = 0.0265456
+integral, integral.opt, row, 65, 1303, 0.544071, 20.0075
+[run_puzzle], 1552773211.84, 2, Creating random input
+[run_puzzle], 1552773211.84, 2, Executing puzzle
+[run_puzzle], 1552773212.40, 2, Integral = 0.0265563
+integral, integral.opt, row, 66, 1322, 0.588184, 20.5957
+[run_puzzle], 1552773212.43, 2, Creating random input
+[run_puzzle], 1552773212.43, 2, Executing puzzle
+[run_puzzle], 1552773212.80, 2, Integral = 0.0265967
+integral, integral.opt, row, 67, 1340, 0.397326, 20.9931
+[run_puzzle], 1552773212.82, 2, Creating random input
+[run_puzzle], 1552773212.82, 2, Executing puzzle
+[run_puzzle], 1552773213.47, 2, Integral = 0.026744
+integral, integral.opt, row, 68, 1360, 0.670569, 21.6636
+[run_puzzle], 1552773213.49, 2, Creating random input
+[run_puzzle], 1552773213.49, 2, Executing puzzle
+[run_puzzle], 1552773213.99, 2, Integral = 0.0267381
+integral, integral.opt, row, 69, 1384, 0.517936, 22.1816
+[run_puzzle], 1552773214.01, 2, Creating random input
+[run_puzzle], 1552773214.01, 2, Executing puzzle
+[run_puzzle], 1552773215.37, 2, Integral = 0.0264614
+integral, integral.opt, row, 70, 1403, 1.38008, 23.5616
+[run_puzzle], 1552773215.39, 2, Creating random input
+[run_puzzle], 1552773215.39, 2, Executing puzzle
+[run_puzzle], 1552773216.26, 2, Integral = 0.026562
+integral, integral.opt, row, 71, 1422, 0.885147, 24.4468
+[run_puzzle], 1552773216.28, 2, Creating random input
+[run_puzzle], 1552773216.28, 2, Executing puzzle
+[run_puzzle], 1552773217.75, 2, Integral = 0.0266404
+integral, integral.opt, row, 72, 1441, 1.49182, 25.9386
+[run_puzzle], 1552773217.77, 2, Executing reference
+[run_puzzle], 1552773462.40, 2, Integral = 0.0266404
+[run_puzzle], 1552773462.40, 2, Checking output
+[run_puzzle], 1552773462.40, 2, Output is correct
+[run_puzzle], 1552773462.40, 2, Creating random input
+[run_puzzle], 1552773462.40, 2, Executing puzzle
+[run_puzzle], 1552773463.06, 2, Integral = 0.0265962
+integral, integral.opt, row, 73, 1464, 0.676803, 26.6154
+[run_puzzle], 1552773463.08, 2, Creating random input
+[run_puzzle], 1552773463.08, 2, Executing puzzle
+[run_puzzle], 1552773463.68, 2, Integral = 0.0266722
+integral, integral.opt, row, 74, 1483, 0.631849, 27.2473
+[run_puzzle], 1552773463.71, 2, Creating random input
+[run_puzzle], 1552773463.71, 2, Executing puzzle
+[run_puzzle], 1552773465.46, 2, Integral = 0.026473
+integral, integral.opt, row, 75, 1503, 1.77631, 29.0236
+[run_puzzle], 1552773465.49, 2, Creating random input
+[run_puzzle], 1552773465.49, 2, Executing puzzle
+[run_puzzle], 1552773465.94, 2, Integral = 0.0265793
+integral, integral.opt, row, 76, 1524, 0.473839, 29.4974
+[run_puzzle], 1552773465.96, 2, Creating random input
+[run_puzzle], 1552773465.96, 2, Executing puzzle
+[run_puzzle], 1552773466.87, 2, Integral = 0.0267095
+integral, integral.opt, row, 77, 1544, 0.930087, 30.4275
+[run_puzzle], 1552773466.89, 2, Creating random input
+[run_puzzle], 1552773466.89, 2, Executing puzzle
+[run_puzzle], 1552773468.05, 2, Integral = 0.0267426
+integral, integral.opt, row, 78, 1562, 1.17831, 31.6058
+[run_puzzle], 1552773468.07, 2, Executing reference
+[run_puzzle], 1552773778.44, 2, Integral = 0.0267426
+[run_puzzle], 1552773778.44, 2, Checking output
+[run_puzzle], 1552773778.44, 2, Output is correct
+[run_puzzle], 1552773778.44, 2, Creating random input
+[run_puzzle], 1552773778.44, 2, Executing puzzle
+[run_puzzle], 1552773780.41, 2, Integral = 0.0266701
+integral, integral.opt, row, 79, 1583, 1.98992, 33.5957
+[run_puzzle], 1552773780.43, 2, Creating random input
+[run_puzzle], 1552773780.43, 2, Executing puzzle
+[run_puzzle], 1552773782.39, 2, Integral = 0.0266775
+integral, integral.opt, row, 80, 1602, 1.97803, 35.5737
+[run_puzzle], 1552773782.41, 2, Creating random input
+[run_puzzle], 1552773782.41, 2, Executing puzzle
+[run_puzzle], 1552773784.43, 2, Integral = 0.0264386
+integral, integral.opt, row, 81, 1621, 2.04587, 37.6196
+[run_puzzle], 1552773784.46, 2, Creating random input
+[run_puzzle], 1552773784.46, 2, Executing puzzle
+[run_puzzle], 1552773786.52, 2, Integral = 0.0266517
+integral, integral.opt, row, 82, 1643, 2.08518, 39.7048
+[run_puzzle], 1552773786.54, 2, Creating random input
+[run_puzzle], 1552773786.54, 2, Executing puzzle
+[run_puzzle], 1552773787.26, 2, Integral = 0.0264718
+integral, integral.opt, row, 83, 1663, 0.737303, 40.4421
+[run_puzzle], 1552773787.28, 2, Creating random input
+[run_puzzle], 1552773787.28, 2, Executing puzzle
+[run_puzzle], 1552773787.92, 2, Integral = 0.0266442
+integral, integral.opt, row, 84, 1684, 0.665321, 41.1074
+[run_puzzle], 1552773787.94, 2, Creating random input
+[run_puzzle], 1552773787.94, 2, Executing puzzle
+[run_puzzle], 1552773788.70, 2, Integral = 0.0265887
+integral, integral.opt, row, 85, 1700, 0.777838, 41.8853
+[run_puzzle], 1552773788.72, 2, Creating random input
+[run_puzzle], 1552773788.72, 2, Executing puzzle
+[run_puzzle], 1552773789.66, 2, Integral = 0.0266309
+integral, integral.opt, row, 86, 1720, 0.957178, 42.8424
+[run_puzzle], 1552773789.68, 2, Creating random input
+[run_puzzle], 1552773789.68, 2, Executing puzzle
+[run_puzzle], 1552773792.16, 2, Integral = 0.0265434
+integral, integral.opt, row, 87, 1742, 2.50613, 45.3486
+[run_puzzle], 1552773792.18, 2, Creating random input
+[run_puzzle], 1552773792.18, 2, Executing puzzle
+[run_puzzle], 1552773793.67, 2, Integral = 0.0266808
+integral, integral.opt, row, 88, 1761, 1.5092, 46.8578
+[run_puzzle], 1552773793.69, 2, Creating random input
+[run_puzzle], 1552773793.69, 2, Executing puzzle
+[run_puzzle], 1552773796.37, 2, Integral = 0.0265122
+integral, integral.opt, row, 89, 1781, 2.69782, 49.5556
+[run_puzzle], 1552773796.39, 2, Creating random input
+[run_puzzle], 1552773796.39, 2, Executing puzzle
+[run_puzzle], 1552773799.09, 2, Integral = 0.026602
+integral, integral.opt, row, 90, 1802, 2.72172, 52.2773
+[run_puzzle], 1552773799.11, 2, Creating random input
+[run_puzzle], 1552773799.11, 2, Executing puzzle
+[run_puzzle], 1552773801.94, 2, Integral = 0.0264602
+integral, integral.opt, row, 91, 1821, 2.85018, 55.1275
+[run_puzzle], 1552773801.96, 2, Creating random input
+[run_puzzle], 1552773801.96, 2, Executing puzzle
+[run_puzzle], 1552773803.15, 2, Integral = 0.0267404
+integral, integral.opt, row, 92, 1840, 1.2015, 56.329
+[run_puzzle], 1552773803.17, 2, Creating random input
+[run_puzzle], 1552773803.17, 2, Executing puzzle
+[run_puzzle], 1552773806.13, 2, Integral = 0.0264894
+integral, integral.opt, row, 93, 1863, 2.98291, 59.3119
+[run_puzzle], 1552773806.15, 2, Creating random input
+[run_puzzle], 1552773806.15, 2, Executing puzzle
+[run_puzzle], 1552773809.25, 2, Integral = 0.0267633
+integral, integral.opt, row, 94, 1882, 3.12256, 62.4345
+integral, integral.opt, metric, 93, 0, 93.2204, 62.4345
