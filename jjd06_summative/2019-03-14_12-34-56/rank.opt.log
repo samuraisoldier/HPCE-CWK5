@@ -1,0 +1,262 @@
+[run_puzzle], 1552722914.37, 2, Created log.
+[run_puzzle], 1552722914.37, 2, Creating random input
+[run_puzzle], 1552722914.37, 2, Executing puzzle
+[run_puzzle], 1552722914.37, 2, Starting iterations.
+[run_puzzle], 1552722914.37, 2, Finished
+rank, rank.opt, row, 2, 1214, 0.00221372, 0.00221372
+[run_puzzle], 1552722914.37, 2, Creating random input
+[run_puzzle], 1552722914.37, 2, Executing puzzle
+[run_puzzle], 1552722914.37, 2, Starting iterations.
+[run_puzzle], 1552722914.38, 2, Finished
+rank, rank.opt, row, 3, 3675, 0.00142765, 0.00364137
+[run_puzzle], 1552722914.38, 2, Creating random input
+[run_puzzle], 1552722914.38, 2, Executing puzzle
+[run_puzzle], 1552722914.38, 2, Starting iterations.
+[run_puzzle], 1552722914.38, 2, Finished
+rank, rank.opt, row, 4, 11499, 0.00335574, 0.00699711
+[run_puzzle], 1552722914.38, 2, Creating random input
+[run_puzzle], 1552722914.39, 2, Executing puzzle
+[run_puzzle], 1552722914.39, 2, Starting iterations.
+[run_puzzle], 1552722914.40, 2, Finished
+rank, rank.opt, row, 5, 16150, 0.00568604, 0.0126832
+[run_puzzle], 1552722914.40, 2, Executing reference
+[run_puzzle], 1552722914.40, 2, Starting iterations.
+[run_puzzle], 1552722914.41, 2, Finished
+[run_puzzle], 1552722914.41, 2, Checking output
+[run_puzzle], 1552722914.41, 2, Output is correct
+[run_puzzle], 1552722914.41, 2, Creating random input
+[run_puzzle], 1552722914.42, 2, Executing puzzle
+[run_puzzle], 1552722914.42, 2, Starting iterations.
+[run_puzzle], 1552722914.43, 2, Finished
+rank, rank.opt, row, 6, 27951, 0.0109549, 0.023638
+[run_puzzle], 1552722914.43, 2, Creating random input
+[run_puzzle], 1552722914.45, 2, Executing puzzle
+[run_puzzle], 1552722914.45, 2, Starting iterations.
+[run_puzzle], 1552722914.46, 2, Finished
+rank, rank.opt, row, 7, 38251, 0.0161068, 0.0397449
+[run_puzzle], 1552722914.46, 2, Creating random input
+[run_puzzle], 1552722914.48, 2, Executing puzzle
+[run_puzzle], 1552722914.48, 2, Starting iterations.
+[run_puzzle], 1552722914.50, 2, Finished
+rank, rank.opt, row, 8, 44658, 0.019172, 0.0589168
+[run_puzzle], 1552722914.50, 2, Creating random input
+[run_puzzle], 1552722914.53, 2, Executing puzzle
+[run_puzzle], 1552722914.53, 2, Starting iterations.
+[run_puzzle], 1552722914.57, 2, Finished
+rank, rank.opt, row, 9, 66666, 0.032778, 0.0916948
+[run_puzzle], 1552722914.57, 2, Creating random input
+[run_puzzle], 1552722914.60, 2, Executing puzzle
+[run_puzzle], 1552722914.60, 2, Starting iterations.
+[run_puzzle], 1552722914.64, 2, Finished
+rank, rank.opt, row, 10, 73880, 0.0367851, 0.12848
+[run_puzzle], 1552722914.64, 2, Creating random input
+[run_puzzle], 1552722914.68, 2, Executing puzzle
+[run_puzzle], 1552722914.68, 2, Starting iterations.
+[run_puzzle], 1552722914.73, 2, Finished
+rank, rank.opt, row, 11, 93008, 0.048198, 0.176678
+[run_puzzle], 1552722914.73, 2, Creating random input
+[run_puzzle], 1552722914.78, 2, Executing puzzle
+[run_puzzle], 1552722914.78, 2, Starting iterations.
+[run_puzzle], 1552722914.84, 2, Finished
+rank, rank.opt, row, 12, 115332, 0.0623021, 0.23898
+[run_puzzle], 1552722914.85, 2, Creating random input
+[run_puzzle], 1552722914.90, 2, Executing puzzle
+[run_puzzle], 1552722914.90, 2, Starting iterations.
+[run_puzzle], 1552722914.98, 2, Finished
+rank, rank.opt, row, 13, 133139, 0.0738392, 0.312819
+[run_puzzle], 1552722914.98, 2, Creating random input
+[run_puzzle], 1552722915.06, 2, Executing puzzle
+[run_puzzle], 1552722915.06, 2, Starting iterations.
+[run_puzzle], 1552722915.16, 2, Finished
+rank, rank.opt, row, 14, 165367, 0.101181, 0.414
+[run_puzzle], 1552722915.17, 2, Creating random input
+[run_puzzle], 1552722915.24, 2, Executing puzzle
+[run_puzzle], 1552722915.24, 2, Starting iterations.
+[run_puzzle], 1552722915.35, 2, Finished
+rank, rank.opt, row, 15, 177419, 0.109236, 0.523236
+[run_puzzle], 1552722915.36, 2, Creating random input
+[run_puzzle], 1552722915.46, 2, Executing puzzle
+[run_puzzle], 1552722915.46, 2, Starting iterations.
+[run_puzzle], 1552722915.60, 2, Finished
+rank, rank.opt, row, 16, 217997, 0.141361, 0.664597
+[run_puzzle], 1552722915.60, 2, Executing reference
+[run_puzzle], 1552722915.60, 2, Starting iterations.
+[run_puzzle], 1552722915.88, 2, Finished
+[run_puzzle], 1552722915.88, 2, Checking output
+[run_puzzle], 1552722915.88, 2, Output is correct
+[run_puzzle], 1552722915.88, 2, Creating random input
+[run_puzzle], 1552722915.98, 2, Executing puzzle
+[run_puzzle], 1552722915.98, 2, Starting iterations.
+[run_puzzle], 1552722916.13, 2, Finished
+rank, rank.opt, row, 17, 230848, 0.149588, 0.814185
+[run_puzzle], 1552722916.14, 2, Creating random input
+[run_puzzle], 1552722916.28, 2, Executing puzzle
+[run_puzzle], 1552722916.28, 2, Starting iterations.
+[run_puzzle], 1552722916.48, 2, Finished
+rank, rank.opt, row, 18, 280334, 0.205154, 1.01934
+[run_puzzle], 1552722916.49, 2, Creating random input
+[run_puzzle], 1552722916.63, 2, Executing puzzle
+[run_puzzle], 1552722916.63, 2, Starting iterations.
+[run_puzzle], 1552722916.87, 2, Finished
+rank, rank.opt, row, 19, 307773, 0.240088, 1.25943
+[run_puzzle], 1552722916.88, 2, Creating random input
+[run_puzzle], 1552722917.05, 2, Executing puzzle
+[run_puzzle], 1552722917.05, 2, Starting iterations.
+[run_puzzle], 1552722917.31, 2, Finished
+rank, rank.opt, row, 20, 331622, 0.269223, 1.52865
+[run_puzzle], 1552722917.32, 2, Creating random input
+[run_puzzle], 1552722917.49, 2, Executing puzzle
+[run_puzzle], 1552722917.49, 2, Starting iterations.
+[run_puzzle], 1552722917.81, 2, Finished
+rank, rank.opt, row, 21, 361892, 0.321102, 1.84975
+[run_puzzle], 1552722917.83, 2, Creating random input
+[run_puzzle], 1552722918.03, 2, Executing puzzle
+[run_puzzle], 1552722918.03, 2, Starting iterations.
+[run_puzzle], 1552722918.42, 2, Finished
+rank, rank.opt, row, 22, 402001, 0.394884, 2.24464
+[run_puzzle], 1552722918.43, 2, Creating random input
+[run_puzzle], 1552722918.66, 2, Executing puzzle
+[run_puzzle], 1552722918.66, 2, Starting iterations.
+[run_puzzle], 1552722919.20, 2, Finished
+rank, rank.opt, row, 23, 458353, 0.539829, 2.78446
+[run_puzzle], 1552722919.20, 2, Executing reference
+[run_puzzle], 1552722919.20, 2, Starting iterations.
+[run_puzzle], 1552722920.11, 2, Finished
+[run_puzzle], 1552722920.11, 2, Checking output
+[run_puzzle], 1552722920.11, 2, Output is correct
+[run_puzzle], 1552722920.13, 2, Creating random input
+[run_puzzle], 1552722920.38, 2, Executing puzzle
+[run_puzzle], 1552722920.38, 2, Starting iterations.
+[run_puzzle], 1552722921.00, 2, Finished
+rank, rank.opt, row, 24, 503426, 0.621585, 3.40605
+[run_puzzle], 1552722921.02, 2, Creating random input
+[run_puzzle], 1552722921.27, 2, Executing puzzle
+[run_puzzle], 1552722921.27, 2, Starting iterations.
+[run_puzzle], 1552722922.00, 2, Finished
+rank, rank.opt, row, 25, 527645, 0.729062, 4.13511
+[run_puzzle], 1552722922.02, 2, Creating random input
+[run_puzzle], 1552722922.39, 2, Executing puzzle
+[run_puzzle], 1552722922.39, 2, Starting iterations.
+[run_puzzle], 1552722923.41, 2, Finished
+rank, rank.opt, row, 26, 583215, 1.02132, 5.15643
+[run_puzzle], 1552722923.45, 2, Creating random input
+[run_puzzle], 1552722923.83, 2, Executing puzzle
+[run_puzzle], 1552722923.83, 2, Starting iterations.
+[run_puzzle], 1552722924.88, 2, Finished
+rank, rank.opt, row, 27, 611614, 1.05164, 6.20808
+[run_puzzle], 1552722924.91, 2, Creating random input
+[run_puzzle], 1552722925.34, 2, Executing puzzle
+[run_puzzle], 1552722925.34, 2, Starting iterations.
+[run_puzzle], 1552722926.49, 2, Finished
+rank, rank.opt, row, 28, 687083, 1.15411, 7.36219
+[run_puzzle], 1552722926.53, 2, Creating random input
+[run_puzzle], 1552722926.97, 2, Executing puzzle
+[run_puzzle], 1552722926.97, 2, Starting iterations.
+[run_puzzle], 1552722928.17, 2, Finished
+rank, rank.opt, row, 29, 713480, 1.1977, 8.55988
+[run_puzzle], 1552722928.21, 2, Creating random input
+[run_puzzle], 1552722928.68, 2, Executing puzzle
+[run_puzzle], 1552722928.68, 2, Starting iterations.
+[run_puzzle], 1552722930.01, 2, Finished
+rank, rank.opt, row, 30, 760462, 1.33386, 9.89374
+[run_puzzle], 1552722930.05, 2, Creating random input
+[run_puzzle], 1552722930.58, 2, Executing puzzle
+[run_puzzle], 1552722930.58, 2, Starting iterations.
+[run_puzzle], 1552722932.07, 2, Finished
+rank, rank.opt, row, 31, 844403, 1.49304, 11.3868
+[run_puzzle], 1552722932.12, 2, Creating random input
+[run_puzzle], 1552722932.66, 2, Executing puzzle
+[run_puzzle], 1552722932.66, 2, Starting iterations.
+[run_puzzle], 1552722934.19, 2, Finished
+rank, rank.opt, row, 32, 865582, 1.53386, 12.9206
+[run_puzzle], 1552722934.24, 2, Creating random input
+[run_puzzle], 1552722934.81, 2, Executing puzzle
+[run_puzzle], 1552722934.81, 2, Starting iterations.
+[run_puzzle], 1552722936.45, 2, Finished
+rank, rank.opt, row, 33, 922617, 1.63403, 14.5547
+[run_puzzle], 1552722936.50, 2, Creating random input
+[run_puzzle], 1552722937.11, 2, Executing puzzle
+[run_puzzle], 1552722937.11, 2, Starting iterations.
+[run_puzzle], 1552722938.88, 2, Finished
+rank, rank.opt, row, 34, 983167, 1.76399, 16.3187
+[run_puzzle], 1552722938.93, 2, Creating random input
+[run_puzzle], 1552722939.58, 2, Executing puzzle
+[run_puzzle], 1552722939.58, 2, Starting iterations.
+[run_puzzle], 1552722941.43, 2, Finished
+rank, rank.opt, row, 35, 1044828, 1.84959, 18.1683
+[run_puzzle], 1552722941.49, 2, Creating random input
+[run_puzzle], 1552722942.21, 2, Executing puzzle
+[run_puzzle], 1552722942.21, 2, Starting iterations.
+[run_puzzle], 1552722944.31, 2, Finished
+rank, rank.opt, row, 36, 1135323, 2.09981, 20.2681
+[run_puzzle], 1552722944.37, 2, Creating random input
+[run_puzzle], 1552722945.12, 2, Executing puzzle
+[run_puzzle], 1552722945.12, 2, Starting iterations.
+[run_puzzle], 1552722947.33, 2, Finished
+rank, rank.opt, row, 37, 1186457, 2.20871, 22.4768
+[run_puzzle], 1552722947.39, 2, Creating random input
+[run_puzzle], 1552722948.18, 2, Executing puzzle
+[run_puzzle], 1552722948.18, 2, Starting iterations.
+[run_puzzle], 1552722950.50, 2, Finished
+rank, rank.opt, row, 38, 1249188, 2.31305, 24.7898
+[run_puzzle], 1552722950.57, 2, Creating random input
+[run_puzzle], 1552722951.40, 2, Executing puzzle
+[run_puzzle], 1552722951.40, 2, Starting iterations.
+[run_puzzle], 1552722953.83, 2, Finished
+rank, rank.opt, row, 39, 1313475, 2.43493, 27.2247
+[run_puzzle], 1552722953.90, 2, Creating random input
+[run_puzzle], 1552722954.78, 2, Executing puzzle
+[run_puzzle], 1552722954.78, 2, Starting iterations.
+[run_puzzle], 1552722957.36, 2, Finished
+rank, rank.opt, row, 40, 1385695, 2.57701, 29.8018
+[run_puzzle], 1552722957.43, 2, Creating random input
+[run_puzzle], 1552722958.38, 2, Executing puzzle
+[run_puzzle], 1552722958.38, 2, Starting iterations.
+[run_puzzle], 1552722960.99, 2, Finished
+rank, rank.opt, row, 41, 1463958, 2.60544, 32.4072
+[run_puzzle], 1552722961.07, 2, Creating random input
+[run_puzzle], 1552722962.08, 2, Executing puzzle
+[run_puzzle], 1552722962.08, 2, Starting iterations.
+[run_puzzle], 1552722964.85, 2, Finished
+rank, rank.opt, row, 42, 1560427, 2.77481, 35.182
+[run_puzzle], 1552722964.93, 2, Creating random input
+[run_puzzle], 1552722965.90, 2, Executing puzzle
+[run_puzzle], 1552722965.90, 2, Starting iterations.
+[run_puzzle], 1552722968.80, 2, Finished
+rank, rank.opt, row, 43, 1617262, 2.90298, 38.085
+[run_puzzle], 1552722968.88, 2, Creating random input
+[run_puzzle], 1552722969.89, 2, Executing puzzle
+[run_puzzle], 1552722969.89, 2, Starting iterations.
+[run_puzzle], 1552722972.94, 2, Finished
+rank, rank.opt, row, 44, 1705226, 3.05399, 41.139
+[run_puzzle], 1552722973.03, 2, Creating random input
+[run_puzzle], 1552722974.08, 2, Executing puzzle
+[run_puzzle], 1552722974.08, 2, Starting iterations.
+[run_puzzle], 1552722977.31, 2, Finished
+rank, rank.opt, row, 45, 1780304, 3.22161, 44.3606
+[run_puzzle], 1552722977.40, 2, Creating random input
+[run_puzzle], 1552722978.50, 2, Executing puzzle
+[run_puzzle], 1552722978.50, 2, Starting iterations.
+[run_puzzle], 1552722981.91, 2, Finished
+rank, rank.opt, row, 46, 1856496, 3.41326, 47.7738
+[run_puzzle], 1552722982.00, 2, Creating random input
+[run_puzzle], 1552722983.16, 2, Executing puzzle
+[run_puzzle], 1552722983.16, 2, Starting iterations.
+[run_puzzle], 1552722986.79, 2, Finished
+rank, rank.opt, row, 47, 1909599, 3.62864, 51.4025
+[run_puzzle], 1552722986.89, 2, Creating random input
+[run_puzzle], 1552722988.13, 2, Executing puzzle
+[run_puzzle], 1552722988.13, 2, Starting iterations.
+[run_puzzle], 1552722991.90, 2, Finished
+rank, rank.opt, row, 48, 2033057, 3.77709, 55.1796
+[run_puzzle], 1552722992.01, 2, Creating random input
+[run_puzzle], 1552722993.29, 2, Executing puzzle
+[run_puzzle], 1552722993.29, 2, Starting iterations.
+[run_puzzle], 1552722997.19, 2, Finished
+rank, rank.opt, row, 49, 2112595, 3.90141, 59.081
+[run_puzzle], 1552722997.30, 2, Creating random input
+[run_puzzle], 1552722998.64, 2, Executing puzzle
+[run_puzzle], 1552722998.64, 2, Starting iterations.
+[run_puzzle], 1552723002.72, 2, Finished
+rank, rank.opt, row, 50, 2215109, 4.0746, 63.1556
+rank, rank.opt, metric, 49, 0, 49.2255, 63.1556
