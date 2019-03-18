@@ -1,0 +1,11 @@
+CW5 MARKS DIGEST
+Team hEEELp
+
+TBB competence			 20
+OpenCL competence		 20
+Performance optimisation	 23
+Results presentation		  9
+TOTAL				 72
+
+NB: Any mark deduction applied for fixing of build-time (see build_notes.txt) or runtime (run_notes.txt) errors will not be reflected here.
+

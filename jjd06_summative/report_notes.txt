@@ -1,0 +1,9 @@
+Word count: 251
+
+Simplistic question addressing fairly obvious strategy for speedup at low scales. Nothing particularly exciting.
+Lack of discussion as to why the optimised implementation performed poorly at lower scales. I don't know if it's a TBB or OpenCL (or both) solution. If it uses OpenCL, for example, are you including initialisation (e.g. context creation) in your timing? If so, why?
+Only metric used is execution time.
+No indication of how metric was established.
+References made to "resolution" in third paragraph do not make sense. Resolution of what?
+0.2 s is far too long for a single if statement. This must just be measurement noise or lack of other optimisation.
+Execute() does *not* include data input.
